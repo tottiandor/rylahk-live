@@ -20,10 +20,10 @@ from common import (CFG, HERE, fpl, roster, fantrax, telegram, esc, log, norm, n
                     load_state, save_state, commit_state, leagues)
 import rotowire
 
-# Fantrax icon types: 32 "expected to play", 8 match reports - never news.
-# 14 is injury news; 9 is general news, kept only when it is about fitness.
+# Fantrax icon types: 32 "expected to play", 35 "on the trade block" - never injury news.
+# 14 is injury news; 8 and 9 are general news, kept only when about fitness.
 # Anything else (1 game-time decision, 30 out, 6 suspended...) is a status flag.
-NOT_STATUS = {'8', '9', '14', '32'}
+NOT_STATUS = {'8', '9', '14', '32', '35'}
 FIT_WORDS = ('injur', 'train', 'fitness', 'doubt', 'knock', 'miss', 'strain', 'hamstring',
              'muscle', ' ill', 'forced off', 'withdr', 'scan', 'surgery', 'return', 'available',
              'suspen', 'sidelined', 'questionable', 'uncertain', 'setback', 'absence', 'absent')
@@ -31,11 +31,14 @@ STATUS = {'a': 'available', 'd': 'doubtful', 'i': 'injured', 's': 'suspended',
           'u': 'unavailable', 'n': 'not eligible'}
 
 
-def league_rosters(lg):
-    """Every player on every team in the league, with the team he is on."""
+def league_rosters(lg, scope):
+    """The players to watch, with the team each is on. Only the teams the scope needs are
+    read: big leagues have 144 teams. In leagues split into divisions the same player is
+    on one team per division, so your own team always wins the tie."""
     me = roster(lg, lg['myTeamId'])
+    want = {'own': [lg['myTeamId']], 'mine': [lg['myTeamId'], me['opp']]}.get(scope, list(me['teams']))
     out = {}
-    for tid in me['teams']:
+    for tid in reversed([t for t in want if t]):
         r = me if tid == lg['myTeamId'] else roster(lg, tid)
         for pid, p in r['players'].items():
             out[pid] = dict(p, team=tid)
@@ -76,7 +79,7 @@ def fpl_view(e):
 
 def fx_view(p):
     status = sorted(t for k, t in p['icons'] if k not in NOT_STATUS)
-    news = sorted(t for k, t in p['icons'] if k == '14' or (k == '9' and any(w in t.lower() for w in FIT_WORDS)))
+    news = sorted(t for k, t in p['icons'] if k == '14' or (k in ('8', '9') and any(w in t.lower() for w in FIT_WORDS)))
     return {'status': status, 'news': news}
 
 
@@ -93,13 +96,8 @@ def main(dry):
         rw_items = None
     for lg in leagues():
         s = st.setdefault(lg['key'], {'fpl': {}, 'fx': {}, 'idmap': {}, 'ready': False})
-        players, me = league_rosters(lg)
+        players, me = league_rosters(lg, CFG.get('injuryScope', 'own'))
         mine, opp = lg['myTeamId'], me['opp']
-        scope = CFG.get('injuryScope', 'own')
-        if scope == 'own':
-            players = {k: v for k, v in players.items() if v['team'] == mine}
-        elif scope == 'mine':
-            players = {k: v for k, v in players.items() if v['team'] in (mine, opp)}
         unmatched = match_fpl(players, boot, s['idmap'], manual)
         pre = '[%s] ' % lg['name'] if lg.get('shared') else ''
         msgs = []
