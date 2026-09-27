@@ -4,7 +4,7 @@ Every Fantrax call here is a read. Nothing sets a line-up, makes a claim or chan
 setting, and nothing ever should. The league has to be publicly viewable, because the
 bot runs on GitHub's servers with no Fantrax login.
 """
-import json, os, subprocess, sys, time, urllib.request, urllib.error, unicodedata
+import json, os, re, subprocess, sys, time, urllib.request, urllib.error, unicodedata
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -80,7 +80,9 @@ def _open(req, tries=4):
         except Exception as e:
             last = e
             time.sleep(3 * (i + 1))
-    raise RuntimeError('request failed: %s (%s)' % (req.full_url, last))
+    # the Telegram URL carries the bot token: never let it reach a log
+    url = re.sub(r'/bot[^/]+/', '/bot<token>/', req.full_url)
+    raise RuntimeError('request failed: %s (%s)' % (url, last))
 
 
 def fantrax(method, league_id, ok=None, **data):
@@ -160,11 +162,13 @@ def live_scores(league, period):
 
 # ---------- Telegram ----------
 
-def telegram(text, dry=False):
+def telegram(text, dry=False, chat=None):
+    """Send to `chat` (a league's own chat), or to Totti's private chat by default."""
     if dry or not os.environ.get('TELEGRAM_BOT_TOKEN'):
         print('\n----- telegram -----\n' + text + '\n--------------------', flush=True)
         return
-    tok, chat = os.environ['TELEGRAM_BOT_TOKEN'], os.environ['TELEGRAM_CHAT_ID']
+    tok = os.environ['TELEGRAM_BOT_TOKEN']
+    chat = chat or os.environ['TELEGRAM_CHAT_ID']
     body = json.dumps({'chat_id': chat, 'text': text, 'parse_mode': 'HTML',
                        'disable_web_page_preview': True}).encode()
     req = urllib.request.Request('https://api.telegram.org/bot%s/sendMessage' % tok, data=body,
@@ -174,6 +178,31 @@ def telegram(text, dry=False):
     except RuntimeError as e:
         # never print the URL: it carries the token
         log('telegram send failed:', str(e).split('(')[-1])
+
+
+def tg_api(method, **data):
+    tok = os.environ['TELEGRAM_BOT_TOKEN']
+    req = urllib.request.Request('https://api.telegram.org/bot%s/%s' % (tok, method),
+                                 data=json.dumps(data).encode(),
+                                 headers={'Content-Type': 'application/json'})
+    return _open(req, tries=2)
+
+
+def leagues():
+    """The leagues to watch: config.json's, plus those added from Telegram with /add
+    (state/leagues.json). An /add of a league already in config.json only moves its chat
+    or changes the team, so its memory in state/ carries on."""
+    out = [dict(lg) for lg in CFG['leagues']]
+    for a in load_state('leagues.json', {}).get('leagues', []):
+        same = [lg for lg in out if lg['leagueId'] == a['leagueId']]
+        if same:
+            same[0].update({k: a[k] for k in ('chatId', 'myTeamId', 'seasonId') if k in a})
+        else:
+            out.append(dict(a))
+    chats = [lg.get('chatId') for lg in out]
+    for lg in out:
+        lg['shared'] = chats.count(lg.get('chatId')) > 1
+    return out
 
 
 def esc(s):

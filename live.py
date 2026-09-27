@@ -18,7 +18,7 @@ Every Fantrax call is a read.
 import argparse, random, sys, time
 from datetime import datetime, timedelta, timezone
 from common import (CFG, fantrax, fpl, roster, live_scores, telegram, esc, log, now,
-                    local_hm, load_state, save_state, commit_state)
+                    local_hm, load_state, save_state, commit_state, leagues)
 
 NAMES = {'G': 'GOAL', 'AT': 'ASSIST', 'PKD': 'PENALTY WON', 'PKS': 'PENALTY SAVED',
          'PKM': 'PENALTY MISSED', 'YC': 'YELLOW CARD', 'RC': 'RED CARD', 'OG': 'OWN GOAL',
@@ -72,6 +72,9 @@ class Matchup:
         st['names'] = names
         return period
 
+    def send(self, text):
+        telegram(text, self.dry is True, self.lg.get('chatId'))
+
     def who(self, tid):
         return self.st['teamNames'].get(tid, tid)
 
@@ -90,7 +93,7 @@ class Matchup:
     # ----- one poll -----
     def step(self, snap, all_done, clock):
         st, lg = self.st, self.lg
-        pre = '[%s] ' % lg['name'] if len(CFG['leagues']) > 1 else ''
+        pre = '[%s] ' % lg['name'] if lg.get('shared') else ''
         pre = ('🧪 TEST ' if self.dry == 'test' else '') + pre
         sides = [t for t in (st['me'], st['opp']) if t]
         totals = {t: sum(v[1] for p in snap.get(t, {}).get('players', {}).values() for v in p.values())
@@ -99,10 +102,10 @@ class Matchup:
         if not st['announced']:
             st['announced'] = True
             if any(totals.values()):
-                telegram(pre + '🔔 <b>Round %s</b> – joined mid-round\n%s' % (st['period'], self.score_line(totals)), self.dry is True)
+                self.send(pre + '🔔 <b>Round %s</b> – joined mid-round\n%s' % (st['period'], self.score_line(totals)))
             else:
-                telegram(pre + '🔔 <b>Round %s is on</b>\n🟢 %s vs 🔴 %s' % (
-                    st['period'], esc(self.who(st['me'])), esc(self.who(st['opp']))), self.dry is True)
+                self.send(pre + '🔔 <b>Round %s is on</b>\n🟢 %s vs 🔴 %s' % (
+                    st['period'], esc(self.who(st['me'])), esc(self.who(st['opp']))))
             # joining late: take what is there as the starting point, don't replay it
             if any(totals.values()) and not st['prev']:
                 st['prev'] = {t: snap[t]['players'] for t in sides if t in snap}
@@ -154,7 +157,7 @@ class Matchup:
             txt = '%s%s %s\n%s' % (pre, self.tag(tid), esc(self.pname(pid)), '\n'.join(lines))
             if g:
                 txt += '\n<i>%s</i>' % esc(game_text(g))
-            telegram(txt + '\n' + self.score_line(totals), self.dry is True)
+            self.send(txt + '\n' + self.score_line(totals))
 
         last = st['lastDigest']
         due = last is None or clock - last >= CFG['digestMinutes'] * 60
@@ -164,14 +167,14 @@ class Matchup:
         if has and (due or fts or all_done):
             self.flush(totals, fts, pre, clock)
         elif fts:
-            telegram(pre + '\n'.join('🏁 FT %s' % esc(f) for f in fts) + '\n' + self.score_line(totals), self.dry is True)
+            self.send(pre + '\n'.join('🏁 FT %s' % esc(f) for f in fts) + '\n' + self.score_line(totals))
 
         if all_done and st['started'] and not st['finalSent']:
             st['finalSent'] = True
             a, b = totals.get(st['me'], 0), totals.get(st['opp'], 0)
             res = 'WIN 🏆' if a > b else 'LOSS' if a < b else 'DRAW'
-            telegram(pre + '🔚 <b>Round %s – all games done: %s</b>\n%s\n<i>Fantrax can still correct stats for a day or so.</i>'
-                     % (st['period'], res, self.score_line(totals)), self.dry is True)
+            self.send(pre + '🔚 <b>Round %s – all games done: %s</b>\n%s\n<i>Fantrax can still correct stats for a day or so.</i>'
+                     % (st['period'], res, self.score_line(totals)))
 
     def flush(self, totals, fts, pre, clock):
         st = self.st
@@ -193,7 +196,7 @@ class Matchup:
                 out.extend(rows)
         out += ['🏁 FT %s' % esc(f) for f in fts]
         out.append(self.score_line(totals))
-        telegram('\n'.join(out), self.dry is True)
+        self.send('\n'.join(out))
         st['digest'] = {}
         st['lastDigest'] = clock
 
@@ -227,7 +230,7 @@ def watch():
         return
     state = load_state('live.json', {})
     ms = []
-    for lg in CFG['leagues']:
+    for lg in leagues():
         m = Matchup(lg, state.setdefault(lg['key'], {}), dry=False)
         m.prepare()
         ms.append(m)
@@ -257,7 +260,7 @@ def watch():
 # ---------- replay a finished round as if it were live ----------
 
 def replay(period, steps, send, seed=7):
-    lg = CFG['leagues'][0]
+    lg = leagues()[0]
     m = Matchup(lg, {}, dry='test' if send else True)
     m.prepare(period)
     final, _ = live_scores(lg, period)

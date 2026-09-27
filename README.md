@@ -16,6 +16,14 @@ Every Fantrax call is a read, with no login: the league must stay publicly viewa
 2. `python setup_telegram.py`: paste the token when asked. It saves the token and your chat
    id as hidden GitHub secrets and sends a test message.
 
+## Adding a league (from Telegram)
+1. Make a Telegram group for it and add the bot.
+2. In the group: `/add <Fantrax league link>`; the bot lists the teams.
+3. `/team <number>` for yours. Done: that league's live scores and injuries go to that group.
+
+`/list` and `/remove` work in any chat. Only the owner's commands are obeyed. The league must
+be publicly viewable on Fantrax. Answers take up to ~10 minutes (GitHub runs `bot.py` every 5).
+
 ## Test
 Actions tab → **live** → Run workflow → replay `2` (tick *send* to get it in Telegram, marked TEST).
 

@@ -17,7 +17,7 @@ The first run only records what is there and says so; after that, only changes a
 """
 import json, os, sys
 from common import (CFG, HERE, fpl, roster, fantrax, telegram, esc, log, norm, now,
-                    load_state, save_state, commit_state)
+                    load_state, save_state, commit_state, leagues)
 import rotowire
 
 # Fantrax icon types: 32 "expected to play", 8 match reports - never news.
@@ -91,7 +91,7 @@ def main(dry):
     except Exception as e:
         log('RotoWire unavailable:', e)
         rw_items = None
-    for lg in CFG['leagues']:
+    for lg in leagues():
         s = st.setdefault(lg['key'], {'fpl': {}, 'fx': {}, 'idmap': {}, 'ready': False})
         players, me = league_rosters(lg)
         mine, opp = lg['myTeamId'], me['opp']
@@ -101,7 +101,7 @@ def main(dry):
         elif scope == 'mine':
             players = {k: v for k, v in players.items() if v['team'] in (mine, opp)}
         unmatched = match_fpl(players, boot, s['idmap'], manual)
-        pre = '[%s] ' % lg['name'] if len(CFG['leagues']) > 1 else ''
+        pre = '[%s] ' % lg['name'] if lg.get('shared') else ''
         msgs = []
         lag = s.setdefault('lag', {})       # which source showed a player's story first
         stamp = now().strftime('%Y-%m-%d %H:%M')
@@ -180,9 +180,9 @@ def main(dry):
                     txt += '\n🩹 <b>%s</b> (%s): %s' % (esc(p['name']), p['club'], esc(' / '.join(v['status'])))
             if unmatched:
                 txt += '\nNot matched to FPL (Fantrax flags still work): ' + esc(', '.join(sorted(unmatched)))
-            telegram(txt, dry)
+            telegram(txt, dry, lg.get('chatId'))
         for m in msgs:
-            telegram(pre + m, dry)
+            telegram(pre + m, dry, lg.get('chatId'))
         log(lg['name'], len(players), 'players,', len(msgs), 'changes,', len(unmatched), 'unmatched')
     save_state('injuries.json', st)
     commit_state('injury state')

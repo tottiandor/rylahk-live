@@ -1,0 +1,33 @@
+name: bot
+# Answers /add, /team, /list and /remove in Telegram. Every 5 minutes (GitHub may be late).
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: commands
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          COMMIT_STATE: '1'
+          PYTHONUTF8: '1'
+        run: |
+          git config user.name "rylahk-live bot"
+          git config user.email "actions@users.noreply.github.com"
+          python bot.py
