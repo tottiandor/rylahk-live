@@ -8,7 +8,7 @@ the bot, sends a test message, and stores both as hidden GitHub secrets. The tok
 never written to a file.
 Before running: open your bot in Telegram and send it any message, e.g. "hi".
 """
-import json, subprocess, sys, urllib.request
+import json, shutil, subprocess, sys, urllib.request
 
 REPO = 'tottiandor/rylahk-live'
 
@@ -46,10 +46,17 @@ chats = [u['message']['chat'] for u in ups if 'message' in u and u['message']['c
 if not chats:
     sys.exit('No message found. Open @%s in Telegram, send it "hi", then run this again.' % me['username'])
 chat = chats[-1]['id']
-api(tok, 'sendMessage', {'chat_id': chat, 'text': '✅ rylahk-live is connected. Live scores and injury news will arrive here.'})
+GH = shutil.which('gh') or r'C:\Program Files\GitHub CLI\gh.exe'
 for name, val in (('TELEGRAM_BOT_TOKEN', tok), ('TELEGRAM_CHAT_ID', str(chat))):
-    r = subprocess.run(['gh', 'secret', 'set', name, '--repo', REPO], input=val, text=True,
-                       capture_output=True)
+    try:
+        r = subprocess.run([GH, 'secret', 'set', name, '--repo', REPO], input=val, text=True,
+                           capture_output=True)
+    except FileNotFoundError:
+        sys.exit('Could not find the GitHub tool (gh). Tell Claude this message.')
     if r.returncode:
-        sys.exit('Could not save %s on GitHub: %s' % (name, r.stderr.strip()))
-print('Done. @%s sent you a test message, and both secrets are saved on GitHub.' % me['username'])
+        sys.exit('Could not save %s on GitHub: %s. Tell Claude this message.' % (name, r.stderr.strip()))
+have = subprocess.run([GH, 'secret', 'list', '--repo', REPO], capture_output=True, text=True).stdout
+if 'TELEGRAM_BOT_TOKEN' not in have or 'TELEGRAM_CHAT_ID' not in have:
+    sys.exit('GitHub did not keep the secrets. Tell Claude this message.')
+api(tok, 'sendMessage', {'chat_id': chat, 'text': '✅ rylahk-live is connected and saved on GitHub. Live scores and injury news will arrive here.'})
+print('Done. Both secrets are saved on GitHub, and @%s sent you a confirmation.' % me['username'])
