@@ -2,9 +2,9 @@
 """Injury and availability feed for players on the league's rosters.
 
 Two sources, checked every run (GitHub runs it every ~10 minutes):
-  FPL     - the official Fantasy Premier League status, chance of playing and news line.
-            Clubs' own updates land here within minutes of a press conference.
-  Fantrax - its own injury flags (game-time decision, out...) and injury news.
+  Fantrax - its injury flags (game-time decision, out, suspended) and RotoWire news.
+            The fast one: it had Gakpo and Dorgu hours before FPL.
+  FPL     - the official status and chance of playing; slower, lands after the club confirms.
 
 FPL has its own player ids, so each Fantrax player is matched to one FPL player by club
 and name. Matches are kept in state/idmap.json; anything it cannot match is listed in the
@@ -19,7 +19,13 @@ import json, os, sys
 from common import (CFG, HERE, fpl, roster, fantrax, telegram, esc, log, norm,
                     load_state, save_state, commit_state)
 
-ROUTINE_ICONS = {'8', '9', '32'}    # match reports and "expected to play": not injury news
+# Fantrax icon types: 32 "expected to play", 8 match reports - never news.
+# 14 is injury news; 9 is general news, kept only when it is about fitness.
+# Anything else (1 game-time decision, 30 out, 6 suspended...) is a status flag.
+NOT_STATUS = {'8', '9', '14', '32'}
+FIT_WORDS = ('injur', 'train', 'fitness', 'doubt', 'knock', 'miss', 'strain', 'hamstring',
+             'muscle', ' ill', 'forced off', 'withdr', 'scan', 'surgery', 'return', 'available',
+             'suspen', 'sidelined', 'questionable', 'uncertain', 'setback', 'absence', 'absent')
 STATUS = {'a': 'available', 'd': 'doubtful', 'i': 'injured', 's': 'suspended',
           'u': 'unavailable', 'n': 'not eligible'}
 
@@ -68,7 +74,9 @@ def fpl_view(e):
 
 
 def fx_view(p):
-    return sorted(t for k, t in p['icons'] if k not in ROUTINE_ICONS)
+    status = sorted(t for k, t in p['icons'] if k not in NOT_STATUS)
+    news = sorted(t for k, t in p['icons'] if k == '14' or (k == '9' and any(w in t.lower() for w in FIT_WORDS)))
+    return {'status': status, 'news': news}
 
 
 def main(dry):
@@ -81,7 +89,10 @@ def main(dry):
         s = st.setdefault(lg['key'], {'fpl': {}, 'fx': {}, 'idmap': {}, 'ready': False})
         players, me = league_rosters(lg)
         mine, opp = lg['myTeamId'], me['opp']
-        if CFG.get('injuryScope') == 'mine':
+        scope = CFG.get('injuryScope', 'own')
+        if scope == 'own':
+            players = {k: v for k, v in players.items() if v['team'] == mine}
+        elif scope == 'mine':
             players = {k: v for k, v in players.items() if v['team'] in (mine, opp)}
         unmatched = match_fpl(players, boot, s['idmap'], manual)
         pre = '[%s] ' % lg['name'] if len(CFG['leagues']) > 1 else ''
@@ -104,11 +115,19 @@ def main(dry):
                 s['fpl'][pid] = new
             # Fantrax
             new, old = fx_view(p), s['fx'].get(pid)
+            if isinstance(old, list):          # state from before news was tracked
+                old = {'status': old, 'news': new['news']}
             if s['ready'] and old is not None and new != old:
-                if new:
-                    msgs.append('🩹 %s\nFantrax: %s' % (head, esc(' / '.join(new))))
-                else:
-                    msgs.append('✅ %s\nFantrax: injury flag cleared' % head)
+                fresh = [n for n in new['news'] if n not in old['news']]
+                if new['status'] != old['status'] or fresh:
+                    if new['status']:
+                        body = '🩹 %s\nFantrax: %s' % (head, esc(' / '.join(new['status'])))
+                    elif old['status']:
+                        body = '✅ %s\nFantrax: injury flag cleared' % head
+                    else:
+                        body = '📰 %s' % head
+                    body += ''.join('\n📰 %s' % esc(n) for n in fresh)
+                    msgs.append(body)
             s['fx'][pid] = new
         # players who left every roster are forgotten, so a re-signing starts clean
         for k in ('fpl', 'fx'):
@@ -117,7 +136,13 @@ def main(dry):
                     del s[k][pid]
         if not s['ready']:
             s['ready'] = True
-            txt = '%s🩺 <b>Injury watch is on</b>: %d players tracked across the league.' % (pre, len(players))
+            txt = '%s🩺 <b>Injury watch is on</b> for %d players.' % (pre, len(players))
+            flagged = [(p, fx_view(p)) for p in players.values()]
+            flagged = [(p, v) for p, v in flagged if v['status']]
+            if flagged:
+                txt += '\nFlagged right now:'
+                for p, v in flagged:
+                    txt += '\n🩹 <b>%s</b> (%s): %s' % (esc(p['name']), p['club'], esc(' / '.join(v['status'])))
             if unmatched:
                 txt += '\nNot matched to FPL (Fantrax flags still work): ' + esc(', '.join(sorted(unmatched)))
             telegram(txt, dry)

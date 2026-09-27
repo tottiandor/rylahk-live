@@ -10,13 +10,13 @@
     }
   ],
   "pollSeconds": 60,
-  "digestMinutes": 15,
+  "digestMinutes": 5,
   "maxRunMinutes": 330,
   "windowBeforeKickoffMinutes": 40,
   "windowAfterKickoffMinutes": 170,
   "instant": ["G", "AT", "PKD", "PKS", "PKM", "YC", "RC", "OG", "CS", "GAO", "GA"],
-  "injuryScope": "league",
-  "_injuryScope": "league = every player on any team in the league; mine = only your team and this round's opponent",
+  "injuryScope": "own",
+  "_injuryScope": "own = only your team; mine = your team and this round's opponent; league = every rostered player",
   "timezone": "Europe/Budapest",
   "fplClubAlias": {"BRF": "BRE", "NOT": "NFO"}
 }
