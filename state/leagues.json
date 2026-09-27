@@ -1,3 +1,12 @@
 {
- "leagues": []
+ "leagues": [
+  {
+   "chatId": -5366301516,
+   "key": "5cfv4rkwmrcniqha",
+   "leagueId": "5cfv4rkwmrcniqha",
+   "myTeamId": "6jj1vsj8mruuonm3",
+   "name": "International Genie Leag",
+   "seasonId": 926
+  }
+ ]
 }

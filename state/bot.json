@@ -1,586 +1,298 @@
 {
- "offset": 146866807,
+ "offset": 146866809,
  "pending": {
-  "-5366301516": {
-   "leagueId": "5cfv4rkwmrcniqha",
-   "name": "International Genie League",
+  "-5397936256": {
+   "leagueId": "yb5sb5camrzcbh8e",
+   "name": "DraftPL Community League",
    "seasonId": 926,
    "teams": [
     [
-     "fv4oi1ohmrv9k5d3",
-     "CL - _AzJPN_"
+     "07y1citvms37h177",
+     "AA - @funkfletch"
     ],
     [
-     "8j0ltlormrd24lrg",
-     "CL - A Team of Carraghers"
+     "hjqvos2yms224h88",
+     "AA - @HassAlfred"
     ],
     [
-     "f3zmbziumrutzttl",
-     "CL - BlameBish 🇬🇧"
+     "xiop1gogms1nk1ud",
+     "AA - FPL_Murph"
     ],
     [
-     "60yc179cmrustauz",
-     "CL - Draft & Drams"
+     "3p0s31q9ms0san61",
+     "AA - King Kai (fragdrum622)"
     ],
     [
-     "sxax77vqmrwkp2bk",
-     "CL - Fantrax Bear"
+     "nlgl87gvms1kvg9j",
+     "AA - Mr Nauru"
     ],
     [
-     "fw0uuvd2mruuomfw",
-     "CL - Fantrax Fox 🏆"
+     "mbfn51nbms1pr5mp",
+     "AA - Ricardbacon"
     ],
     [
-     "8swwrmqgmrurldby",
-     "CL - Have A Buendia"
+     "xw2ju5kmmrzhpiie",
+     "AA - Sigurbjorn"
     ],
     [
-     "6z2utyx4mrv4wxwx",
-     "CL - Kentisston United (@kade)"
+     "mfb6bf5ums1x52tr",
+     "AA - South Suffolk Analogue"
     ],
     [
-     "9jekcn14mruxii1c",
-     "CL - King Arthur FC"
+     "w2zh6v93ms3ezi7l",
+     "AA - SquirtleDidIt"
     ],
     [
-     "hx62i4vgmrcniqub",
-     "CL - Rigged FC"
+     "bxl7ml7rms1z36qs",
+     "AA - SubatomicSquash"
     ],
     [
-     "rm2a8o8gmrd76jvf",
-     "CL - Saintless (25jstep)"
+     "jtbli591ms1srq70",
+     "AA - Szob Story"
     ],
     [
-     "wk2ofu1imrw4ppck",
-     "CL - TheBigLewando wski@TMWittek"
+     "hyj4uz5mmrzjc8jb",
+     "AA - VeryAnts FC (@FMC)"
     ],
     [
-     "wqnldg8lmrpd3xn9",
-     "EL - Bantah Boyz"
+     "s45i1nxnms0dygrp",
+     "BB - _3Xavier"
     ],
     [
-     "hyxf566nmrp9juis",
-     "EL - DT27"
+     "co13utaamrzcbhoh",
+     "BB - A Team of Carraghers"
     ],
     [
-     "n8bxrndcmrpbe9f6",
-     "EL - Fantraxfluke"
+     "jyvuvlalms3c71ie",
+     "BB - Big Nick Energy"
     ],
     [
-     "6z393agamro29kym",
-     "EL - FC ZapaPERROS"
+     "zb293v24ms0bhcmq",
+     "BB - Dab University"
     ],
     [
-     "n1eg1oaomro1v3xu",
-     "EL - funkfletch"
+     "2hltxdpkms1fn19u",
+     "BB - FantraxFluke"
     ],
     [
-     "6vo9qv2ymrp9u4fq",
-     "EL - hazardfc"
+     "js5e409nms1tb2a1",
+     "BB - FantraxMatt"
     ],
     [
-     "s2f25c7hmrtjbh2d",
-     "EL - IntaerG"
+     "xk8pxvavms1uqtrp",
+     "BB - Jingle Bellamy"
     ],
     [
-     "t5tjsj1emrojnbe9",
-     "EL - Molerat"
+     "5j67o2m4ms2wewiw",
+     "BB - lukeyh89"
     ],
     [
-     "rtbltnh9mrpnjdii",
-     "EL - OnlyFantrax"
+     "bgacdpfams2vvphw",
+     "BB - RedScare"
     ],
     [
-     "nld5go16mrvkesbr",
-     "EL - Seafoxsports"
+     "2xorgdvtms10zvnb",
+     "BB - someone88"
     ],
     [
-     "u6b0nmwzmro35it2",
-     "EL - ShooterMcGavin711"
+     "xjsxebrkmrzg4qyw",
+     "BB - The Bad Batch (@kade)"
     ],
     [
-     "g598g2mrmrva58b2",
-     "EL- 32chickens"
+     "zw2k6jvfms0d2yqv",
+     "BB - YO! FPL GOALS"
     ],
     [
-     "7hf485xomrw0wd6w",
-     "L1 - _3Xavier"
+     "hx9lanrvms0sdrmq",
+     "CC - @bob_delfin"
     ],
     [
-     "pmmsb8xqmryla42u",
-     "L1 - Draft Pi"
+     "ks7shg1bms0cbl49",
+     "CC - Alisson Wonderland"
     ],
     [
-     "yaysvi0zmrvzrugt",
-     "L1 - Draft Sharply"
+     "aekldaicms39fa7w",
+     "CC - Draft Doctor"
     ],
     [
-     "pnwb3dp7ms76d6jt",
-     "L1 - Evil Geniuses"
+     "jpzdgfbcms2dwgay",
+     "CC - francis193"
     ],
     [
-     "786ixklomrevq4dj",
-     "L1 - FPL Boss"
+     "3sb1j8ivms0j11p2",
+     "CC - Gamblerz"
     ],
     [
-     "x6akjt3nmrw50wtj",
-     "L1 - Jingle Bellamy"
+     "bt1cwvbims0cngsj",
+     "CC - King Eric"
     ],
     [
-     "riy8pejnmruynmcv",
-     "L1 - MrPizzaMan"
+     "fgx8fdwlms0vdtov",
+     "CC - OleScruffy"
     ],
     [
-     "0lnrl4kxmrv8hvuf",
-     "L1 - neale_av"
+     "z72dgwkyms112div",
+     "CC - single H"
     ],
     [
-     "9nfzf3yems11aljg",
-     "L1 - Phantasy Phoenix"
+     "3u8aixk3ms3h7sw5",
+     "CC - TMWittek"
     ],
     [
-     "t0ehw0d9ms0tpez6",
-     "L1 - rawsparkly"
+     "5xsj4mxjms0a28ls",
+     "CC - tottiandor"
     ],
     [
-     "6jj1vsj8mruuonm3",
-     "L1 - tottiandor"
+     "q12fl7vwms0o8ywi",
+     "CC - You Only Rive Once"
     ],
     [
-     "l62hlf3cmrcqtjay",
-     "L1 - Yellow Polka Dot Borini"
+     "coqo1zurms0cuuqo",
+     "CC-New England Rubber Ducks"
     ],
     [
-     "kv6xnwbmms696wxz",
-     "L2 - @evison001"
+     "8qog0r9bms1x9483",
+     "DD - Bantah Boyz"
     ],
     [
-     "h9e69n4tmsbon3xd",
-     "L2 - Bayer Neverlosen"
+     "1g9zx8tvms0gnghl",
+     "DD - Draft Tache"
     ],
     [
-     "eqy25swims6idovj",
-     "L2 - CoachDaGhost420"
+     "ppcjiwzvms1i0zbh",
+     "DD - EllisBoFellis"
     ],
     [
-     "txck1li4ms3al82x",
-     "L2 - Espresso Ballers"
+     "2jxe6cojms39877m",
+     "DD - Espresso Kickers"
     ],
     [
-     "jtph5bjfmrtey25w",
-     "L2 - Gatch"
+     "i44076h0ms28ksrt",
+     "DD - FPLDeng"
     ],
     [
-     "9qm2yyh2mrwdcv3j",
-     "L2 - Ricardbacon"
+     "4mf7gwo3ms0gzh33",
+     "DD - KevGilley"
     ],
     [
-     "k2tiq2axms1iemhq",
-     "L2 - Show Me The Manè"
+     "ktmm9kb4ms38ebc6",
+     "DD - meadhere"
     ],
     [
-     "r2ysk7cjmrcpm3kd",
-     "L2 - So it be Djinns (@FMC)"
+     "k37lj6d5ms4olg1f",
+     "DD - Puskas' Army"
     ],
     [
-     "gxu8qjs5mrtf4l1z",
-     "L2 - Subatomic Squash"
+     "wkis8wpmms0abnyx",
+     "DD - Saintless (25JSTEP)"
     ],
     [
-     "3nv0zaobmrye5muj",
-     "L2 - Taniwha"
+     "9cjfiub2ms1phq7k",
+     "DD - Señor Diablo"
     ],
     [
-     "agik7p28mruz4fxp",
-     "L2 - The Weathermen"
+     "1spqwfvnms0g9ysq",
+     "DD - Team of Blatter Day Saints"
     ],
     [
-     "jy9c9jmvmrw6vbwk",
-     "L2 - Traction Engine"
+     "wc3qtamjms0xyv38",
+     "DD - Willy B"
     ],
     [
-     "g58olnwkms7x9p55",
-     "NA - BallsInYourFace"
+     "itsxggngmrzeqdam",
+     "EE - Andrew"
     ],
     [
-     "7vo6lel5ms4jlpeg",
-     "NA - Boomer Gooner"
+     "yso9l526mrzgy4sn",
+     "EE - Draft & Drams"
     ],
     [
-     "z1fpdrdnms3b71fg",
-     "NA - Bristol City FC"
+     "damir51lms3wvdhz",
+     "EE - DutchCowboy"
     ],
     [
-     "vgeb0eotmsccjbdl",
-     "NA - FightnChantz"
+     "dp8v41vgms0dcuwb",
+     "EE - juggos"
     ],
     [
-     "guq4l0g8mrd1pbh1",
-     "NA - It takes Toure to Dango"
+     "2b7qrcs0ms0bxa6z",
+     "EE - Looch"
     ],
     [
-     "2tmzxy4ams3pfoeb",
-     "NA - Mechagodzilla FC"
+     "8xru0fn5ms0df0i0",
+     "EE - MrMatti"
     ],
     [
-     "qw26ug4qms6inmre",
-     "NA - Ollie Too Well"
+     "pak23h82ms0fwg98",
+     "EE - shrafel"
     ],
     [
-     "ga5cqi1jms6im0fd",
-     "NA - RedScare"
+     "4hg0hn02ms0c8oty",
+     "EE - The Weathermen"
     ],
     [
-     "gflw03anmscetwyz",
-     "NA - Superbigmac"
+     "tfbl7g85ms0r1jba",
+     "EE – QornerCakenTickly"
     ],
     [
-     "gjo7opa4ms4jwnud",
-     "NA - Terryble Decisions"
+     "vayrrivwms38ttl9",
+     "EE- Lampardians of the Galaxy"
     ],
     [
-     "s9erchjkms7xn33g",
-     "NA - Washington Wizards - cpb1983"
+     "8f5v1invms0egihs",
+     "EE-32chickens"
     ],
     [
-     "afpclpsvms4970ou",
-     "NA - You Only Rive Once"
+     "qvzaiui5ms1yohkg",
+     "EE-Gautham"
     ],
     [
-     "fqczpvuvmrco9dwh",
-     "NI - @Andrew"
+     "nlhr8tjnmrzzqbxx",
+     "GL - abeokez"
     ],
     [
-     "vvcq7vvumrzhn70g",
-     "NI - @LFC_Drafter"
+     "m4nrrgntms1zgad5",
+     "GL - Average FC"
     ],
     [
-     "34bg2c2qmryqxcm8",
-     "NI - Alisson Wonderland"
+     "qj2d6zhwmsbm5138",
+     "GL - Az"
     ],
     [
-     "b6d3am7mmrzlouon",
-     "NI - Brighton Erling"
+     "stqsc060ms1q7yd8",
+     "GL - Fantrax Fox"
     ],
     [
-     "x8ydepkimrypfolm",
-     "NI - FPLDeng"
+     "2gebirkgms0ho1vg",
+     "GL - Have A Buendia"
     ],
     [
-     "i8styyphms03x9pw",
-     "NI - hatmundo"
+     "9rc9qejpmrzzoyh7",
+     "GL - JWillDraft"
     ],
     [
-     "n8mw0enbmrykazg2",
-     "NI - JWillDraft"
+     "d9h3htehms04c5d5",
+     "GL - Lanlier"
     ],
     [
-     "yd2m96v3mrzlgsf9",
-     "NI - Old Havertz Kai Hard"
+     "7olp2g5tms0aecrq",
+     "GL - OnlyFantrax"
     ],
     [
-     "f9dt32psms044fbh",
-     "NI - ROONEY TUNES FC"
+     "dr2h4949ms1zzvmw",
+     "GL - Ostakaka"
     ],
     [
-     "pluwgxadmryvj8ni",
-     "NI - single H"
+     "cfzew2mmms7m186g",
+     "GL - Rigged FC"
     ],
     [
-     "g0x40yzsms47ex38",
-     "NI - Valskoda"
+     "twt2a4mzms0caujl",
+     "GL - Sharp FC"
     ],
     [
-     "jkqs2izlms08o657",
-     "NI- SkinnyLegs"
-    ],
-    [
-     "vr7x1d93ms4uagpb",
-     "NU - @hiimmax"
-    ],
-    [
-     "lupzwwthms3ota4u",
-     "NU - El_Swanny"
-    ],
-    [
-     "bzi60kbcms6c9k1u",
-     "NU - Gaffa"
-    ],
-    [
-     "k5x1c3h6ms7l71t8",
-     "NU - KAISERDONLOCO"
-    ],
-    [
-     "7ne2sa4mms3rau25",
-     "NU - KanteGross13"
-    ],
-    [
-     "nhntz3bimro0coqx",
-     "NU - Lawrant’s Dysfunction"
-    ],
-    [
-     "vsjng32tms3soc6p",
-     "NU - Pardslastdance"
-    ],
-    [
-     "fex9l5gumsbwf1qx",
-     "NU - Penetrators FC"
-    ],
-    [
-     "rzu0nzvpms66dte9",
-     "NU - Reeces Set Pieces"
-    ],
-    [
-     "ynpl8sy7ms6bjmrg",
-     "NU - Rishi"
-    ],
-    [
-     "d9c5rawjms3qhzru",
-     "NU - TomHidZu"
-    ],
-    [
-     "275e6ehyms3u2s6m",
-     "NU - We Signed Timo Werner Twice"
-    ],
-    [
-     "w58lwtc2ms4puia9",
-     "SE - abeokez"
-    ],
-    [
-     "8eykfcpjms4npb25",
-     "SE - allstarazn"
-    ],
-    [
-     "mv7ycqssms4qxct7",
-     "SE - Darren Cann’s Voice FC"
-    ],
-    [
-     "q6ras00yms7s084s",
-     "SE - Futtorun"
-    ],
-    [
-     "zif7jg21ms6kj6yt",
-     "SE - Matigol"
-    ],
-    [
-     "nhkye44nms7rc181",
-     "SE - Nucleus"
-    ],
-    [
-     "tuc2hrcvms7qghg9",
-     "SE - Osimhen"
-    ],
-    [
-     "qadp3sarms4u1a1c",
-     "SE - Ozan"
-    ],
-    [
-     "fdusr14kms53gtvn",
-     "SE - YesTheQB"
-    ],
-    [
-     "uck7h8ebms7rqbxc",
-     "SE- DCKiller"
-    ],
-    [
-     "jueuttrsms80c94c",
-     "SE-Jebongo"
-    ],
-    [
-     "rpwz13ugms6gcg0t",
-     "SE-Sp1g0"
-    ],
-    [
-     "rpz6127rmsadvvva",
-     "SO - alpi"
-    ],
-    [
-     "tu5y4wjwmsd5756g",
-     "SO - FantraxMatt"
-    ],
-    [
-     "mgrdwqzjms4rpsxe",
-     "SO - FFP"
-    ],
-    [
-     "wfkjh3wims5lshmk",
-     "SO - GangST3r"
-    ],
-    [
-     "ipdw1d1ums54ta10",
-     "SO - Here Comes the M-Boom-O"
-    ],
-    [
-     "gk33q3gfms4je1u4",
-     "SO - Ironlink2112"
-    ],
-    [
-     "hnrotwi5ms4jam8f",
-     "SO - jjwas"
-    ],
-    [
-     "gwtl6tfcms9f5azn",
-     "SO - Mighty Magyars"
-    ],
-    [
-     "x1yhcvfnms4r70p6",
-     "SO - Moonmachine"
-    ],
-    [
-     "39rk43nwms91fbjb",
-     "SO - Seanharfee"
-    ],
-    [
-     "px0n2675ms4lqd7e",
-     "SO - SpursSean"
-    ],
-    [
-     "y09jlyivms4tzqh7",
-     "SO - The Philly Dynasty"
-    ],
-    [
-     "2ulc0ke1msc9qlud",
-     "ST - AJLP OM"
-    ],
-    [
-     "ugi71qf6mrco9jhz",
-     "ST - Dab University"
-    ],
-    [
-     "x3lng7w9ms4rvc9e",
-     "ST - Gamblerz"
-    ],
-    [
-     "hqocdq0kms90330y",
-     "ST - IKanteFitMyWillian"
-    ],
-    [
-     "jrel3n75ms4lbrju",
-     "ST - markarmm"
-    ],
-    [
-     "8tsv9losms4z5ylo",
-     "ST - MrMatti"
-    ],
-    [
-     "e91k74bcms5fzcjv",
-     "ST - NyQuil Wanderers"
-    ],
-    [
-     "a6ouk8dmms5b8an4",
-     "ST - RossN"
-    ],
-    [
-     "29b60g0amscnl1bs",
-     "ST - Shifty"
-    ],
-    [
-     "ime7nhlems9hawnx",
-     "ST - Target Man"
-    ],
-    [
-     "oqvdjjtsms5dbkgb",
-     "ST - TT_Cam"
-    ],
-    [
-     "hyli1n2vms5fiov2",
-     "ST - Ziti Rovers"
-    ],
-    [
-     "qv8ljchzms4zvot3",
-     "SU - Bajcetic Albion"
-    ],
-    [
-     "989dkhxyms83pyvd",
-     "SU - Bash Rovers"
-    ],
-    [
-     "4youfv41ms4lff6d",
-     "SU - Chelsean"
-    ],
-    [
-     "5duylyjhms7edq0i",
-     "SU - FlahertyUnited"
-    ],
-    [
-     "65iadp66ms96ueld",
-     "SU - KFC"
-    ],
-    [
-     "10ka8gmjms5qnaik",
-     "SU - Levitate"
-    ],
-    [
-     "4dd9pg7cms83iq94",
-     "SU - Lords of North London"
-    ],
-    [
-     "ryyvrnn5ms651tye",
-     "SU - PushyNevada"
-    ],
-    [
-     "qg6kgnw8ms4wtkag",
-     "SU - SalamiMommy"
-    ],
-    [
-     "f4tqgx63ms4uujfk",
-     "SU - Shadow"
-    ],
-    [
-     "ovt5wh53ms4j6atm",
-     "SU - shrafel"
-    ],
-    [
-     "vvx3pzuims93f8rp",
-     "SU - They Can Do Magic"
-    ],
-    [
-     "n6taj5bxms4j4hx3",
-     "SW - Bart Harley Jarvis"
-    ],
-    [
-     "tn8a6n45ms7bckay",
-     "SW - DutchDelight"
-    ],
-    [
-     "133o5v8ims81dx85",
-     "SW - Ice Cole Killers"
-    ],
-    [
-     "o0xx3ztcms4j6po7",
-     "SW - Jonsey"
-    ],
-    [
-     "ptk9uc6qms77d5d1",
-     "SW - Joseppi"
-    ],
-    [
-     "25b034uzms4kpdzy",
-     "SW - juggos"
-    ],
-    [
-     "6xdzx5ncms65ht8l",
-     "SW - Martins Magpies"
-    ],
-    [
-     "j5d80hwjms803xd6",
-     "SW - mspicoli"
-    ],
-    [
-     "zv2m8pisms69hq5s",
-     "SW - SCBennett"
-    ],
-    [
-     "dgvpv0u3ms4lsywm",
-     "SW - Sigurbjorn"
-    ],
-    [
-     "u85n2s8xmsdtfpor",
-     "SW - The Dreaded Magpie"
-    ],
-    [
-     "vivbye1nms4j6nht",
-     "SW - Wolf Cola"
+     "mtiq4tk5ms3eshnx",
+     "GL - They Can Do Magic"
     ]
    ]
   }
