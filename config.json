@@ -12,7 +12,7 @@
   "pollSeconds": 60,
   "digestMinutes": 5,
   "maxRunMinutes": 330,
-  "windowBeforeKickoffMinutes": 40,
+  "windowBeforeKickoffMinutes": 90,
   "windowAfterKickoffMinutes": 170,
   "instant": ["G", "AT", "PKD", "PKS", "PKM", "YC", "RC", "OG", "CS", "GAO", "GA"],
   "injuryScope": "own",
