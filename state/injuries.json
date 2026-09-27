@@ -1,0 +1,157 @@
+{
+ "rylahk": {
+  "fpl": {
+   "03am7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04fk1": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04gpx": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05a6e": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05oz3": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05y9n": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06cmm": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v0y": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06ymu": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06zbx": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0784b": {
+    "chance": 50,
+    "news": "Thigh injury - 50% chance of playing",
+    "status": "d"
+   },
+   "07877": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "078wo": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0794i": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   }
+  },
+  "fx": {
+   "03am7": {
+    "news": [],
+    "status": []
+   },
+   "04fk1": {
+    "news": [],
+    "status": []
+   },
+   "04gpx": {
+    "news": [],
+    "status": []
+   },
+   "05a6e": {
+    "news": [],
+    "status": []
+   },
+   "05oz3": {
+    "news": [],
+    "status": []
+   },
+   "05y9n": {
+    "news": [
+     "Sep 27, 5:53 AM: Hall (muscle) could be available for..."
+    ],
+    "status": [
+     "Undisclosed - Late fitness test (Game-time decision)"
+    ]
+   },
+   "06cmm": {
+    "news": [],
+    "status": []
+   },
+   "06v0y": {
+    "news": [],
+    "status": []
+   },
+   "06ymu": {
+    "news": [],
+    "status": []
+   },
+   "06zbx": {
+    "news": [],
+    "status": []
+   },
+   "0784b": {
+    "news": [],
+    "status": [
+     "Thigh - Late fitness test (Game-time decision)"
+    ]
+   },
+   "07877": {
+    "news": [],
+    "status": []
+   },
+   "078wo": {
+    "news": [],
+    "status": []
+   },
+   "0794i": {
+    "news": [],
+    "status": []
+   }
+  },
+  "idmap": {
+   "03am7": 457,
+   "04fk1": 124,
+   "04gpx": 304,
+   "05a6e": 469,
+   "05oz3": 385,
+   "05y9n": 449,
+   "06cmm": 368,
+   "06v0y": 504,
+   "06ymu": 620,
+   "06zbx": 335,
+   "0784b": 152,
+   "07877": 565,
+   "078wo": 598,
+   "0794i": 648
+  },
+  "ready": true
+ }
+}
