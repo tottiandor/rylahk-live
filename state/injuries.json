@@ -1,4 +1,224 @@
 {
+ "5cfv4rkwmrcniqha": {
+  "fpl": {
+   "0414o": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "04qr9": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "051k7": {
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
+   },
+   "05g2o": {
+    "chance": 75,
+    "news": "Knee injury - 75% chance of playing",
+    "status": "d"
+   },
+   "05o4c": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05trb": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05u1m": {
+    "chance": 0,
+    "news": "Calf injury - Unknown return date",
+    "status": "i"
+   },
+   "0639x": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06clt": {
+    "chance": 0,
+    "news": "Unspecified injury - Unknown return date",
+    "status": "i"
+   },
+   "06r5b": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v21": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06y26": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06yb7": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "0703c": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "070cj": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "078wl": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   }
+  },
+  "fx": {
+   "0414o": {
+    "news": [],
+    "status": []
+   },
+   "04qr9": {
+    "news": [],
+    "status": []
+   },
+   "051k7": {
+    "news": [
+     "Sep 25, 11:31 AM: James (hamstring) is eyeing a potential..."
+    ],
+    "status": [
+     "Hamstring - Late fitness test (Game-time decision)"
+    ]
+   },
+   "05g2o": {
+    "news": [
+     "Sep 19, 5:53 AM: Pedro (knee) missed Friday's 3-0 defeat..."
+    ],
+    "status": [
+     "Knee - Late fitness test (Game-time decision)"
+    ]
+   },
+   "05o4c": {
+    "news": [],
+    "status": []
+   },
+   "05trb": {
+    "news": [],
+    "status": []
+   },
+   "05u1m": {
+    "news": [
+     "Sep 11, 8:33 AM: Collins (calf) will miss Saturday's..."
+    ],
+    "status": [
+     "Calf - Late fitness test (Game-time decision)"
+    ]
+   },
+   "0639x": {
+    "news": [],
+    "status": []
+   },
+   "06clt": {
+    "news": [
+     "Sep 20, 8:10 AM: Kluivert will miss Sunday's match..."
+    ],
+    "status": [
+     "Strain - Late fitness test (Game-time decision)"
+    ]
+   },
+   "06r5b": {
+    "news": [],
+    "status": []
+   },
+   "06v21": {
+    "news": [],
+    "status": []
+   },
+   "06y26": {
+    "news": [],
+    "status": []
+   },
+   "06yb7": {
+    "news": [],
+    "status": []
+   },
+   "0703c": {
+    "news": [],
+    "status": []
+   },
+   "070cj": {
+    "news": [],
+    "status": []
+   },
+   "078wl": {
+    "news": [
+     "Sep 23, 2:10 PM: Suzuki is certain to miss Thursday's..."
+    ],
+    "status": [
+     "Ribs - Late fitness test (Game-time decision)"
+    ]
+   }
+  },
+  "idmap": {
+   "0414o": 515,
+   "04qr9": 480,
+   "051k7": 142,
+   "05g2o": 165,
+   "05o4c": 258,
+   "05trb": 427,
+   "05u1m": 84,
+   "0639x": 68,
+   "06clt": 70,
+   "06r5b": 127,
+   "06v21": 366,
+   "06y26": 114,
+   "06yb7": 331,
+   "0703c": 533,
+   "070cj": 336,
+   "078wl": 597
+  },
+  "lag": {},
+  "ready": true,
+  "rw": {
+   "map": {},
+   "seen": [
+    "536114",
+    "536115",
+    "536116",
+    "536117",
+    "536118",
+    "536119",
+    "536120",
+    "536121",
+    "536122",
+    "536123",
+    "536124",
+    "536125",
+    "536126",
+    "536127",
+    "536128",
+    "536129",
+    "536130",
+    "536131",
+    "536132",
+    "536133",
+    "536134",
+    "536135",
+    "536136",
+    "536137",
+    "536138"
+   ]
+  }
+ },
  "rylahk": {
   "fpl": {
    "03am7": {
@@ -158,6 +378,216 @@
    "map": {},
    "seen": [
     "536113",
+    "536114",
+    "536115",
+    "536116",
+    "536117",
+    "536118",
+    "536119",
+    "536120",
+    "536121",
+    "536122",
+    "536123",
+    "536124",
+    "536125",
+    "536126",
+    "536127",
+    "536128",
+    "536129",
+    "536130",
+    "536131",
+    "536132",
+    "536133",
+    "536134",
+    "536135",
+    "536136",
+    "536137",
+    "536138"
+   ]
+  }
+ },
+ "yb5sb5camrzcbh8e": {
+  "fpl": {
+   "032f9": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03am7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0477b": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04e1e": {
+    "chance": 75,
+    "news": "Groin injury - 75% chance of playing",
+    "status": "d"
+   },
+   "04gpx": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04qr9": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "05u1m": {
+    "chance": 0,
+    "news": "Calf injury - Unknown return date",
+    "status": "i"
+   },
+   "05ye7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06jgi": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06mn0": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06r5b": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v07": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06xzd": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06yb7": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06ybp": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0793q": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   }
+  },
+  "fx": {
+   "032f9": {
+    "news": [],
+    "status": []
+   },
+   "03am7": {
+    "news": [],
+    "status": []
+   },
+   "0477b": {
+    "news": [],
+    "status": []
+   },
+   "04e1e": {
+    "news": [],
+    "status": [
+     "Groin - Late fitness test (Game-time decision)"
+    ]
+   },
+   "04gpx": {
+    "news": [],
+    "status": []
+   },
+   "04qr9": {
+    "news": [],
+    "status": []
+   },
+   "05u1m": {
+    "news": [
+     "Sep 11, 8:33 AM: Collins (calf) will miss Saturday's..."
+    ],
+    "status": [
+     "Calf - Late fitness test (Game-time decision)"
+    ]
+   },
+   "05ye7": {
+    "news": [],
+    "status": []
+   },
+   "06jgi": {
+    "news": [],
+    "status": []
+   },
+   "06mn0": {
+    "news": [],
+    "status": []
+   },
+   "06r5b": {
+    "news": [],
+    "status": []
+   },
+   "06v07": {
+    "news": [],
+    "status": []
+   },
+   "06xzd": {
+    "news": [
+     "Sep 27, 6:00 AM: Kostoulas (leg) remains uncertain for..."
+    ],
+    "status": [
+     "Leg - Late fitness test (Game-time decision)"
+    ]
+   },
+   "06yb7": {
+    "news": [],
+    "status": []
+   },
+   "06ybp": {
+    "news": [],
+    "status": []
+   },
+   "0793q": {
+    "news": [],
+    "status": []
+   }
+  },
+  "idmap": {
+   "032f9": 226,
+   "03am7": 457,
+   "0477b": 295,
+   "04e1e": 10,
+   "04gpx": 304,
+   "04qr9": 480,
+   "05u1m": 84,
+   "05ye7": 264,
+   "06jgi": 201,
+   "06mn0": 106,
+   "06r5b": 127,
+   "06v07": 399,
+   "06xzd": 138,
+   "06yb7": 331,
+   "06ybp": 249,
+   "0793q": 627
+  },
+  "lag": {},
+  "ready": true,
+  "rw": {
+   "map": {},
+   "seen": [
     "536114",
     "536115",
     "536116",
