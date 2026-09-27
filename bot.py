@@ -12,11 +12,11 @@ his user id). GitHub runs this every 5 minutes, so an answer can take a few minu
 Added leagues live in state/leagues.json. Every Fantrax call is a read.
 """
 import os, re
-from common import (fantrax, tg_api, log, esc, load_state, save_state, commit_state, leagues)
+from common import (fantrax, tg_api, log, esc, norm, load_state, save_state, commit_state, leagues)
 
 HELP = ('Commands:\n'
         '/add &lt;Fantrax league link&gt; – send that league to this chat\n'
-        '/team &lt;number&gt; – pick your team after /add\n'
+        '/team &lt;number or part of the name&gt; – pick your team after /add\n'
         '/list – leagues sent to this chat\n'
         '/remove – stop sending leagues to this chat')
 
@@ -56,16 +56,25 @@ def handle(chat, text, reg, pending):
             return reply(chat, "I can't read that league. The bot has no Fantrax login, so the league "
                                "must be viewable by the public (a commissioner setting on Fantrax).")
         pending[key] = {'leagueId': lid, 'seasonId': season, 'name': name, 'teams': teams}
-        lines = ['<b>%s</b> – which team is yours? Reply /team &lt;number&gt;' % esc(name)]
+        lines = ['<b>%s</b> – which team is yours? Reply /team with its number or part of its name' % esc(name)]
         lines += ['%d. %s' % (i + 1, esc(t[1])) for i, t in enumerate(teams)]
         return reply(chat, '\n'.join(lines))
     if cmd == '/team':
         p = pending.get(key)
         if not p:
             return reply(chat, 'First /add a league in this chat.')
-        if not arg.isdigit() or not 1 <= int(arg) <= len(p['teams']):
-            return reply(chat, 'Pick a number from the list, e.g. /team 3')
-        tid, tname = p['teams'][int(arg) - 1]
+        if arg.isdigit() and 1 <= int(arg) <= len(p['teams']):
+            n = int(arg)
+        else:
+            # part of the team's name works too: big leagues have a hundred teams or more
+            hits = [i + 1 for i, t in enumerate(p['teams']) if arg and norm(arg) in norm(t[1])]
+            if len(hits) != 1:
+                if not hits:
+                    return reply(chat, 'No team matches "%s". Send /team with its number or part of its name.' % esc(arg))
+                return reply(chat, 'Several teams match – send /team with the number:\n' +
+                             '\n'.join('%d. %s' % (i, esc(p['teams'][i - 1][1])) for i in hits[:20]))
+            n = hits[0]
+        tid, tname = p['teams'][n - 1]
         reg['leagues'] = [lg for lg in reg['leagues'] if lg['leagueId'] != p['leagueId']]
         short = re.sub(r'[^A-Za-z0-9]+', ' ', p['name']).strip()
         reg['leagues'].append({'key': p['leagueId'], 'name': short[:24], 'leagueId': p['leagueId'],
