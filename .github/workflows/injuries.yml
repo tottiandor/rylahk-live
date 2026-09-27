@@ -1,0 +1,34 @@
+name: injuries
+# FPL and Fantrax injury news for rostered players, checked every 10 minutes.
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: injuries
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  injuries:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          COMMIT_STATE: '1'
+          PYTHONUTF8: '1'
+        run: |
+          git config user.name "rylahk-live bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then echo "Telegram not connected yet (run setup_telegram.py)"; exit 0; fi
+          python injuries.py

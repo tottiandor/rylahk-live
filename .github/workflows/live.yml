@@ -1,0 +1,48 @@
+name: live
+# Every 15 minutes GitHub wakes this up. With no game on or about to start it exits in
+# seconds; during games it stays on, polling Fantrax every minute, for up to 5.5 hours,
+# and the next wake-up takes over from there. Only one runs at a time.
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      replay:
+        description: 'Replay a finished round as a test (round number; empty = normal run)'
+        required: false
+      send:
+        description: 'Send the replay to Telegram too'
+        type: boolean
+        default: false
+
+concurrency:
+  group: live
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: watch
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          COMMIT_STATE: '1'
+          PYTHONUTF8: '1'
+        run: |
+          git config user.name "rylahk-live bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] && [ -z "${{ inputs.replay }}" ]; then echo "Telegram not connected yet (run setup_telegram.py)"; exit 0; fi
+          if [ -n "${{ inputs.replay }}" ]; then
+            python live.py --replay "${{ inputs.replay }}" ${{ inputs.send && '--send' || '' }}
+          else
+            python live.py
+          fi
