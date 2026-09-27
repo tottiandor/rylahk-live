@@ -16,8 +16,9 @@ The first run only records what is there and says so; after that, only changes a
     python injuries.py --dry    print instead of sending
 """
 import json, os, sys
-from common import (CFG, HERE, fpl, roster, fantrax, telegram, esc, log, norm,
+from common import (CFG, HERE, fpl, roster, fantrax, telegram, esc, log, norm, now,
                     load_state, save_state, commit_state)
+import rotowire
 
 # Fantrax icon types: 32 "expected to play", 8 match reports - never news.
 # 14 is injury news; 9 is general news, kept only when it is about fitness.
@@ -85,6 +86,11 @@ def main(dry):
     manual = json.load(open(manual_p, encoding='utf-8')) if os.path.exists(manual_p) else {}
     boot = fpl('bootstrap-static/')
     els = {e['id']: e for e in boot['elements']}
+    try:
+        rw_items = rotowire.latest()
+    except Exception as e:
+        log('RotoWire unavailable:', e)
+        rw_items = None
     for lg in CFG['leagues']:
         s = st.setdefault(lg['key'], {'fpl': {}, 'fx': {}, 'idmap': {}, 'ready': False})
         players, me = league_rosters(lg)
@@ -97,10 +103,33 @@ def main(dry):
         unmatched = match_fpl(players, boot, s['idmap'], manual)
         pre = '[%s] ' % lg['name'] if len(CFG['leagues']) > 1 else ''
         msgs = []
-        for pid, p in players.items():
+        lag = s.setdefault('lag', {})       # which source showed a player's story first
+        stamp = now().strftime('%Y-%m-%d %H:%M')
+
+        def heads(pid, p):
             owner = me['teams'].get(p['team'], '')
             tag = '🟢 yours' if p['team'] == mine else '🔴 opponent' if p['team'] == opp else esc(owner)
-            head = '<b>%s</b> (%s, %s) · %s' % (esc(p['name']), p['club'], p['pos'], tag)
+            return '<b>%s</b> (%s, %s) · %s' % (esc(p['name']), p['club'], p['pos'], tag)
+
+        # RotoWire first: it is where Fantrax's news comes from
+        if rw_items is not None:
+            rw = s.setdefault('rw', {'seen': None, 'map': {}})
+            first = rw['seen'] is None
+            seen = set(rw['seen'] or [])
+            for it in reversed(rw_items):          # oldest first, so messages arrive in order
+                if it['id'] in seen:
+                    continue
+                seen.add(it['id'])
+                pid = rotowire.match(it, players, rw['map'])
+                if first or not pid:
+                    continue
+                inj = ' [%s]' % esc(it['inj']) if it['inj'] else ''
+                msgs.append('📡 %s\nRotoWire: <b>%s</b>%s\n%s' % (heads(pid, players[pid]), esc(it['headline']),
+                                                                inj, esc(it['news'])))
+                lag[pid] = {'what': it['headline'], 'rw': stamp}
+            rw['seen'] = sorted(seen, key=int)[-200:]
+        for pid, p in players.items():
+            head = heads(pid, p)
             # FPL
             fid = s['idmap'].get(pid)
             if fid in els:
@@ -119,6 +148,12 @@ def main(dry):
                 old = {'status': old, 'news': new['news']}
             if s['ready'] and old is not None and new != old:
                 fresh = [n for n in new['news'] if n not in old['news']]
+                if fresh:
+                    e = lag.get(pid)
+                    if e and 'rw' in e and 'fx' not in e:
+                        e['fx'] = stamp
+                    else:
+                        lag[pid] = {'what': fresh[0][:60], 'fx': stamp}
                 if new['status'] != old['status'] or fresh:
                     if new['status']:
                         body = '🩹 %s\nFantrax: %s' % (head, esc(' / '.join(new['status'])))
