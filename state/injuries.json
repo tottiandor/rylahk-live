@@ -1,0 +1,1469 @@
+{
+ "rylahk": {
+  "fpl": {
+   "02lm7": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "02lnx": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "02lz0": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "02m5l": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "02oq6": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "032f9": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "038ze": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03am7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03fgo": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03gu4": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03gu5": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03rzp": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03vlj": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03ybi": {
+    "chance": 75,
+    "news": "Unspecified injury - 75% chance of playing",
+    "status": "d"
+   },
+   "0414o": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "0427d": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0435m": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "045ob": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0477b": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "049tq": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04abb": {
+    "chance": 0,
+    "news": "Suspended until 17 Oct",
+    "status": "s"
+   },
+   "04abn": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04agz": {
+    "chance": 75,
+    "news": "Unspecified injury - 75% chance of playing",
+    "status": "d"
+   },
+   "04e1e": {
+    "chance": 75,
+    "news": "Groin injury - 75% chance of playing",
+    "status": "d"
+   },
+   "04fk1": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04ge6": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04ge9": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "04gpx": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04lav": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04qfz": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04qr9": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "04sjt": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04sjv": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04spw": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "04y92": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "04yo7": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "050jq": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "051k7": {
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
+   },
+   "051kl": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0521z": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0522h": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "052ca": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "056iy": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05748": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "05a6e": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05g2o": {
+    "chance": 75,
+    "news": "Knee injury - 75% chance of playing",
+    "status": "d"
+   },
+   "05gcc": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05gcr": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05l27": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05l2z": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05l8q": {
+    "chance": 75,
+    "news": "Muscular injury - 75% chance of playing",
+    "status": "d"
+   },
+   "05n07": {
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
+   },
+   "05nil": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05nns": {
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
+   },
+   "05nt6": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05nzu": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05o4c": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05o6h": {
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
+   },
+   "05o8o": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05ogb": {
+    "chance": 0,
+    "news": "Unspecified injury - Unknown return date",
+    "status": "i"
+   },
+   "05oh0": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05oig": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05omu": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05opj": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "05oz3": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05r34": {
+    "chance": 0,
+    "news": "Unspecified injury - Unknown return date",
+    "status": "i"
+   },
+   "05r8o": {
+    "chance": 0,
+    "news": "Hamstring injury - Expected back 11 Oct",
+    "status": "i"
+   },
+   "05r94": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05r9b": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05rb8": {
+    "chance": 50,
+    "news": "Calf injury - 50% chance of playing",
+    "status": "d"
+   },
+   "05t6x": {
+    "chance": 0,
+    "news": "Foot injury - Unknown return date",
+    "status": "i"
+   },
+   "05tqx": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05tr9": {
+    "chance": 0,
+    "news": "Unspecified injury - Expected back 10 Oct",
+    "status": "i"
+   },
+   "05trb": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05tre": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05u1m": {
+    "chance": 0,
+    "news": "Calf injury - Unknown return date",
+    "status": "i"
+   },
+   "05uel": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05uhq": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05uhs": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05uht": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05uor": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05uox": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05y9n": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05ybq": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05ye7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05ylj": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "05ylx": {
+    "chance": 0,
+    "news": "Knee injury - Unknown return date",
+    "status": "i"
+   },
+   "061vb": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "061ve": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "061vk": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "061vq": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "061xs": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "062a9": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "062ci": {
+    "chance": 0,
+    "news": "Hamstring injury - Expected back 10 Oct",
+    "status": "i"
+   },
+   "062p3": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0639x": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "063q8": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "063zi": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "0646f": {
+    "chance": 75,
+    "news": "Foot injury - 75% chance of playing",
+    "status": "d"
+   },
+   "0666p": {
+    "chance": 75,
+    "news": "Unspecified injury - 75% chance of playing",
+    "status": "d"
+   },
+   "067ys": {
+    "chance": 0,
+    "news": "Ankle injury - Expected back 10 Oct",
+    "status": "i"
+   },
+   "067yv": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "067yz": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "067zv": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0689w": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "068lx": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "068y0": {
+    "chance": 75,
+    "news": "Ankle injury - 75% chance of playing",
+    "status": "d"
+   },
+   "068ym": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06c6g": {
+    "chance": 0,
+    "news": "Leg injury - Expected back 28 Nov",
+    "status": "i"
+   },
+   "06clt": {
+    "chance": 0,
+    "news": "Unspecified injury - Unknown return date",
+    "status": "i"
+   },
+   "06cm1": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06cmm": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06cms": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06dmj": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06do9": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06ex4": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06ezb": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06f8y": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06fup": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06fv8": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06fwz": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06jgi": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06jgs": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06jh3": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06l4i": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06mgd": {
+    "chance": 0,
+    "news": "Suspended until 17 Oct",
+    "status": "s"
+   },
+   "06mn0": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06mnc": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06mpp": {
+    "chance": 0,
+    "news": "Knee injury - Unknown return date",
+    "status": "i"
+   },
+   "06msb": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06mvz": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06mw0": {
+    "chance": 0,
+    "news": "Hamstring injury - Expected back 11 Oct",
+    "status": "i"
+   },
+   "06nu7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06onv": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06p6j": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06pe1": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06pia": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06r2g": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06r5b": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06r6s": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06rf9": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06rgg": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06uyc": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06uzo": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06uzy": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v05": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v07": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v0p": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v0y": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v21": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06xza": {
+    "chance": 0,
+    "news": "Foot injury - Expected back 7 Nov",
+    "status": "i"
+   },
+   "06xzd": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06y26": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06y9m": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06yb7": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06ybp": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06ygm": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "06ymu": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06zbx": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06zbz": {
+    "chance": 0,
+    "news": "Achilles injury - Unknown return date",
+    "status": "i"
+   },
+   "06zna": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06zxy": {
+    "chance": 75,
+    "news": "Shin injury - 75% chance of playing",
+    "status": "d"
+   },
+   "0700p": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0703c": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "070cj": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "070f9": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "070hc": {
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
+   },
+   "070hl": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "070hs": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "072wq": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "076d3": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "076dq": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "076qg": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "07848": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "0784b": {
+    "chance": 50,
+    "news": "Thigh injury - 50% chance of playing",
+    "status": "d"
+   },
+   "0784w": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "0784y": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0784z": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "07877": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0787y": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0788g": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "07897": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "07898": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "078az": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "078i7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "078mm": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "078qg": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "078ud": {
+    "chance": 0,
+    "news": "Unspecified injury - Unknown return date",
+    "status": "i"
+   },
+   "078wl": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "078wo": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0793q": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0793x": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "07942": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0794d": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0794i": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0794j": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   }
+  },
+  "fx": {
+   "02lm7": [],
+   "02lnx": [],
+   "02lz0": [],
+   "02m5l": [],
+   "02oq6": [],
+   "032f9": [],
+   "038ze": [],
+   "03am7": [],
+   "03fgo": [],
+   "03gu4": [],
+   "03gu5": [],
+   "03rzp": [],
+   "03vlj": [],
+   "03ybi": [
+    "Strain - Late fitness test (Game-time decision)"
+   ],
+   "0414o": [],
+   "0427d": [],
+   "0435m": [],
+   "045ob": [],
+   "0477b": [],
+   "049tq": [],
+   "04abb": [
+    "Suspended"
+   ],
+   "04abn": [],
+   "04agz": [
+    "Undisclosed - Late fitness test (Game-time decision)"
+   ],
+   "04e1e": [
+    "Groin - Late fitness test (Game-time decision)"
+   ],
+   "04fk1": [],
+   "04ge6": [],
+   "04ge9": [],
+   "04gpx": [],
+   "04lav": [],
+   "04qfz": [],
+   "04qr9": [],
+   "04sjt": [],
+   "04sjv": [],
+   "04spw": [],
+   "04y92": [],
+   "04yo7": [],
+   "050jq": [],
+   "051k7": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "051kl": [],
+   "0521z": [],
+   "0522h": [],
+   "052ca": [],
+   "056iy": [],
+   "05748": [],
+   "05a6e": [],
+   "05g2o": [
+    "Knee - Late fitness test (Game-time decision)"
+   ],
+   "05gcc": [],
+   "05gcr": [
+    "Undisclosed - Late fitness test (Game-time decision)"
+   ],
+   "05l27": [],
+   "05l2z": [],
+   "05l8q": [
+    "Undisclosed - Late fitness test (Game-time decision)"
+   ],
+   "05n07": [
+    "Hamstring - Out for next game"
+   ],
+   "05nil": [],
+   "05nns": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "05nt6": [],
+   "05nzu": [],
+   "05o4c": [],
+   "05o6h": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "05o8o": [],
+   "05ogb": [
+    "Hamstring - Out for next game"
+   ],
+   "05oh0": [],
+   "05oig": [],
+   "05omu": [],
+   "05opj": [],
+   "05oz3": [],
+   "05r34": [
+    "Undisclosed - Late fitness test (Game-time decision)"
+   ],
+   "05r8o": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "05r94": [],
+   "05r9b": [],
+   "05rb8": [
+    "Calf - Late fitness test (Game-time decision)"
+   ],
+   "05t6x": [
+    "Foot - Late fitness test (Game-time decision)"
+   ],
+   "05tqx": [],
+   "05tr9": [
+    "Strain - Late fitness test (Game-time decision)"
+   ],
+   "05trb": [],
+   "05tre": [],
+   "05u1m": [
+    "Calf - Late fitness test (Game-time decision)"
+   ],
+   "05uel": [],
+   "05uhq": [],
+   "05uhs": [],
+   "05uht": [],
+   "05uor": [],
+   "05uox": [],
+   "05y9n": [
+    "Sep 27, 5:53 AM: Hall (muscle) could be available for...",
+    "Undisclosed - Late fitness test (Game-time decision)"
+   ],
+   "05ybq": [],
+   "05ye7": [],
+   "05ylj": [],
+   "05ylx": [
+    "Knee - Late fitness test (Game-time decision)"
+   ],
+   "061vb": [],
+   "061ve": [],
+   "061vk": [],
+   "061vq": [],
+   "061xs": [],
+   "062a9": [],
+   "062ci": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "062p3": [],
+   "0639x": [],
+   "063q8": [],
+   "063zi": [],
+   "0646f": [
+    "Sep 27, 8:45 AM: Isak has withdrawn from the remainder...",
+    "Thigh - Late fitness test (Game-time decision)"
+   ],
+   "0666p": [
+    "Undisclosed - Late fitness test (Game-time decision)"
+   ],
+   "067ys": [
+    "Undisclosed - Late fitness test (Game-time decision)"
+   ],
+   "067yv": [
+    "Leg - Late fitness test (Game-time decision)",
+    "Sep 27, 1:27 PM: Gakpo was forced off in the 17th minute..."
+   ],
+   "067yz": [],
+   "067zv": [],
+   "0689w": [],
+   "068lx": [
+    "Illness - Late fitness test (Game-time decision)"
+   ],
+   "068y0": [
+    "Ankle - Late fitness test (Game-time decision)"
+   ],
+   "068ym": [],
+   "06c6g": [
+    "Leg - Out for next game"
+   ],
+   "06clt": [
+    "Strain - Late fitness test (Game-time decision)"
+   ],
+   "06cm1": [],
+   "06cmm": [],
+   "06cms": [],
+   "06dmj": [],
+   "06do9": [],
+   "06ex4": [],
+   "06ezb": [],
+   "06f8y": [],
+   "06fup": [],
+   "06fv8": [],
+   "06fwz": [],
+   "06jgi": [],
+   "06jgs": [],
+   "06jh3": [],
+   "06l4i": [],
+   "06mgd": [
+    "Suspended"
+   ],
+   "06mn0": [],
+   "06mnc": [],
+   "06mpp": [
+    "Knee - Late fitness test (Game-time decision)"
+   ],
+   "06msb": [],
+   "06mvz": [],
+   "06mw0": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "06nu7": [],
+   "06onv": [],
+   "06p6j": [],
+   "06pe1": [],
+   "06pia": [],
+   "06r2g": [],
+   "06r5b": [],
+   "06r6s": [],
+   "06rf9": [],
+   "06rgg": [],
+   "06uyc": [],
+   "06uzo": [],
+   "06uzy": [],
+   "06v05": [],
+   "06v07": [],
+   "06v0p": [],
+   "06v0y": [],
+   "06v21": [],
+   "06xza": [
+    "Foot - Out for next game"
+   ],
+   "06xzd": [
+    "Leg - Late fitness test (Game-time decision)",
+    "Sep 27, 6:00 AM: Kostoulas (leg) remains uncertain for..."
+   ],
+   "06y26": [],
+   "06y9m": [],
+   "06yb7": [],
+   "06ybp": [],
+   "06ygm": [],
+   "06ymu": [],
+   "06zbx": [],
+   "06zbz": [
+    "Achilles - Out for next game"
+   ],
+   "06zna": [],
+   "06zxy": [
+    "Lower leg - Late fitness test (Game-time decision)"
+   ],
+   "0700p": [],
+   "0703c": [],
+   "070cj": [],
+   "070f9": [],
+   "070hc": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "070hl": [],
+   "070hs": [],
+   "072wq": [],
+   "076d3": [],
+   "076dq": [],
+   "076qg": [],
+   "07848": [],
+   "0784b": [
+    "Thigh - Late fitness test (Game-time decision)"
+   ],
+   "0784w": [],
+   "0784y": [],
+   "0784z": [],
+   "07877": [],
+   "0787y": [],
+   "0788g": [],
+   "07897": [],
+   "07898": [],
+   "078az": [],
+   "078i7": [],
+   "078mm": [
+    "Concussion - Late fitness test (Game-time decision)"
+   ],
+   "078qg": [],
+   "078ud": [
+    "Hamstring - Late fitness test (Game-time decision)"
+   ],
+   "078wl": [
+    "Ribs - Late fitness test (Game-time decision)"
+   ],
+   "078wo": [],
+   "0793q": [],
+   "0793x": [],
+   "07942": [],
+   "0794d": [],
+   "0794i": [],
+   "0794j": []
+  },
+  "idmap": {
+   "02lm7": 238,
+   "02lnx": 136,
+   "02lz0": 28,
+   "02m5l": 277,
+   "02oq6": 423,
+   "032f9": 226,
+   "038ze": 261,
+   "03am7": 457,
+   "03fgo": 526,
+   "03gu4": 418,
+   "03gu5": 502,
+   "03rzp": 254,
+   "03vlj": 356,
+   "03ybi": 429,
+   "0414o": 515,
+   "0427d": 229,
+   "0435m": 544,
+   "045ob": 82,
+   "0477b": 295,
+   "049tq": 346,
+   "04abb": 398,
+   "04abn": 453,
+   "04agz": 13,
+   "04e1e": 10,
+   "04fk1": 124,
+   "04ge6": 460,
+   "04ge9": 224,
+   "04gpx": 304,
+   "04lav": 338,
+   "04qfz": 417,
+   "04qr9": 480,
+   "04sjt": 350,
+   "04sjv": 282,
+   "04spw": 239,
+   "04y92": 12,
+   "04yo7": 43,
+   "050jq": 388,
+   "051k7": 142,
+   "051kl": 41,
+   "0521z": 332,
+   "0522h": 372,
+   "052ca": 31,
+   "056iy": 156,
+   "05748": 208,
+   "05a6e": 469,
+   "05g2o": 165,
+   "05gcc": 236,
+   "05gcr": 426,
+   "05l27": 230,
+   "05l2z": 173,
+   "05l8q": 154,
+   "05n07": 499,
+   "05nil": 305,
+   "05nns": 532,
+   "05nt6": 14,
+   "05nzu": 4,
+   "05o4c": 258,
+   "05o6h": 26,
+   "05o8o": 330,
+   "05ogb": 454,
+   "05oh0": 112,
+   "05oig": 167,
+   "05omu": 390,
+   "05opj": 481,
+   "05oz3": 385,
+   "05r34": 431,
+   "05r8o": 223,
+   "05r94": 237,
+   "05r9b": 15,
+   "05rb8": 159,
+   "05t6x": 465,
+   "05tqx": 1,
+   "05tr9": 97,
+   "05trb": 427,
+   "05tre": 98,
+   "05u1m": 84,
+   "05uel": 87,
+   "05uhq": 580,
+   "05uhs": 486,
+   "05uht": 40,
+   "05uor": 464,
+   "05uox": 557,
+   "05y9n": 449,
+   "05ybq": 233,
+   "05ye7": 264,
+   "05ylj": 452,
+   "05ylx": 521,
+   "061vb": 60,
+   "061ve": 75,
+   "061vk": 105,
+   "061vq": 411,
+   "061xs": 591,
+   "062a9": 447,
+   "062ci": 121,
+   "062p3": 86,
+   "0639x": 68,
+   "063q8": 96,
+   "063zi": 389,
+   "0646f": 379,
+   "0666p": 432,
+   "067ys": 123,
+   "067yv": 367,
+   "067yz": 428,
+   "067zv": 94,
+   "0689w": 125,
+   "068lx": 95,
+   "068y0": 397,
+   "068ym": 155,
+   "06c6g": 122,
+   "06clt": 70,
+   "06cm1": 166,
+   "06cmm": 368,
+   "06cms": 455,
+   "06dmj": 5,
+   "06do9": 358,
+   "06ex4": 391,
+   "06ezb": 503,
+   "06f8y": 69,
+   "06fup": 400,
+   "06fv8": 512,
+   "06fwz": 472,
+   "06jgi": 201,
+   "06jgs": 210,
+   "06jh3": 268,
+   "06l4i": 242,
+   "06mgd": 315,
+   "06mn0": 106,
+   "06mnc": 214,
+   "06mpp": 130,
+   "06msb": 605,
+   "06mvz": 403,
+   "06mw0": 471,
+   "06nu7": 8,
+   "06onv": 244,
+   "06p6j": 79,
+   "06pe1": 525,
+   "06pia": 200,
+   "06r2g": 369,
+   "06r5b": 127,
+   "06r6s": 496,
+   "06rf9": 401,
+   "06rgg": 88,
+   "06uyc": 61,
+   "06uzo": 640,
+   "06uzy": 345,
+   "06v05": 357,
+   "06v07": 399,
+   "06v0p": 542,
+   "06v0y": 504,
+   "06v21": 366,
+   "06xza": 78,
+   "06xzd": 138,
+   "06y26": 114,
+   "06y9m": 115,
+   "06yb7": 331,
+   "06ybp": 249,
+   "06ygm": 474,
+   "06ymu": 620,
+   "06zbx": 335,
+   "06zbz": 380,
+   "06zna": 483,
+   "06zxy": 439,
+   "0700p": 445,
+   "0703c": 533,
+   "070cj": 336,
+   "070f9": 211,
+   "070hc": 552,
+   "070hl": 412,
+   "070hs": 384,
+   "072wq": 67,
+   "076d3": 183,
+   "076dq": 286,
+   "076qg": 377,
+   "07848": 53,
+   "0784b": 152,
+   "0784w": 316,
+   "0784y": 334,
+   "0784z": 362,
+   "07877": 565,
+   "0787y": 566,
+   "0788g": 567,
+   "07897": 570,
+   "07898": 569,
+   "078az": 572,
+   "078i7": 579,
+   "078mm": 586,
+   "078qg": 588,
+   "078ud": 593,
+   "078wl": 597,
+   "078wo": 598,
+   "0793q": 627,
+   "0793x": 631,
+   "07942": 634,
+   "0794d": 639,
+   "0794i": 648,
+   "0794j": 646
+  },
+  "ready": true
+ }
+}
