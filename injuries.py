@@ -125,6 +125,7 @@ def main(dry):
                 msgs.append('📡 %s\nRotoWire: <b>%s</b>%s\n%s' % (heads(pid, players[pid]), esc(it['headline']),
                                                                 inj, esc(it['news'])))
                 lag[pid] = {'what': it['headline'], 'rw': stamp}
+                s.setdefault('rwSent', {})[pid] = now().timestamp()
             rw['seen'] = sorted(seen, key=int)[-200:]
         for pid, p in players.items():
             head = heads(pid, p)
@@ -152,7 +153,10 @@ def main(dry):
                         e['fx'] = stamp
                     else:
                         lag[pid] = {'what': fresh[0][:60], 'fx': stamp}
-                if new['status'] != old['status'] or fresh:
+                # RotoWire ran the story first (by ~1h44 on Kostoulas): Fantrax only
+                # speaks when RotoWire has said nothing about this player for 12 hours
+                covered = now().timestamp() - s.get('rwSent', {}).get(pid, 0) < 12 * 3600
+                if (new['status'] != old['status'] or fresh) and not covered:
                     if new['status']:
                         body = '🩹 %s\nFantrax: %s' % (head, esc(' / '.join(new['status'])))
                     elif old['status']:
