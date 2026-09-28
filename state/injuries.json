@@ -660,7 +660,7 @@
    },
    "06xzd": {
     "news": [
-     "Sep 27, 6:00 AM: Kostoulas (leg) remains uncertain for..."
+     "Sep 28, 2:20 AM: Kostoulas (leg) remained an unused..."
     ],
     "status": [
      "Leg - Late fitness test (Game-time decision)"
@@ -699,6 +699,7 @@
   },
   "lag": {
    "06xzd": {
+    "fx": "2026-09-28 08:28",
     "rw": "2026-09-28 06:44",
     "what": "Unused substitute against Germany"
    }
