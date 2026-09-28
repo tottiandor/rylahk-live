@@ -18,7 +18,7 @@ The first run only records what is there and says so; after that, only changes a
 import json, os, sys
 from common import (CFG, HERE, fpl, roster, fantrax, telegram, esc, log, norm, now,
                     load_state, save_state, commit_state, leagues)
-import rotowire
+import rotowire, fotmob
 
 # Fantrax icon types: 32 "expected to play", 35 "on the trade block" - never injury news.
 # 14 is injury news; 8 and 9 are general news, kept only when about fitness.
@@ -187,6 +187,14 @@ def main(dry):
             telegram(pre + m, dry, lg.get('chatId'))
         log(lg['name'], len(players), 'players,', len(msgs), 'changes,', len(unmatched), 'unmatched')
     save_state('injuries.json', st)
+    # FotMob line-ups and injury substitutions - but during Premier League games live.py
+    # does it every few minutes, and two runs at once would double the messages
+    import live
+    if not live.window_open(live.fixtures(), now()):
+        try:
+            fotmob.run(dry)
+        except Exception as e:
+            log('FotMob check failed:', e)
     commit_state('injury state')
 
 

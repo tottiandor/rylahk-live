@@ -17,6 +17,7 @@ Every Fantrax call is a read.
 """
 import argparse, random, sys, time
 from datetime import datetime, timedelta, timezone
+import fotmob
 from common import (CFG, fantrax, fpl, roster, live_scores, telegram, esc, log, now,
                     local_hm, load_state, save_state, commit_state, leagues)
 
@@ -236,6 +237,7 @@ def watch():
         ms.append(m)
         log(lg['name'], 'round', m.st['period'], m.who(m.st['me']), 'vs', m.who(m.st['opp']))
     t0 = last_commit = time.time()
+    last_fotmob = 0
     while True:
         for m in ms:
             try:
@@ -243,6 +245,12 @@ def watch():
                 m.step(snap, done, time.time())
             except Exception as e:
                 log(m.lg['name'], 'poll failed:', e)
+        if time.time() - last_fotmob > 120:        # line-ups and injury substitutions
+            try:
+                fotmob.run()
+            except Exception as e:
+                log('FotMob check failed:', e)
+            last_fotmob = time.time()
         save_state('live.json', state)
         if time.time() - last_commit > 600:
             commit_state('live state')

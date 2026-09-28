@@ -14,9 +14,47 @@
   "maxRunMinutes": 330,
   "windowBeforeKickoffMinutes": 90,
   "windowAfterKickoffMinutes": 170,
-  "instant": ["G", "AT", "PKD", "PKS", "PKM", "YC", "RC", "OG", "CS", "GAO", "GA"],
+  "instant": [
+    "G",
+    "AT",
+    "PKD",
+    "PKS",
+    "PKM",
+    "YC",
+    "RC",
+    "OG",
+    "CS",
+    "GAO",
+    "GA"
+  ],
   "injuryScope": "own",
   "_injuryScope": "own = only your team; mine = your team and this round's opponent; league = every rostered player",
   "timezone": "Europe/Budapest",
-  "fplClubAlias": {"BRF": "BRE", "NOT": "NFO"}
+  "fplClubAlias": {
+    "BRF": "BRE",
+    "NOT": "NFO"
+  },
+  "fotmobClubs": {
+    "ARS": "Arsenal",
+    "AVL": "Aston Villa",
+    "BHA": "Brighton & Hove Albion",
+    "BOU": "AFC Bournemouth",
+    "BRF": "Brentford",
+    "CHE": "Chelsea",
+    "COV": "Coventry City",
+    "CRY": "Crystal Palace",
+    "EVE": "Everton",
+    "FUL": "Fulham",
+    "HUL": "Hull City",
+    "IPS": "Ipswich Town",
+    "LEE": "Leeds United",
+    "LIV": "Liverpool",
+    "MCI": "Manchester City",
+    "MUN": "Manchester United",
+    "NEW": "Newcastle United",
+    "NOT": "Nottingham Forest",
+    "SUN": "Sunderland",
+    "TOT": "Tottenham Hotspur"
+  },
+  "_fotmobClubs": "Fantrax club code -> FotMob club name. Update when clubs are promoted or relegated."
 }

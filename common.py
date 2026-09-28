@@ -64,7 +64,10 @@ def commit_state(msg='state'):
     for _ in range(4):
         if git('push', '-q').returncode == 0:
             return
-        git('pull', '-q', '--rebase')          # the other workflow writes a different file
+        # another workflow pushed meanwhile; replay ours on top, and on a clash in a
+        # state file keep this run's version (-X theirs = the commit being replayed)
+        if git('pull', '-q', '--rebase', '-X', 'theirs').returncode:
+            git('rebase', '--abort')
         time.sleep(3)
     log('WARNING: could not push state')
 
