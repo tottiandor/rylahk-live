@@ -1,0 +1,917 @@
+{
+ "5cfv4rkwmrcniqha": {
+  "announced": true,
+  "digest": {
+   "6jj1vsj8mruuonm3": {},
+   "pnwb3dp7ms76d6jt": {}
+  },
+  "finalSent": false,
+  "games": {},
+  "labels": {
+   "5010#6002#-1": "KP",
+   "5010#6007#-1": "AER",
+   "5010#6009#-1": "BS",
+   "5010#6016#-1": "CLR",
+   "5010#6019#-1": "CoS",
+   "5010#6029#-1": "ACNC",
+   "5010#6039#-1": "DIS",
+   "5010#6060#-1": "GP",
+   "5010#6070#-1": "GS",
+   "5010#6090#-1": "G",
+   "5010#6101#-1": "GAO",
+   "5010#6105#-1": "OG",
+   "5010#6108#-1": "Int",
+   "5010#6120#-1": "Min",
+   "5010#6175#-1": "PKD",
+   "5010#6190#-1": "RC",
+   "5010#6230#-1": "SOT",
+   "5010#6249#-1": "CS",
+   "5010#6252#-1": "SBOF",
+   "5010#6253#-1": "SBON",
+   "5010#6256#-1": "TkW",
+   "5010#6280#-1": "YC",
+   "5010#6332#-1": "PKM",
+   "5010#6362#-1": "AT",
+   "5020#6002#-1": "KP",
+   "5020#6007#-1": "AER",
+   "5020#6016#-1": "CLR",
+   "5020#6019#-1": "CoS",
+   "5020#6039#-1": "DIS",
+   "5020#6060#-1": "GP",
+   "5020#6070#-1": "GS",
+   "5020#6090#-1": "G",
+   "5020#6105#-1": "OG",
+   "5020#6108#-1": "Int",
+   "5020#6112#-1": "GA",
+   "5020#6116#-1": "HCS",
+   "5020#6120#-1": "Min",
+   "5020#6170#-1": "PKS",
+   "5020#6190#-1": "RC",
+   "5020#6200#-1": "Sv",
+   "5020#6230#-1": "SOT",
+   "5020#6249#-1": "CS",
+   "5020#6252#-1": "SBOF",
+   "5020#6253#-1": "SBON",
+   "5020#6256#-1": "TkW",
+   "5020#6268#-1": "Sm",
+   "5020#6280#-1": "YC",
+   "5020#6362#-1": "AT"
+  },
+  "lastDigest": 1790831369.9895499,
+  "me": "6jj1vsj8mruuonm3",
+  "names": {
+   "03rzp": {
+    "club": "FUL",
+    "pos": "D",
+    "short": "Antonee Robinson"
+   },
+   "0414o": {
+    "club": "TOT",
+    "pos": "M",
+    "short": "J. Maddison"
+   },
+   "04abb": {
+    "club": "MCI",
+    "pos": "M",
+    "short": "P. Foden"
+   },
+   "04qr9": {
+    "club": "NOT",
+    "pos": "M",
+    "short": "M. Gibbs-White"
+   },
+   "04y92": {
+    "club": "ARS",
+    "pos": "M",
+    "short": "B. Saka"
+   },
+   "051k7": {
+    "club": "CHE",
+    "pos": "D",
+    "short": "R. James"
+   },
+   "0521z": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "J. Justin"
+   },
+   "05akv": {
+    "club": "CRY",
+    "pos": "D",
+    "short": "T. Mitchell"
+   },
+   "05g2o": {
+    "club": "CHE",
+    "pos": "F",
+    "short": "Joao Pedro"
+   },
+   "05nil": {
+    "club": "IPS",
+    "pos": "D",
+    "short": "L. Davis"
+   },
+   "05o4c": {
+    "club": "FUL",
+    "pos": "D",
+    "short": "T. Castagne"
+   },
+   "05oig": {
+    "club": "NOT",
+    "pos": "F",
+    "short": "L. Delap"
+   },
+   "05trb": {
+    "club": "MUN",
+    "pos": "F",
+    "short": "B. Mbeumo"
+   },
+   "05u1m": {
+    "club": "BRF",
+    "pos": "D",
+    "short": "N. Collins"
+   },
+   "0639x": {
+    "club": "BOU",
+    "pos": "M",
+    "short": "M. Tavernier"
+   },
+   "063q8": {
+    "club": "BRF",
+    "pos": "M",
+    "short": "M. Damsgaard"
+   },
+   "068yc": {
+    "club": "BHA",
+    "pos": "M",
+    "short": "Y. Ayari"
+   },
+   "06clt": {
+    "club": "BOU",
+    "pos": "M",
+    "short": "J. Kluivert"
+   },
+   "06cms": {
+    "club": "TOT",
+    "pos": "M",
+    "short": "S. Tonali"
+   },
+   "06ex4": {
+    "club": "MCI",
+    "pos": "D",
+    "short": "J. Gvardiol"
+   },
+   "06jh3": {
+    "club": "FUL",
+    "pos": "M",
+    "short": "J. King"
+   },
+   "06pe1": {
+    "club": "TOT",
+    "pos": "M",
+    "short": "Mateus Fernandes"
+   },
+   "06r5b": {
+    "club": "BHA",
+    "pos": "M",
+    "short": "Diego Gomez"
+   },
+   "06v21": {
+    "club": "LIV",
+    "pos": "M",
+    "short": "F. Wirtz"
+   },
+   "06y26": {
+    "club": "BHA",
+    "pos": "D",
+    "short": "O. Boscagli"
+   },
+   "06yb7": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "G. Gudmundsson"
+   },
+   "0703c": {
+    "club": "SUN",
+    "pos": "D",
+    "short": "N. Mukiele"
+   },
+   "070cj": {
+    "club": "LEE",
+    "pos": "F",
+    "short": "N. Okafor"
+   },
+   "070hc": {
+    "club": "SUN",
+    "pos": "F",
+    "short": "B. Brobbey"
+   },
+   "072wq": {
+    "club": "BOU",
+    "pos": "F",
+    "short": "Rayan"
+   },
+   "0788g": {
+    "club": "NEW",
+    "pos": "G",
+    "short": "L. Hornícek"
+   },
+   "078wl": {
+    "club": "AVL",
+    "pos": "G",
+    "short": "Z. Suzuki"
+   }
+  },
+  "opp": "pnwb3dp7ms76d6jt",
+  "period": 6,
+  "prev": {
+   "6jj1vsj8mruuonm3": {},
+   "pnwb3dp7ms76d6jt": {}
+  },
+  "started": false,
+  "teamNames": {
+   "0lnrl4kxmrv8hvuf": "L1 - neale_av",
+   "10ka8gmjms5qnaik": "SU - Levitate",
+   "133o5v8ims81dx85": "SW - Ice Cole Killers",
+   "25b034uzms4kpdzy": "SW - juggos",
+   "275e6ehyms3u2s6m": "NU - We Signed Timo Werner Twice",
+   "29b60g0amscnl1bs": "ST - Shifty",
+   "2tmzxy4ams3pfoeb": "NA - Mechagodzilla FC",
+   "2ulc0ke1msc9qlud": "ST - AJLP OM",
+   "34bg2c2qmryqxcm8": "NI - Alisson Wonderland",
+   "39rk43nwms91fbjb": "SO - Seanharfee",
+   "3nv0zaobmrye5muj": "L2 - Taniwha",
+   "4dd9pg7cms83iq94": "SU - Lords of North London",
+   "4youfv41ms4lff6d": "SU - Chelsean",
+   "5duylyjhms7edq0i": "SU - FlahertyUnited",
+   "60yc179cmrustauz": "CL - Draft & Drams",
+   "65iadp66ms96ueld": "SU - KFC",
+   "6jj1vsj8mruuonm3": "L1 - tottiandor",
+   "6vo9qv2ymrp9u4fq": "EL - hazardfc",
+   "6xdzx5ncms65ht8l": "SW - Martins Magpies",
+   "6z2utyx4mrv4wxwx": "CL - Kentisston United (@kade)",
+   "6z393agamro29kym": "EL - FC ZapaPERROS",
+   "786ixklomrevq4dj": "L1 - FPL Boss",
+   "7hf485xomrw0wd6w": "L1 - _3Xavier",
+   "7ne2sa4mms3rau25": "NU - KanteGross13",
+   "7vo6lel5ms4jlpeg": "NA - Boomer Gooner",
+   "8eykfcpjms4npb25": "SE - allstarazn",
+   "8j0ltlormrd24lrg": "CL - A Team of Carraghers",
+   "8swwrmqgmrurldby": "CL - Have A Buendia",
+   "8tsv9losms4z5ylo": "ST - MrMatti",
+   "989dkhxyms83pyvd": "SU - Bash Rovers",
+   "9jekcn14mruxii1c": "CL - King Arthur FC",
+   "9nfzf3yems11aljg": "L1 - Phantasy Phoenix",
+   "9qm2yyh2mrwdcv3j": "L2 - Ricardbacon",
+   "a6ouk8dmms5b8an4": "ST - RossN",
+   "afpclpsvms4970ou": "NA - You Only Rive Once",
+   "agik7p28mruz4fxp": "L2 - The Weathermen",
+   "b6d3am7mmrzlouon": "NI - Brighton Erling",
+   "bzi60kbcms6c9k1u": "NU - Gaffa",
+   "d9c5rawjms3qhzru": "NU - TomHidZu",
+   "dgvpv0u3ms4lsywm": "SW - Sigurbjorn",
+   "e91k74bcms5fzcjv": "ST - NyQuil Wanderers",
+   "eqy25swims6idovj": "L2 - CoachDaGhost420",
+   "f3zmbziumrutzttl": "CL - BlameBish 🇬🇧",
+   "f4tqgx63ms4uujfk": "SU - Shadow",
+   "f9dt32psms044fbh": "NI - ROONEY TUNES FC",
+   "fdusr14kms53gtvn": "SE - YesTheQB",
+   "fex9l5gumsbwf1qx": "NU - Penetrators FC",
+   "fqczpvuvmrco9dwh": "NI - @Andrew",
+   "fv4oi1ohmrv9k5d3": "CL - _AzJPN_",
+   "fw0uuvd2mruuomfw": "CL - Fantrax Fox 🏆",
+   "g0x40yzsms47ex38": "NI - Valskoda",
+   "g58olnwkms7x9p55": "NA - BallsInYourFace",
+   "g598g2mrmrva58b2": "EL- 32chickens",
+   "ga5cqi1jms6im0fd": "NA - RedScare",
+   "gflw03anmscetwyz": "NA - Superbigmac",
+   "gjo7opa4ms4jwnud": "NA - Terryble Decisions",
+   "gk33q3gfms4je1u4": "SO - Ironlink2112",
+   "guq4l0g8mrd1pbh1": "NA - It takes Toure to Dango",
+   "gwtl6tfcms9f5azn": "SO - Mighty Magyars",
+   "gxu8qjs5mrtf4l1z": "L2 - Subatomic Squash",
+   "h9e69n4tmsbon3xd": "L2 - Bayer Neverlosen",
+   "hnrotwi5ms4jam8f": "SO - jjwas",
+   "hqocdq0kms90330y": "ST - IKanteFitMyWillian",
+   "hx62i4vgmrcniqub": "CL - Rigged FC",
+   "hyli1n2vms5fiov2": "ST - Ziti Rovers",
+   "hyxf566nmrp9juis": "EL - DT27",
+   "i8styyphms03x9pw": "NI - hatmundo",
+   "ime7nhlems9hawnx": "ST - Target Man",
+   "ipdw1d1ums54ta10": "SO - Here Comes the M-Boom-O",
+   "j5d80hwjms803xd6": "SW - mspicoli",
+   "jkqs2izlms08o657": "NI- SkinnyLegs",
+   "jrel3n75ms4lbrju": "ST - markarmm",
+   "jtph5bjfmrtey25w": "L2 - Gatch",
+   "jueuttrsms80c94c": "SE-Jebongo",
+   "jy9c9jmvmrw6vbwk": "L2 - Traction Engine",
+   "k2tiq2axms1iemhq": "L2 - Show Me The Manè",
+   "k5x1c3h6ms7l71t8": "NU - KAISERDONLOCO",
+   "kv6xnwbmms696wxz": "L2 - @evison001",
+   "l62hlf3cmrcqtjay": "L1 - Yellow Polka Dot Borini",
+   "lupzwwthms3ota4u": "NU - El_Swanny",
+   "mgrdwqzjms4rpsxe": "SO - FFP",
+   "mv7ycqssms4qxct7": "SE - Darren Cann’s Voice FC",
+   "n1eg1oaomro1v3xu": "EL - funkfletch",
+   "n6taj5bxms4j4hx3": "SW - Bart Harley Jarvis",
+   "n8bxrndcmrpbe9f6": "EL - Fantraxfluke",
+   "n8mw0enbmrykazg2": "NI - JWillDraft",
+   "nhkye44nms7rc181": "SE - Nucleus",
+   "nhntz3bimro0coqx": "NU - Lawrant’s Dysfunction",
+   "nld5go16mrvkesbr": "EL - Seafoxsports",
+   "o0xx3ztcms4j6po7": "SW - Jonsey",
+   "oqvdjjtsms5dbkgb": "ST - TT_Cam",
+   "ovt5wh53ms4j6atm": "SU - shrafel",
+   "pluwgxadmryvj8ni": "NI - single H",
+   "pmmsb8xqmryla42u": "L1 - Draft Pi",
+   "pnwb3dp7ms76d6jt": "L1 - Evil Geniuses",
+   "ptk9uc6qms77d5d1": "SW - Joseppi",
+   "px0n2675ms4lqd7e": "SO - SpursSean",
+   "q6ras00yms7s084s": "SE - Futtorun",
+   "qadp3sarms4u1a1c": "SE - Ozan",
+   "qg6kgnw8ms4wtkag": "SU - SalamiMommy",
+   "qv8ljchzms4zvot3": "SU - Bajcetic Albion",
+   "qw26ug4qms6inmre": "NA - Ollie Too Well",
+   "r2ysk7cjmrcpm3kd": "L2 - So it be Djinns (@FMC)",
+   "riy8pejnmruynmcv": "L1 - MrPizzaMan",
+   "rm2a8o8gmrd76jvf": "CL - Saintless (25jstep)",
+   "rpwz13ugms6gcg0t": "SE-Sp1g0",
+   "rpz6127rmsadvvva": "SO - alpi",
+   "rtbltnh9mrpnjdii": "EL - OnlyFantrax",
+   "ryyvrnn5ms651tye": "SU - PushyNevada",
+   "rzu0nzvpms66dte9": "NU - Reeces Set Pieces",
+   "s2f25c7hmrtjbh2d": "EL - IntaerG",
+   "s9erchjkms7xn33g": "NA - Washington Wizards - cpb1983",
+   "sxax77vqmrwkp2bk": "CL - Fantrax Bear",
+   "t0ehw0d9ms0tpez6": "L1 - rawsparkly",
+   "t5tjsj1emrojnbe9": "EL - Molerat",
+   "tn8a6n45ms7bckay": "SW - DutchDelight",
+   "tu5y4wjwmsd5756g": "SO - FantraxMatt",
+   "tuc2hrcvms7qghg9": "SE - Osimhen",
+   "txck1li4ms3al82x": "L2 - Espresso Ballers",
+   "u6b0nmwzmro35it2": "EL - ShooterMcGavin711",
+   "u85n2s8xmsdtfpor": "SW - The Dreaded Magpie",
+   "uck7h8ebms7rqbxc": "SE- DCKiller",
+   "ugi71qf6mrco9jhz": "ST - Dab University",
+   "vgeb0eotmsccjbdl": "NA - FightnChantz",
+   "vivbye1nms4j6nht": "SW - Wolf Cola",
+   "vr7x1d93ms4uagpb": "NU - @hiimmax",
+   "vsjng32tms3soc6p": "NU - Pardslastdance",
+   "vvcq7vvumrzhn70g": "NI - @LFC_Drafter",
+   "vvx3pzuims93f8rp": "SU - They Can Do Magic",
+   "w58lwtc2ms4puia9": "SE - abeokez",
+   "wfkjh3wims5lshmk": "SO - GangST3r",
+   "wk2ofu1imrw4ppck": "CL - TheBigLewando wski@TMWittek",
+   "wqnldg8lmrpd3xn9": "EL - Bantah Boyz",
+   "x1yhcvfnms4r70p6": "SO - Moonmachine",
+   "x3lng7w9ms4rvc9e": "ST - Gamblerz",
+   "x6akjt3nmrw50wtj": "L1 - Jingle Bellamy",
+   "x8ydepkimrypfolm": "NI - FPLDeng",
+   "y09jlyivms4tzqh7": "SO - The Philly Dynasty",
+   "yaysvi0zmrvzrugt": "L1 - Draft Sharply",
+   "yd2m96v3mrzlgsf9": "NI - Old Havertz Kai Hard",
+   "ynpl8sy7ms6bjmrg": "NU - Rishi",
+   "z1fpdrdnms3b71fg": "NA - Bristol City FC",
+   "zif7jg21ms6kj6yt": "SE - Matigol",
+   "zv2m8pisms69hq5s": "SW - SCBennett"
+  }
+ },
+ "rylahk": {
+  "announced": true,
+  "digest": {
+   "0lhxwdo4mrsux39s": {},
+   "wfwa6qr6mrsux39t": {}
+  },
+  "finalSent": false,
+  "games": {},
+  "labels": {
+   "5010#6002#-1": "KP",
+   "5010#6007#-1": "AER",
+   "5010#6009#-1": "BS",
+   "5010#6016#-1": "CLR",
+   "5010#6019#-1": "CoS",
+   "5010#6029#-1": "ACNC",
+   "5010#6039#-1": "DIS",
+   "5010#6060#-1": "GP",
+   "5010#6070#-1": "GS",
+   "5010#6090#-1": "G",
+   "5010#6101#-1": "GAO",
+   "5010#6105#-1": "OG",
+   "5010#6108#-1": "Int",
+   "5010#6120#-1": "Min",
+   "5010#6175#-1": "PKD",
+   "5010#6190#-1": "RC",
+   "5010#6220#-1": "SOP",
+   "5010#6230#-1": "SOT",
+   "5010#6249#-1": "CS",
+   "5010#6252#-1": "SBOF",
+   "5010#6253#-1": "SBON",
+   "5010#6256#-1": "TkW",
+   "5010#6280#-1": "YC",
+   "5010#6332#-1": "PKM",
+   "5010#6362#-1": "AT",
+   "5020#6002#-1": "KP",
+   "5020#6007#-1": "AER",
+   "5020#6016#-1": "CLR",
+   "5020#6019#-1": "CoS",
+   "5020#6039#-1": "DIS",
+   "5020#6060#-1": "GP",
+   "5020#6070#-1": "GS",
+   "5020#6090#-1": "G",
+   "5020#6105#-1": "OG",
+   "5020#6108#-1": "Int",
+   "5020#6112#-1": "GA",
+   "5020#6116#-1": "HCS",
+   "5020#6120#-1": "Min",
+   "5020#6170#-1": "PKS",
+   "5020#6190#-1": "RC",
+   "5020#6200#-1": "Sv",
+   "5020#6230#-1": "SOT",
+   "5020#6249#-1": "CS",
+   "5020#6252#-1": "SBOF",
+   "5020#6253#-1": "SBON",
+   "5020#6256#-1": "TkW",
+   "5020#6268#-1": "Sm",
+   "5020#6280#-1": "YC",
+   "5020#6362#-1": "AT"
+  },
+  "lastDigest": 1790831367.7954466,
+  "me": "wfwa6qr6mrsux39t",
+  "names": {
+   "03am7": {
+    "club": "NEW",
+    "pos": "M",
+    "short": "Jacob Murphy"
+   },
+   "04agz": {
+    "club": "ARS",
+    "pos": "M",
+    "short": "D. Rice"
+   },
+   "04fk1": {
+    "club": "BHA",
+    "pos": "M",
+    "short": "P. Gross"
+   },
+   "04gpx": {
+    "club": "IPS",
+    "pos": "D",
+    "short": "D. O'Shea"
+   },
+   "04yo7": {
+    "club": "MUN",
+    "pos": "M",
+    "short": "Y. Tielemans"
+   },
+   "05a6e": {
+    "club": "NOT",
+    "pos": "D",
+    "short": "N. Williams"
+   },
+   "05l8q": {
+    "club": "CHE",
+    "pos": "M",
+    "short": "C. Palmer"
+   },
+   "05nzu": {
+    "club": "ARS",
+    "pos": "D",
+    "short": "Gabriel Magalhaes"
+   },
+   "05oh0": {
+    "club": "TOT",
+    "pos": "D",
+    "short": "J. van Hecke"
+   },
+   "05oz3": {
+    "club": "LEE",
+    "pos": "G",
+    "short": "J. Trafford"
+   },
+   "05r94": {
+    "club": "MCI",
+    "pos": "M",
+    "short": "Iliman Ndiaye"
+   },
+   "05y9n": {
+    "club": "NEW",
+    "pos": "D",
+    "short": "L. Hall"
+   },
+   "06cmm": {
+    "club": "LIV",
+    "pos": "M",
+    "short": "D. Szoboszlai"
+   },
+   "06mpp": {
+    "club": "BHA",
+    "pos": "D",
+    "short": "M. Wieffer"
+   },
+   "06mw0": {
+    "club": "NOT",
+    "pos": "D",
+    "short": "N. Milenkovic"
+   },
+   "06p6j": {
+    "club": "BOU",
+    "pos": "F",
+    "short": "Evanilson"
+   },
+   "06uyc": {
+    "club": "BOU",
+    "pos": "D",
+    "short": "A. Truffert"
+   },
+   "06uzo": {
+    "club": "IPS",
+    "pos": "F",
+    "short": "Z. Flemming"
+   },
+   "06uzy": {
+    "club": "LEE",
+    "pos": "M",
+    "short": "A. Tanaka"
+   },
+   "06v0y": {
+    "club": "BHA",
+    "pos": "D",
+    "short": "L. Vuskovic"
+   },
+   "06ybp": {
+    "club": "EVE",
+    "pos": "F",
+    "short": "T. Barry"
+   },
+   "06ygm": {
+    "club": "NOT",
+    "pos": "D",
+    "short": "Jair Cunha"
+   },
+   "06ymu": {
+    "club": "BRF",
+    "pos": "D",
+    "short": "El Hadji Malick Diouf"
+   },
+   "06zbx": {
+    "club": "LEE",
+    "pos": "M",
+    "short": "A. Stach"
+   },
+   "076dq": {
+    "club": "HUL",
+    "pos": "M",
+    "short": "M. Belloumi"
+   },
+   "0784b": {
+    "club": "CHE",
+    "pos": "D",
+    "short": "M. Palestra"
+   },
+   "07877": {
+    "club": "BRF",
+    "pos": "M",
+    "short": "M. Sangaré"
+   },
+   "0788g": {
+    "club": "NEW",
+    "pos": "G",
+    "short": "L. Hornícek"
+   },
+   "078wo": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "N. Elvedi"
+   },
+   "0794i": {
+    "club": "LEE",
+    "pos": "F",
+    "short": "J. Bahoya"
+   }
+  },
+  "opp": "0lhxwdo4mrsux39s",
+  "period": 3,
+  "prev": {
+   "0lhxwdo4mrsux39s": {},
+   "wfwa6qr6mrsux39t": {}
+  },
+  "started": false,
+  "teamNames": {
+   "0lhxwdo4mrsux39s": "LivingSalibaLoca",
+   "850o6ko7mrsux39s": "PL - New England Rubber Ducks",
+   "e7bu0g79mrsux39s": "PL - ACFC Pitchmond",
+   "jq0o89v6mrsux39t": "PL - Notting Hill United",
+   "k5ygjac7mrsux39s": "Alfa Romero",
+   "kghxibsemrsux39s": "Pedros for president",
+   "okswznl7mrsux39t": "PL - Mikey’s Got Talent",
+   "s44h6fkfmrsux39t": "PL - Guten Morgan",
+   "tciqq7cymrsux39s": "PL - Draft Győztes",
+   "tda8bpjbmrsux39t": "QornerCakenTickly",
+   "v5yp8udgmrsuz9eh": "PL - GödZilla United",
+   "wfwa6qr6mrsux39t": "Good on paper, shit on grass"
+  }
+ },
+ "yb5sb5camrzcbh8e": {
+  "announced": true,
+  "digest": {
+   "5xsj4mxjms0a28ls": {},
+   "fgx8fdwlms0vdtov": {}
+  },
+  "finalSent": false,
+  "games": {},
+  "labels": {
+   "5010#6002#-1": "KP",
+   "5010#6007#-1": "AER",
+   "5010#6009#-1": "BS",
+   "5010#6016#-1": "CLR",
+   "5010#6019#-1": "CoS",
+   "5010#6029#-1": "ACNC",
+   "5010#6039#-1": "DIS",
+   "5010#6060#-1": "GP",
+   "5010#6070#-1": "GS",
+   "5010#6090#-1": "G",
+   "5010#6101#-1": "GAO",
+   "5010#6105#-1": "OG",
+   "5010#6108#-1": "Int",
+   "5010#6120#-1": "Min",
+   "5010#6175#-1": "PKD",
+   "5010#6190#-1": "RC",
+   "5010#6230#-1": "SOT",
+   "5010#6249#-1": "CS",
+   "5010#6252#-1": "SBOF",
+   "5010#6253#-1": "SBON",
+   "5010#6256#-1": "TkW",
+   "5010#6280#-1": "YC",
+   "5010#6332#-1": "PKM",
+   "5010#6362#-1": "AT",
+   "5020#6002#-1": "KP",
+   "5020#6007#-1": "AER",
+   "5020#6016#-1": "CLR",
+   "5020#6019#-1": "CoS",
+   "5020#6039#-1": "DIS",
+   "5020#6060#-1": "GP",
+   "5020#6070#-1": "GS",
+   "5020#6090#-1": "G",
+   "5020#6105#-1": "OG",
+   "5020#6108#-1": "Int",
+   "5020#6112#-1": "GA",
+   "5020#6116#-1": "HCS",
+   "5020#6120#-1": "Min",
+   "5020#6170#-1": "PKS",
+   "5020#6190#-1": "RC",
+   "5020#6200#-1": "Sv",
+   "5020#6230#-1": "SOT",
+   "5020#6249#-1": "CS",
+   "5020#6252#-1": "SBOF",
+   "5020#6253#-1": "SBON",
+   "5020#6256#-1": "TkW",
+   "5020#6268#-1": "Sm",
+   "5020#6280#-1": "YC",
+   "5020#6362#-1": "AT"
+  },
+  "lastDigest": 1790831371.4265795,
+  "me": "5xsj4mxjms0a28ls",
+  "names": {
+   "032f9": {
+    "club": "EVE",
+    "pos": "G",
+    "short": "J. Pickford"
+   },
+   "038ze": {
+    "club": "FUL",
+    "pos": "M",
+    "short": "A. Iwobi"
+   },
+   "03am7": {
+    "club": "NEW",
+    "pos": "M",
+    "short": "Jacob Murphy"
+   },
+   "0477b": {
+    "club": "HUL",
+    "pos": "F",
+    "short": "O. McBurnie"
+   },
+   "04e1e": {
+    "club": "ARS",
+    "pos": "D",
+    "short": "B. White"
+   },
+   "04gpx": {
+    "club": "IPS",
+    "pos": "D",
+    "short": "D. O'Shea"
+   },
+   "04lav": {
+    "club": "LEE",
+    "pos": "M",
+    "short": "E. Ampadu"
+   },
+   "04qr9": {
+    "club": "NOT",
+    "pos": "M",
+    "short": "M. Gibbs-White"
+   },
+   "04tsb": {
+    "club": "ARS",
+    "pos": "F",
+    "short": "V. Gyökeres"
+   },
+   "05o4c": {
+    "club": "FUL",
+    "pos": "D",
+    "short": "T. Castagne"
+   },
+   "05tqx": {
+    "club": "ARS",
+    "pos": "G",
+    "short": "D. Raya"
+   },
+   "05u1m": {
+    "club": "BRF",
+    "pos": "D",
+    "short": "N. Collins"
+   },
+   "05ye7": {
+    "club": "FUL",
+    "pos": "M",
+    "short": "O. Bobb"
+   },
+   "061vb": {
+    "club": "BOU",
+    "pos": "D",
+    "short": "J. Hill"
+   },
+   "063zi": {
+    "club": "MCI",
+    "pos": "D",
+    "short": "Matheus Nunes"
+   },
+   "06c6g": {
+    "club": "BHA",
+    "pos": "M",
+    "short": "Y. Minteh"
+   },
+   "06clt": {
+    "club": "BOU",
+    "pos": "M",
+    "short": "J. Kluivert"
+   },
+   "06cmm": {
+    "club": "LIV",
+    "pos": "M",
+    "short": "D. Szoboszlai"
+   },
+   "06fv8": {
+    "club": "TOT",
+    "pos": "M",
+    "short": "M. Kudus"
+   },
+   "06jgi": {
+    "club": "NOT",
+    "pos": "D",
+    "short": "D. Munoz"
+   },
+   "06mn0": {
+    "club": "BRF",
+    "pos": "F",
+    "short": "Igor Thiago"
+   },
+   "06r5b": {
+    "club": "BHA",
+    "pos": "M",
+    "short": "Diego Gomez"
+   },
+   "06v07": {
+    "club": "MCI",
+    "pos": "M",
+    "short": "R. Cherki"
+   },
+   "06xzd": {
+    "club": "BHA",
+    "pos": "F",
+    "short": "C. Kostoulas"
+   },
+   "06yb7": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "G. Gudmundsson"
+   },
+   "06ybp": {
+    "club": "EVE",
+    "pos": "F",
+    "short": "T. Barry"
+   },
+   "0700p": {
+    "club": "NEW",
+    "pos": "D",
+    "short": "M. Thiaw"
+   },
+   "070hc": {
+    "club": "SUN",
+    "pos": "F",
+    "short": "B. Brobbey"
+   },
+   "0784b": {
+    "club": "CHE",
+    "pos": "D",
+    "short": "M. Palestra"
+   },
+   "0784y": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "T. Muharemovic"
+   },
+   "078qg": {
+    "club": "CRY",
+    "pos": "D",
+    "short": "A. Khalaili"
+   },
+   "0793q": {
+    "club": "LIV",
+    "pos": "F",
+    "short": "B. Barcola"
+   }
+  },
+  "opp": "fgx8fdwlms0vdtov",
+  "period": 6,
+  "prev": {
+   "5xsj4mxjms0a28ls": {},
+   "fgx8fdwlms0vdtov": {}
+  },
+  "started": false,
+  "teamNames": {
+   "07y1citvms37h177": "AA - @funkfletch",
+   "1g9zx8tvms0gnghl": "DD - Draft Tache",
+   "1spqwfvnms0g9ysq": "DD - Team of Blatter Day Saints",
+   "2b7qrcs0ms0bxa6z": "EE - Looch",
+   "2gebirkgms0ho1vg": "GL - Have A Buendia",
+   "2hltxdpkms1fn19u": "BB - FantraxFluke",
+   "2jxe6cojms39877m": "DD - Espresso Kickers",
+   "2xorgdvtms10zvnb": "BB - someone88",
+   "3p0s31q9ms0san61": "AA - King Kai (fragdrum622)",
+   "3sb1j8ivms0j11p2": "CC - Gamblerz",
+   "3u8aixk3ms3h7sw5": "CC - TMWittek",
+   "4hg0hn02ms0c8oty": "EE - The Weathermen",
+   "4mf7gwo3ms0gzh33": "DD - KevGilley",
+   "5j67o2m4ms2wewiw": "BB - lukeyh89",
+   "5xsj4mxjms0a28ls": "CC - tottiandor",
+   "7olp2g5tms0aecrq": "GL - OnlyFantrax",
+   "8f5v1invms0egihs": "EE-32chickens",
+   "8qog0r9bms1x9483": "DD - Bantah Boyz",
+   "8xru0fn5ms0df0i0": "EE - MrMatti",
+   "9cjfiub2ms1phq7k": "DD - Señor Diablo",
+   "9rc9qejpmrzzoyh7": "GL - JWillDraft",
+   "aekldaicms39fa7w": "CC - Draft Doctor",
+   "bgacdpfams2vvphw": "BB - RedScare",
+   "bt1cwvbims0cngsj": "CC - King Eric",
+   "bxl7ml7rms1z36qs": "AA - SubatomicSquash",
+   "cfzew2mmms7m186g": "GL - Rigged FC",
+   "co13utaamrzcbhoh": "BB - A Team of Carraghers",
+   "coqo1zurms0cuuqo": "CC-New England Rubber Ducks",
+   "d9h3htehms04c5d5": "GL - Lanlier",
+   "damir51lms3wvdhz": "EE - DutchCowboy",
+   "dp8v41vgms0dcuwb": "EE - juggos",
+   "dr2h4949ms1zzvmw": "GL - Ostakaka",
+   "fgx8fdwlms0vdtov": "CC - OleScruffy",
+   "hjqvos2yms224h88": "AA - @HassAlfred",
+   "hx9lanrvms0sdrmq": "CC - @bob_delfin",
+   "hyj4uz5mmrzjc8jb": "AA - VeryAnts FC (@FMC)",
+   "i44076h0ms28ksrt": "DD - FPLDeng",
+   "itsxggngmrzeqdam": "EE - Andrew",
+   "jpzdgfbcms2dwgay": "CC - francis193",
+   "js5e409nms1tb2a1": "BB - FantraxMatt",
+   "jtbli591ms1srq70": "AA - Szob Story",
+   "jyvuvlalms3c71ie": "BB - Big Nick Energy",
+   "k37lj6d5ms4olg1f": "DD - Puskas' Army",
+   "ks7shg1bms0cbl49": "CC - Alisson Wonderland",
+   "ktmm9kb4ms38ebc6": "DD - meadhere",
+   "m4nrrgntms1zgad5": "GL - Average FC",
+   "mbfn51nbms1pr5mp": "AA - Ricardbacon",
+   "mfb6bf5ums1x52tr": "AA - South Suffolk Analogue",
+   "mtiq4tk5ms3eshnx": "GL - They Can Do Magic",
+   "nlgl87gvms1kvg9j": "AA - Mr Nauru",
+   "nlhr8tjnmrzzqbxx": "GL - abeokez",
+   "pak23h82ms0fwg98": "EE - shrafel",
+   "ppcjiwzvms1i0zbh": "DD - EllisBoFellis",
+   "q12fl7vwms0o8ywi": "CC - You Only Rive Once",
+   "qj2d6zhwmsbm5138": "GL - Az",
+   "qvzaiui5ms1yohkg": "EE-Gautham",
+   "s45i1nxnms0dygrp": "BB - _3Xavier",
+   "stqsc060ms1q7yd8": "GL - Fantrax Fox",
+   "tfbl7g85ms0r1jba": "EE – QornerCakenTickly",
+   "twt2a4mzms0caujl": "GL - Sharp FC",
+   "vayrrivwms38ttl9": "EE- Lampardians of the Galaxy",
+   "w2zh6v93ms3ezi7l": "AA - SquirtleDidIt",
+   "wc3qtamjms0xyv38": "DD - Willy B",
+   "wkis8wpmms0abnyx": "DD - Saintless (25JSTEP)",
+   "xiop1gogms1nk1ud": "AA - FPL_Murph",
+   "xjsxebrkmrzg4qyw": "BB - The Bad Batch (@kade)",
+   "xk8pxvavms1uqtrp": "BB - Jingle Bellamy",
+   "xw2ju5kmmrzhpiie": "AA - Sigurbjorn",
+   "yso9l526mrzgy4sn": "EE - Draft & Drams",
+   "z72dgwkyms112div": "CC - single H",
+   "zb293v24ms0bhcmq": "BB - Dab University",
+   "zw2k6jvfms0d2yqv": "BB - YO! FPL GOALS"
+  }
+ }
+}
