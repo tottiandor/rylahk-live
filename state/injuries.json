@@ -900,7 +900,9 @@
     "status": []
    },
    "04e1e": {
-    "news": [],
+    "news": [
+     "Sep 30, 8:19 PM: White (groin) was not considered for..."
+    ],
     "status": [
      "Groin - Late fitness test (Game-time decision)"
     ]
@@ -980,6 +982,7 @@
   },
   "lag": {
    "04e1e": {
+    "fx": "2026-10-01 00:57",
     "rw": "2026-10-01 00:34",
     "what": "Injury forces international absence"
    },
