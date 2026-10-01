@@ -87,7 +87,12 @@ def main(dry):
     st = load_state('injuries.json', {})
     manual_p = os.path.join(HERE, 'idmap_manual.json')
     manual = json.load(open(manual_p, encoding='utf-8')) if os.path.exists(manual_p) else {}
-    boot = fpl('bootstrap-static/')
+    # FPL is the slowest of the sources: when it is down, carry on without it
+    try:
+        boot = fpl('bootstrap-static/')
+    except Exception as e:
+        log('FPL unavailable, skipped this time:', e)
+        boot = {'elements': [], 'teams': []}
     els = {e['id']: e for e in boot['elements']}
     try:
         rw_items = rotowire.latest()

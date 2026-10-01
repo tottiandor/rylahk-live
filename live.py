@@ -205,11 +205,16 @@ class Matchup:
 # ---------- when to watch ----------
 
 def fixtures():
+    """FPL's fixture list. When FPL is down, the last list fetched (kept in state/) - an
+    outage once kept a run 'watching' for hours with no game on."""
     try:
-        return [f for f in fpl('fixtures/') if f.get('kickoff_time')]
+        fx = [f for f in fpl('fixtures/') if f.get('kickoff_time')]
+        save_state('fixtures.json', [{'kickoff_time': f['kickoff_time']} for f in fx])
+        return fx
     except Exception as e:
-        log('FPL fixtures unavailable:', e)
-        return None
+        cached = load_state('fixtures.json', None)
+        log('FPL fixtures unavailable (%s);' % e, 'using the saved list' if cached else 'no saved list')
+        return cached
 
 
 def window_open(fx, t):
@@ -238,6 +243,7 @@ def watch():
         log(lg['name'], 'round', m.st['period'], m.who(m.st['me']), 'vs', m.who(m.st['opp']))
     t0 = last_commit = time.time()
     last_fotmob = 0
+    last_fx = time.time()
     while True:
         for m in ms:
             try:
@@ -258,6 +264,8 @@ def watch():
         if time.time() - t0 > CFG['maxRunMinutes'] * 60:
             log('run time is up; the next scheduled run carries on')
             break
+        if fx is None or time.time() - last_fx > 1800:   # postponements, or FPL back up
+            fx, last_fx = fixtures() or fx, time.time()
         if not window_open(fx, now()):
             log('games over for now')
             break
