@@ -12,14 +12,14 @@
     "status": "a"
    },
    "051k7": {
-    "chance": 75,
-    "news": "Hamstring injury - 75% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "05g2o": {
-    "chance": 75,
-    "news": "Knee injury - 75% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "05l2z": {
     "chance": null,
@@ -95,7 +95,7 @@
    },
    "051k7": {
     "news": [
-     "Oct 6, 10:27 AM: James (hamstring) could be an option..."
+     "Oct 9, 10:12 AM: James (hamstring) has been cleared to..."
     ],
     "status": [
      "Hamstring - Late fitness test (Game-time decision)"
@@ -103,7 +103,7 @@
    },
    "05g2o": {
     "news": [
-     "Oct 6, 10:11 AM: Pedro (knee) is expected to return at..."
+     "Oct 9, 10:16 AM: Pedro (knee) is available for..."
     ],
     "status": [
      "Knee - Late fitness test (Game-time decision)"
@@ -198,10 +198,12 @@
     "what": "Returns to England action"
    },
    "051k7": {
+    "fx": "2026-10-09 14:42",
     "rw": "2026-10-09 14:18",
     "what": "Ready to return against Bournemouth"
    },
    "05g2o": {
+    "fx": "2026-10-09 14:42",
     "rw": "2026-10-09 14:18",
     "what": "Ready to return against Bournemouth"
    },
@@ -233,7 +235,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "537362",
     "537363",
     "537364",
     "537365",
@@ -432,7 +433,8 @@
     "537561",
     "537562",
     "537563",
-    "537564"
+    "537564",
+    "537565"
    ]
   },
   "rwSent": {
@@ -468,9 +470,9 @@
     "status": "a"
    },
    "05a6e": {
-    "chance": null,
-    "news": "",
-    "status": "a"
+    "chance": 50,
+    "news": "Illness - 50% chance of playing",
+    "status": "d"
    },
    "05oz3": {
     "chance": null,
@@ -678,7 +680,6 @@
     "nico-elvedi-19409": "078wo"
    },
    "seen": [
-    "537362",
     "537363",
     "537364",
     "537365",
@@ -877,7 +878,8 @@
     "537561",
     "537562",
     "537563",
-    "537564"
+    "537564",
+    "537565"
    ]
   },
   "rwSent": {
@@ -1102,7 +1104,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "537362",
     "537363",
     "537364",
     "537365",
@@ -1301,7 +1302,8 @@
     "537561",
     "537562",
     "537563",
-    "537564"
+    "537564",
+    "537565"
    ]
   },
   "rwSent": {
