@@ -95,7 +95,7 @@
    },
    "051k7": {
     "news": [
-     "Oct 9, 10:12 AM: James (hamstring) has been cleared to..."
+     "Oct 9, 10:12 AM: James (hamstring) could be an option to..."
     ],
     "status": [
      "Hamstring - Late fitness test (Game-time decision)"
@@ -103,7 +103,7 @@
    },
    "05g2o": {
     "news": [
-     "Oct 9, 10:16 AM: Pedro (knee) is available for..."
+     "Oct 9, 10:16 AM: Pedro (knee) is a late test for..."
     ],
     "status": [
      "Knee - Late fitness test (Game-time decision)"
@@ -198,14 +198,12 @@
     "what": "Returns to England action"
    },
    "051k7": {
-    "fx": "2026-10-09 14:42",
-    "rw": "2026-10-09 14:18",
-    "what": "Ready to return against Bournemouth"
+    "fx": "2026-10-09 20:19",
+    "what": "Oct 9, 10:12 AM: James (hamstring) could be an option to..."
    },
    "05g2o": {
-    "fx": "2026-10-09 14:42",
-    "rw": "2026-10-09 14:18",
-    "what": "Ready to return against Bournemouth"
+    "fx": "2026-10-09 20:19",
+    "what": "Oct 9, 10:16 AM: Pedro (knee) is a late test for..."
    },
    "05u1m": {
     "fx": "2026-10-09 13:55",
@@ -235,8 +233,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "537448",
-    "537449",
     "537450",
     "537451",
     "537452",
@@ -434,7 +430,9 @@
     "537645",
     "537646",
     "537647",
-    "537648"
+    "537648",
+    "537649",
+    "537650"
    ]
   },
   "rwSent": {
@@ -680,8 +678,6 @@
     "nico-elvedi-19409": "078wo"
    },
    "seen": [
-    "537448",
-    "537449",
     "537450",
     "537451",
     "537452",
@@ -879,7 +875,9 @@
     "537645",
     "537646",
     "537647",
-    "537648"
+    "537648",
+    "537649",
+    "537650"
    ]
   },
   "rwSent": {
@@ -1104,8 +1102,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "537448",
-    "537449",
     "537450",
     "537451",
     "537452",
@@ -1303,7 +1299,9 @@
     "537645",
     "537646",
     "537647",
-    "537648"
+    "537648",
+    "537649",
+    "537650"
    ]
   },
   "rwSent": {
