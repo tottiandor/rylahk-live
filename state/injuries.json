@@ -26,11 +26,6 @@
     "news": "",
     "status": "a"
    },
-   "05o4c": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "05trb": {
     "chance": null,
     "news": "",
@@ -40,6 +35,11 @@
     "chance": 0,
     "news": "Calf injury - Unknown return date",
     "status": "i"
+   },
+   "0635j": {
+    "chance": null,
+    "news": "",
+    "status": "a"
    },
    "0639x": {
     "chance": null,
@@ -51,12 +51,12 @@
     "news": "Unspecified injury - Unknown return date",
     "status": "i"
    },
-   "06r5b": {
+   "06mnc": {
     "chance": null,
     "news": "",
     "status": "a"
    },
-   "06uzo": {
+   "06r5b": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -114,12 +114,6 @@
     "news": [],
     "status": []
    },
-   "05o4c": {
-    "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
-   },
    "05trb": {
     "news": [],
     "status": []
@@ -132,6 +126,10 @@
      "Calf - Out for next game",
      "Not starting in upcoming/current game"
     ]
+   },
+   "0635j": {
+    "news": [],
+    "status": []
    },
    "0639x": {
     "news": [],
@@ -148,16 +146,14 @@
      "Strain - Out for next game"
     ]
    },
+   "06mnc": {
+    "news": [],
+    "status": []
+   },
    "06r5b": {
     "news": [],
     "status": [
      "Starting in upcoming/current game"
-    ]
-   },
-   "06uzo": {
-    "news": [],
-    "status": [
-     "On the bench, potential substitute"
     ]
    },
    "06v21": {
@@ -192,8 +188,10 @@
    "05o4c": 258,
    "05trb": 427,
    "05u1m": 84,
+   "0635j": 202,
    "0639x": 68,
    "06clt": 70,
+   "06mnc": 214,
    "06r5b": 127,
    "06uzo": 640,
    "06v21": 366,
@@ -252,7 +250,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "537710",
     "537711",
     "537712",
     "537713",
@@ -451,7 +448,8 @@
     "537906",
     "537907",
     "537908",
-    "537909"
+    "537909",
+    "537910"
    ]
   },
   "rwSent": {
@@ -506,6 +504,11 @@
     "news": "",
     "status": "a"
    },
+   "0635j": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
    "068n8": {
     "chance": null,
     "news": "",
@@ -533,11 +536,6 @@
    },
    "06zbx": {
     "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "0700t": {
-    "chance": 100,
     "news": "",
     "status": "a"
    },
@@ -593,6 +591,10 @@
     "news": [],
     "status": []
    },
+   "0635j": {
+    "news": [],
+    "status": []
+   },
    "068n8": {
     "news": [],
     "status": []
@@ -623,12 +625,6 @@
     "news": [],
     "status": []
    },
-   "0700t": {
-    "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
-   },
    "0784b": {
     "news": [
      "Oct 10, 8:56 AM: Palestra (thigh) is on the bench for..."
@@ -653,6 +649,7 @@
    "05oz3": 385,
    "05y9n": 449,
    "061ya": 209,
+   "0635j": 202,
    "068n8": 16,
    "06cmm": 368,
    "06do4": 381,
@@ -709,7 +706,6 @@
     "nico-elvedi-19409": "078wo"
    },
    "seen": [
-    "537710",
     "537711",
     "537712",
     "537713",
@@ -908,7 +904,8 @@
     "537906",
     "537907",
     "537908",
-    "537909"
+    "537909",
+    "537910"
    ]
   },
   "rwSent": {
@@ -948,11 +945,6 @@
     "status": "a"
    },
    "04qr9": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
-   "05opl": {
     "chance": 100,
     "news": "",
     "status": "a"
@@ -997,6 +989,11 @@
     "news": "",
     "status": "a"
    },
+   "078ud": {
+    "chance": 50,
+    "news": "Unspecified injury - 50% chance of playing",
+    "status": "d"
+   },
    "0793q": {
     "chance": null,
     "news": "",
@@ -1031,12 +1028,6 @@
    "04qr9": {
     "news": [],
     "status": []
-   },
-   "05opl": {
-    "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
    },
    "05u1m": {
     "news": [
@@ -1083,6 +1074,14 @@
     "news": [],
     "status": []
    },
+   "078ud": {
+    "news": [
+     "Oct 8, 12:39 PM: Dedic (hamstring) returned to training..."
+    ],
+    "status": [
+     "Hamstring - Late fitness test (Game-time decision)"
+    ]
+   },
    "0793q": {
     "news": [],
     "status": []
@@ -1105,13 +1104,13 @@
    "06xzd": 138,
    "06yb7": 331,
    "06ybp": 249,
+   "078ud": 593,
    "0793q": 627
   },
   "lag": {
    "04e1e": {
-    "fx": "2026-10-10 10:34",
-    "rw": "2026-10-10 10:34",
-    "what": "Makes starting XI"
+    "rw": "2026-10-10 13:58",
+    "what": "Assists equalizer against Leeds"
    },
    "04qr9": {
     "fx": "2026-09-28 14:15",
@@ -1144,7 +1143,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "537710",
     "537711",
     "537712",
     "537713",
@@ -1343,11 +1341,12 @@
     "537906",
     "537907",
     "537908",
-    "537909"
+    "537909",
+    "537910"
    ]
   },
   "rwSent": {
-   "04e1e": 1791628466.361922,
+   "04e1e": 1791640727.217396,
    "04qr9": 1790604950.030791,
    "05u1m": 1791637373.528254,
    "06v07": 1791235932.450501,
