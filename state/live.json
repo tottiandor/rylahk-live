@@ -3144,14 +3144,7 @@
   "announced": true,
   "digest": {
    "5xsj4mxjms0a28ls": {},
-   "fgx8fdwlms0vdtov": {
-    "06fv8": {
-     "CS": [
-      1.0,
-      1.0
-     ]
-    }
-   }
+   "fgx8fdwlms0vdtov": {}
   },
   "finalSent": false,
   "games": {
@@ -3212,7 +3205,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1791656833.042018,
+  "lastDigest": 1791657159.1347365,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
