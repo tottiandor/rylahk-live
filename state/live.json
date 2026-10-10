@@ -7,7 +7,7 @@
   },
   "finalSent": false,
   "games": {
-   "06m6u": "LEE 0 @ ARS 0 Halftime|06m6u|2"
+   "06m6u": "LEE 0 @ ARS 0 45'|06m6u|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -571,7 +571,7 @@
   "digest": {},
   "finalSent": false,
   "games": {
-   "06m6u": "LEE 0 @ ARS 0 Halftime|06m6u|2"
+   "06m6u": "LEE 0 @ ARS 0 45'|06m6u|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -624,7 +624,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1791635051.6674957,
+  "lastDigest": 1791635690.2772017,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "03am7": {
@@ -1198,8 +1198,8 @@
       2.0
      ],
      "5010#6007#-1": [
-      1.0,
-      0.5
+      3.0,
+      1.5
      ],
      "5010#6009#-1": [
       1.0,
@@ -1311,26 +1311,12 @@
  "yb5sb5camrzcbh8e": {
   "announced": true,
   "digest": {
-   "5xsj4mxjms0a28ls": {
-    "04e1e": {
-     "CLR": [
-      -1.0,
-      -0.25
-     ]
-    }
-   },
-   "fgx8fdwlms0vdtov": {
-    "04lav": {
-     "KP": [
-      1.0,
-      2.0
-     ]
-    }
-   }
+   "5xsj4mxjms0a28ls": {},
+   "fgx8fdwlms0vdtov": {}
   },
   "finalSent": false,
   "games": {
-   "06m6u": "LEE 0 @ ARS 0 Halftime|06m6u|2"
+   "06m6u": "LEE 0 @ ARS 0 45'|06m6u|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -1382,7 +1368,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1791634926.3551378,
+  "lastDigest": 1791635249.2228346,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
