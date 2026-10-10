@@ -80,6 +80,11 @@
     "pos": "M",
     "short": "M. Gibbs-White"
    },
+   "04tsb": {
+    "club": "ARS",
+    "pos": "F",
+    "short": "V. Gyökeres"
+   },
    "04y92": {
     "club": "ARS",
     "pos": "M",
@@ -104,6 +109,11 @@
     "club": "CHE",
     "pos": "F",
     "short": "Joao Pedro"
+   },
+   "05l2z": {
+    "club": "COV",
+    "pos": "D",
+    "short": "B. Thomas"
    },
    "05nil": {
     "club": "IPS",
@@ -140,20 +150,10 @@
     "pos": "M",
     "short": "M. Damsgaard"
    },
-   "068yc": {
-    "club": "BHA",
-    "pos": "M",
-    "short": "Y. Ayari"
-   },
    "06clt": {
     "club": "BOU",
     "pos": "M",
     "short": "J. Kluivert"
-   },
-   "06cms": {
-    "club": "TOT",
-    "pos": "M",
-    "short": "S. Tonali"
    },
    "06ex4": {
     "club": "MCI",
@@ -175,6 +175,11 @@
     "pos": "M",
     "short": "Diego Gomez"
    },
+   "06uzo": {
+    "club": "IPS",
+    "pos": "F",
+    "short": "Z. Flemming"
+   },
    "06v21": {
     "club": "LIV",
     "pos": "M",
@@ -185,20 +190,15 @@
     "pos": "D",
     "short": "O. Boscagli"
    },
-   "06yb7": {
-    "club": "LEE",
+   "06zbm": {
+    "club": "ARS",
     "pos": "D",
-    "short": "G. Gudmundsson"
+    "short": "C. Mosquera"
    },
    "0703c": {
     "club": "SUN",
     "pos": "D",
     "short": "N. Mukiele"
-   },
-   "070cj": {
-    "club": "LEE",
-    "pos": "F",
-    "short": "N. Okafor"
    },
    "070hc": {
     "club": "SUN",
@@ -442,6 +442,11 @@
     "pos": "M",
     "short": "Jacob Murphy"
    },
+   "03m3q": {
+    "club": "EVE",
+    "pos": "M",
+    "short": "A. Maitland-Niles"
+   },
    "04agz": {
     "club": "ARS",
     "pos": "M",
@@ -466,6 +471,11 @@
     "club": "NOT",
     "pos": "D",
     "short": "N. Williams"
+   },
+   "05akv": {
+    "club": "CRY",
+    "pos": "D",
+    "short": "T. Mitchell"
    },
    "05l8q": {
     "club": "CHE",
@@ -497,10 +507,25 @@
     "pos": "D",
     "short": "L. Hall"
    },
+   "061ya": {
+    "club": "EVE",
+    "pos": "F",
+    "short": "B. Johnson"
+   },
+   "068n8": {
+    "club": "ARS",
+    "pos": "M",
+    "short": "N. Madueke"
+   },
    "06cmm": {
     "club": "LIV",
     "pos": "M",
     "short": "D. Szoboszlai"
+   },
+   "06do4": {
+    "club": "LIV",
+    "pos": "F",
+    "short": "L. Koumas"
    },
    "06mpp": {
     "club": "BHA",
@@ -557,6 +582,11 @@
     "pos": "M",
     "short": "A. Stach"
    },
+   "0700t": {
+    "club": "SUN",
+    "pos": "D",
+    "short": "O. Alderete"
+   },
    "076dq": {
     "club": "HUL",
     "pos": "M",
@@ -576,16 +606,6 @@
     "club": "NEW",
     "pos": "G",
     "short": "L. Hornícek"
-   },
-   "078wo": {
-    "club": "LEE",
-    "pos": "D",
-    "short": "N. Elvedi"
-   },
-   "0794i": {
-    "club": "LEE",
-    "pos": "F",
-    "short": "J. Bahoya"
    }
   },
   "opp": "0lhxwdo4mrsux39s",
@@ -721,6 +741,11 @@
     "pos": "D",
     "short": "T. Castagne"
    },
+   "05opl": {
+    "club": "CHE",
+    "pos": "D",
+    "short": "Wesley Fofana"
+   },
    "05tqx": {
     "club": "ARS",
     "pos": "G",
@@ -790,11 +815,6 @@
     "club": "BHA",
     "pos": "F",
     "short": "C. Kostoulas"
-   },
-   "06yb7": {
-    "club": "LEE",
-    "pos": "D",
-    "short": "G. Gudmundsson"
    },
    "06ybp": {
     "club": "EVE",
