@@ -1,14 +1,17 @@
 {
  "5cfv4rkwmrcniqha": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "6jj1vsj8mruuonm3": {},
+   "pnwb3dp7ms76d6jt": {}
+  },
   "finalSent": false,
   "games": {
    "06m6u": "LEE 1 @ ARS 2 F|06m6u|3",
    "06m6v": "BRF 2 @ AVL 2 F|06m6v|3",
    "06m6w": "BOU 1 @ CHE 5 F|06m6w|3",
    "06m70": "FUL 1 @ IPS 2 F|06m70|3",
-   "06m72": "TOT 0 @ MUN 1 91'|06m72|2",
+   "06m72": "TOT 1 @ MUN 1 F|06m72|3",
    "06m73": "BHA 2 @ SUN 0 F|06m73|3"
   },
   "labels": {
@@ -361,7 +364,7 @@
       9.0
      ],
      "5010#6101#-1": [
-      0,
+      1.0,
       0
      ],
      "5010#6105#-1": [
@@ -389,7 +392,7 @@
       4.0
      ],
      "5010#6249#-1": [
-      1.0,
+      0,
       0
      ],
      "5010#6252#-1": [
@@ -1615,7 +1618,7 @@
    "06m6v": "BRF 2 @ AVL 2 F|06m6v|3",
    "06m6w": "BOU 1 @ CHE 5 F|06m6w|3",
    "06m70": "FUL 1 @ IPS 2 F|06m70|3",
-   "06m72": "TOT 0 @ MUN 1 91'|06m72|2",
+   "06m72": "TOT 1 @ MUN 1 F|06m72|3",
    "06m73": "BHA 2 @ SUN 0 F|06m73|3"
   },
   "labels": {
@@ -3141,7 +3144,14 @@
   "announced": true,
   "digest": {
    "5xsj4mxjms0a28ls": {},
-   "fgx8fdwlms0vdtov": {}
+   "fgx8fdwlms0vdtov": {
+    "06fv8": {
+     "CS": [
+      1.0,
+      1.0
+     ]
+    }
+   }
   },
   "finalSent": false,
   "games": {
@@ -3149,7 +3159,7 @@
    "06m6v": "BRF 2 @ AVL 2 F|06m6v|3",
    "06m6w": "BOU 1 @ CHE 5 F|06m6w|3",
    "06m70": "FUL 1 @ IPS 2 F|06m70|3",
-   "06m72": "TOT 0 @ MUN 1 91'|06m72|2",
+   "06m72": "TOT 1 @ MUN 1 F|06m72|3",
    "06m73": "BHA 2 @ SUN 0 F|06m73|3"
   },
   "labels": {
@@ -3202,7 +3212,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1791654494.5404427,
+  "lastDigest": 1791656833.042018,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
