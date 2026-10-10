@@ -98,17 +98,14 @@
      "Oct 10, 9:14 AM: James (hamstring) picked up a minor..."
     ],
     "status": [
-     "Hamstring - Out for next game",
-     "Not starting in upcoming/current game"
+     "Hamstring - Out for next game"
     ]
    },
    "05g2o": {
     "news": [
      "Oct 10, 8:56 AM: Pedro (knee) is in the starting XI for..."
     ],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "05l2z": {
     "news": [],
@@ -123,8 +120,7 @@
      "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
     ],
     "status": [
-     "Calf - Out for next game",
-     "Not starting in upcoming/current game"
+     "Calf - Out for next game"
     ]
    },
    "0635j": {
@@ -133,16 +129,13 @@
    },
    "0639x": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06clt": {
     "news": [
      "Sep 20, 8:10 AM: Kluivert will miss Sunday's match..."
     ],
     "status": [
-     "Not starting in upcoming/current game",
      "Strain - Out for next game"
     ]
    },
@@ -152,9 +145,7 @@
    },
    "06r5b": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06v21": {
     "news": [],
@@ -162,21 +153,15 @@
    },
    "06y26": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "0703c": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "078wl": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    }
   },
   "idmap": {
@@ -250,14 +235,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "537711",
-    "537712",
-    "537713",
-    "537714",
-    "537715",
-    "537716",
-    "537717",
-    "537718",
     "537719",
     "537720",
     "537721",
@@ -449,7 +426,15 @@
     "537907",
     "537908",
     "537909",
-    "537910"
+    "537910",
+    "537911",
+    "537912",
+    "537913",
+    "537914",
+    "537915",
+    "537916",
+    "537917",
+    "537918"
    ]
   },
   "rwSent": {
@@ -561,15 +546,11 @@
    },
    "04fk1": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "04gpx": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "05a6e": {
     "news": [
@@ -611,15 +592,11 @@
    },
    "06v0y": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06ymu": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06zbx": {
     "news": [],
@@ -629,15 +606,11 @@
     "news": [
      "Oct 10, 8:56 AM: Palestra (thigh) is on the bench for..."
     ],
-    "status": [
-     "On the bench, potential substitute"
-    ]
+    "status": []
    },
    "07877": {
     "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
+    "status": []
    }
   },
   "idmap": {
@@ -706,14 +679,6 @@
     "nico-elvedi-19409": "078wo"
    },
    "seen": [
-    "537711",
-    "537712",
-    "537713",
-    "537714",
-    "537715",
-    "537716",
-    "537717",
-    "537718",
     "537719",
     "537720",
     "537721",
@@ -905,7 +870,15 @@
     "537907",
     "537908",
     "537909",
-    "537910"
+    "537910",
+    "537911",
+    "537912",
+    "537913",
+    "537914",
+    "537915",
+    "537916",
+    "537917",
+    "537918"
    ]
   },
   "rwSent": {
@@ -1015,15 +988,13 @@
    },
    "04e1e": {
     "news": [
-     "Oct 10, 6:21 AM: White (groin) is in the starting XI for..."
+     "Oct 10, 9:54 AM: White set up Riccardo Calafiori's..."
     ],
     "status": []
    },
    "04gpx": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "04qr9": {
     "news": [],
@@ -1034,15 +1005,12 @@
      "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
     ],
     "status": [
-     "Calf - Out for next game",
-     "Not starting in upcoming/current game"
+     "Calf - Out for next game"
     ]
    },
    "05ye7": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06jgi": {
     "news": [],
@@ -1050,15 +1018,11 @@
    },
    "06mn0": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06r5b": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06v07": {
     "news": [],
@@ -1066,9 +1030,7 @@
    },
    "06xzd": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06ybp": {
     "news": [],
@@ -1109,6 +1071,7 @@
   },
   "lag": {
    "04e1e": {
+    "fx": "2026-10-10 14:18",
     "rw": "2026-10-10 13:58",
     "what": "Assists equalizer against Leeds"
    },
@@ -1143,14 +1106,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "537711",
-    "537712",
-    "537713",
-    "537714",
-    "537715",
-    "537716",
-    "537717",
-    "537718",
     "537719",
     "537720",
     "537721",
@@ -1342,7 +1297,15 @@
     "537907",
     "537908",
     "537909",
-    "537910"
+    "537910",
+    "537911",
+    "537912",
+    "537913",
+    "537914",
+    "537915",
+    "537916",
+    "537917",
+    "537918"
    ]
   },
   "rwSent": {
