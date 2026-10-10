@@ -95,16 +95,16 @@
    },
    "051k7": {
     "news": [
-     "Oct 9, 10:12 AM: James (hamstring) could be an option to..."
+     "Oct 10, 9:14 AM: James (hamstring) picked up a minor..."
     ],
     "status": [
-     "Hamstring - Late fitness test (Game-time decision)",
+     "Hamstring - Out for next game",
      "Not starting in upcoming/current game"
     ]
    },
    "05g2o": {
     "news": [
-     "Oct 9, 10:16 AM: Pedro (knee) is a late test for..."
+     "Oct 10, 8:56 AM: Pedro (knee) is in the starting XI for..."
     ],
     "status": [
      "Starting in upcoming/current game"
@@ -126,10 +126,10 @@
    },
    "05u1m": {
     "news": [
-     "Oct 9, 9:41 AM: Collins (calf) has resumed on-field..."
+     "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
     ],
     "status": [
-     "Calf - Late fitness test (Game-time decision)",
+     "Calf - Out for next game",
      "Not starting in upcoming/current game"
     ]
    },
@@ -215,14 +215,17 @@
     "what": "Returns to England action"
    },
    "051k7": {
-    "rw": "2026-10-10 13:02",
-    "what": "Misses call Saturday"
+    "fx": "2026-10-10 13:25",
+    "rw": "2026-10-10 13:25",
+    "what": "Suffers fresh injury setback"
    },
    "05g2o": {
+    "fx": "2026-10-10 13:25",
     "rw": "2026-10-10 13:02",
     "what": "Starting in attack"
    },
    "05u1m": {
+    "fx": "2026-10-10 13:25",
     "rw": "2026-10-10 13:02",
     "what": "Not available Saturday"
    },
@@ -249,18 +252,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "537695",
-    "537696",
-    "537697",
-    "537698",
-    "537699",
-    "537700",
-    "537701",
-    "537702",
-    "537703",
-    "537704",
-    "537705",
-    "537706",
     "537707",
     "537708",
     "537709",
@@ -448,13 +439,25 @@
     "537891",
     "537892",
     "537893",
-    "537894"
+    "537894",
+    "537895",
+    "537896",
+    "537897",
+    "537898",
+    "537899",
+    "537900",
+    "537901",
+    "537902",
+    "537903",
+    "537904",
+    "537905",
+    "537906"
    ]
   },
   "rwSent": {
    "0414o": 1791552625.977637,
    "04qr9": 1790604948.712364,
-   "051k7": 1791637358.89639,
+   "051k7": 1791638728.685333,
    "05g2o": 1791637358.8964,
    "05u1m": 1791637358.89647,
    "06v21": 1790946167.482232,
@@ -628,11 +631,10 @@
    },
    "0784b": {
     "news": [
-     "Oct 9, 10:09 AM: Palestra (thigh) is available for..."
+     "Oct 10, 8:56 AM: Palestra (thigh) is on the bench for..."
     ],
     "status": [
-     "On the bench, potential substitute",
-     "Thigh - Late fitness test (Game-time decision)"
+     "On the bench, potential substitute"
     ]
    },
    "07877": {
@@ -681,6 +683,7 @@
     "what": "Withdrawn with cramp"
    },
    "0784b": {
+    "fx": "2026-10-10 13:25",
     "rw": "2026-10-10 13:02",
     "what": "Makes bench Saturday"
    },
@@ -706,18 +709,6 @@
     "nico-elvedi-19409": "078wo"
    },
    "seen": [
-    "537695",
-    "537696",
-    "537697",
-    "537698",
-    "537699",
-    "537700",
-    "537701",
-    "537702",
-    "537703",
-    "537704",
-    "537705",
-    "537706",
     "537707",
     "537708",
     "537709",
@@ -905,7 +896,19 @@
     "537891",
     "537892",
     "537893",
-    "537894"
+    "537894",
+    "537895",
+    "537896",
+    "537897",
+    "537898",
+    "537899",
+    "537900",
+    "537901",
+    "537902",
+    "537903",
+    "537904",
+    "537905",
+    "537906"
    ]
   },
   "rwSent": {
@@ -1037,10 +1040,10 @@
    },
    "05u1m": {
     "news": [
-     "Oct 9, 9:41 AM: Collins (calf) has resumed on-field..."
+     "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
     ],
     "status": [
-     "Calf - Late fitness test (Game-time decision)",
+     "Calf - Out for next game",
      "Not starting in upcoming/current game"
     ]
    },
@@ -1116,6 +1119,7 @@
     "what": "Returns to England action"
    },
    "05u1m": {
+    "fx": "2026-10-10 13:25",
     "rw": "2026-10-10 13:02",
     "what": "Not available Saturday"
    },
@@ -1140,18 +1144,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "537695",
-    "537696",
-    "537697",
-    "537698",
-    "537699",
-    "537700",
-    "537701",
-    "537702",
-    "537703",
-    "537704",
-    "537705",
-    "537706",
     "537707",
     "537708",
     "537709",
@@ -1339,7 +1331,19 @@
     "537891",
     "537892",
     "537893",
-    "537894"
+    "537894",
+    "537895",
+    "537896",
+    "537897",
+    "537898",
+    "537899",
+    "537900",
+    "537901",
+    "537902",
+    "537903",
+    "537904",
+    "537905",
+    "537906"
    ]
   },
   "rwSent": {
