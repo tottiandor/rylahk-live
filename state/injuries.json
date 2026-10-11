@@ -85,9 +85,7 @@
   "fx": {
    "0327r": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "0414o": {
     "news": [
@@ -97,9 +95,7 @@
    },
    "04qr9": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "051k7": {
     "news": [
@@ -126,9 +122,7 @@
     "status": []
    },
    "05u1m": {
-    "news": [
-     "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
-    ],
+    "news": [],
     "status": [
      "Calf - Late fitness test (Game-time decision)"
     ]
@@ -164,7 +158,9 @@
     "status": []
    },
    "0703c": {
-    "news": [],
+    "news": [
+     "Oct 11, 8:40 AM: Mukiele generated three shots (one on..."
+    ],
     "status": []
    },
    "078ud": {
@@ -255,6 +251,7 @@
     "what": "Oct 11, 3:04 AM: Boscagli generated three crosses (one..."
    },
    "0703c": {
+    "fx": "2026-10-11 17:49",
     "rw": "2026-10-11 12:42",
     "what": "Three shots from defence in defeat"
    },
@@ -278,31 +275,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "537877",
-    "537878",
-    "537879",
-    "537880",
-    "537881",
-    "537882",
-    "537883",
-    "537884",
-    "537885",
-    "537886",
-    "537887",
-    "537888",
-    "537889",
-    "537890",
-    "537891",
-    "537892",
-    "537893",
-    "537894",
-    "537895",
-    "537896",
-    "537897",
-    "537898",
-    "537899",
-    "537900",
-    "537901",
     "537902",
     "537903",
     "537904",
@@ -477,7 +449,32 @@
     "538277",
     "538278",
     "538279",
-    "538280"
+    "538280",
+    "538333",
+    "538334",
+    "538335",
+    "538336",
+    "538337",
+    "538338",
+    "538339",
+    "538340",
+    "538341",
+    "538342",
+    "538343",
+    "538344",
+    "538345",
+    "538346",
+    "538347",
+    "538348",
+    "538349",
+    "538350",
+    "538351",
+    "538352",
+    "538353",
+    "538354",
+    "538355",
+    "538356",
+    "538357"
    ]
   },
   "rwSent": {
@@ -541,9 +538,9 @@
     "status": "a"
    },
    "06cmm": {
-    "chance": null,
-    "news": "",
-    "status": "a"
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
    },
    "06do4": {
     "chance": null,
@@ -602,9 +599,7 @@
     "news": [
      "Oct 11, 7:53 AM: Williams (illness) is in the starting..."
     ],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "05oz3": {
     "news": [],
@@ -616,27 +611,23 @@
    },
    "061ya": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "0635j": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "068n8": {
-    "news": [
-     "Oct 10, 12:02 PM: Madueke played the full 90 minutes and..."
-    ],
+    "news": [],
     "status": []
    },
    "06cmm": {
     "news": [
-     "Oct 3, 4:42 AM: Szoboszlai was withdrawn as a..."
+     "Oct 11, 10:22 AM: Szoboszlai (hamstring) was ruled out of..."
     ],
-    "status": []
+    "status": [
+     "Hamstring - Out for next game"
+    ]
    },
    "06do4": {
     "news": [],
@@ -726,9 +717,8 @@
     "what": "Creates three chances against Leeds"
    },
    "06cmm": {
-    "fx": "2026-10-03 09:03",
-    "rw": "2026-10-03 08:48",
-    "what": "Withdrawn with cramp"
+    "fx": "2026-10-11 17:49",
+    "what": "Oct 11, 10:22 AM: Szoboszlai (hamstring) was ruled out of..."
    },
    "06v0y": {
     "fx": "2026-10-11 12:42",
@@ -771,31 +761,6 @@
     "pascal-gross-19912": "04fk1"
    },
    "seen": [
-    "537877",
-    "537878",
-    "537879",
-    "537880",
-    "537881",
-    "537882",
-    "537883",
-    "537884",
-    "537885",
-    "537886",
-    "537887",
-    "537888",
-    "537889",
-    "537890",
-    "537891",
-    "537892",
-    "537893",
-    "537894",
-    "537895",
-    "537896",
-    "537897",
-    "537898",
-    "537899",
-    "537900",
-    "537901",
     "537902",
     "537903",
     "537904",
@@ -970,7 +935,32 @@
     "538277",
     "538278",
     "538279",
-    "538280"
+    "538280",
+    "538333",
+    "538334",
+    "538335",
+    "538336",
+    "538337",
+    "538338",
+    "538339",
+    "538340",
+    "538341",
+    "538342",
+    "538343",
+    "538344",
+    "538345",
+    "538346",
+    "538347",
+    "538348",
+    "538349",
+    "538350",
+    "538351",
+    "538352",
+    "538353",
+    "538354",
+    "538355",
+    "538356",
+    "538357"
    ]
   },
   "rwSent": {
@@ -1071,9 +1061,7 @@
   "fx": {
    "032f9": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "03am7": {
     "news": [],
@@ -1081,14 +1069,10 @@
    },
    "0477b": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "04e1e": {
-    "news": [
-     "Oct 10, 9:54 AM: White set up Riccardo Calafiori's..."
-    ],
+    "news": [],
     "status": []
    },
    "04gpx": {
@@ -1099,27 +1083,23 @@
    },
    "04qr9": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "05u1m": {
-    "news": [
-     "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
-    ],
+    "news": [],
     "status": [
      "Calf - Late fitness test (Game-time decision)"
     ]
    },
    "05ye7": {
-    "news": [],
+    "news": [
+     "Oct 11, 12:02 PM: Bobb registered one shot (zero on..."
+    ],
     "status": []
    },
    "06jgi": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06mn0": {
     "news": [
@@ -1142,10 +1122,10 @@
     "status": []
    },
    "06ybp": {
-    "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "news": [
+     "Oct 11, 11:16 AM: Barry scored one goal to go with five..."
+    ],
+    "status": []
    },
    "078ud": {
     "news": [
@@ -1201,6 +1181,10 @@
     "rw": "2026-10-10 13:02",
     "what": "Not available Saturday"
    },
+   "05ye7": {
+    "fx": "2026-10-11 17:49",
+    "what": "Oct 11, 12:02 PM: Bobb registered one shot (zero on..."
+   },
    "06mn0": {
     "fx": "2026-10-11 12:42",
     "what": "Oct 11, 4:41 AM: Thiago generated one shot (zero on..."
@@ -1219,6 +1203,10 @@
     "fx": "2026-10-05 00:21",
     "rw": "2026-10-05 00:21",
     "what": "Logs two minutes Sunday"
+   },
+   "06ybp": {
+    "fx": "2026-10-11 17:49",
+    "what": "Oct 11, 11:16 AM: Barry scored one goal to go with five..."
    }
   },
   "ready": true,
@@ -1233,31 +1221,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "537877",
-    "537878",
-    "537879",
-    "537880",
-    "537881",
-    "537882",
-    "537883",
-    "537884",
-    "537885",
-    "537886",
-    "537887",
-    "537888",
-    "537889",
-    "537890",
-    "537891",
-    "537892",
-    "537893",
-    "537894",
-    "537895",
-    "537896",
-    "537897",
-    "537898",
-    "537899",
-    "537900",
-    "537901",
     "537902",
     "537903",
     "537904",
@@ -1432,7 +1395,32 @@
     "538277",
     "538278",
     "538279",
-    "538280"
+    "538280",
+    "538333",
+    "538334",
+    "538335",
+    "538336",
+    "538337",
+    "538338",
+    "538339",
+    "538340",
+    "538341",
+    "538342",
+    "538343",
+    "538344",
+    "538345",
+    "538346",
+    "538347",
+    "538348",
+    "538349",
+    "538350",
+    "538351",
+    "538352",
+    "538353",
+    "538354",
+    "538355",
+    "538356",
+    "538357"
    ]
   },
   "rwSent": {
