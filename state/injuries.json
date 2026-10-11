@@ -1,6 +1,11 @@
 {
  "5cfv4rkwmrcniqha": {
   "fpl": {
+   "0327r": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
    "0414o": {
     "chance": 100,
     "news": "",
@@ -36,11 +41,6 @@
     "news": "Calf injury - Unknown return date",
     "status": "i"
    },
-   "0635j": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "0639x": {
     "chance": null,
     "news": "",
@@ -50,11 +50,6 @@
     "chance": 0,
     "news": "Unspecified injury - Unknown return date",
     "status": "i"
-   },
-   "06mnc": {
-    "chance": null,
-    "news": "",
-    "status": "a"
    },
    "06r5b": {
     "chance": null,
@@ -76,6 +71,11 @@
     "news": "",
     "status": "a"
    },
+   "078ud": {
+    "chance": 50,
+    "news": "Unspecified injury - 50% chance of playing",
+    "status": "d"
+   },
    "078wl": {
     "chance": null,
     "news": "",
@@ -83,6 +83,12 @@
    }
   },
   "fx": {
+   "0327r": {
+    "news": [],
+    "status": [
+     "Starting in upcoming/current game"
+    ]
+   },
    "0414o": {
     "news": [
      "Oct 9, 9:12 AM: Maddison is available for Saturday's..."
@@ -91,14 +97,16 @@
    },
    "04qr9": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "051k7": {
     "news": [
      "Oct 10, 9:14 AM: James (hamstring) picked up a minor..."
     ],
     "status": [
-     "Hamstring - Out for next game"
+     "Hamstring - Late fitness test (Game-time decision)"
     ]
    },
    "05g2o": {
@@ -122,15 +130,13 @@
      "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
     ],
     "status": [
-     "Calf - Out for next game"
+     "Calf - Late fitness test (Game-time decision)"
     ]
    },
-   "0635j": {
-    "news": [],
-    "status": []
-   },
    "0639x": {
-    "news": [],
+    "news": [
+     "Oct 11, 4:52 AM: Tavernier generated eight crosses (one..."
+    ],
     "status": []
    },
    "06clt": {
@@ -140,10 +146,6 @@
     "status": [
      "Strain - Out for next game"
     ]
-   },
-   "06mnc": {
-    "news": [],
-    "status": []
    },
    "06r5b": {
     "news": [
@@ -156,19 +158,32 @@
     "status": []
    },
    "06y26": {
-    "news": [],
+    "news": [
+     "Oct 11, 3:04 AM: Boscagli generated three crosses (one..."
+    ],
     "status": []
    },
    "0703c": {
     "news": [],
     "status": []
    },
+   "078ud": {
+    "news": [
+     "Oct 8, 12:39 PM: Dedic (hamstring) returned to training..."
+    ],
+    "status": [
+     "Hamstring - Late fitness test (Game-time decision)"
+    ]
+   },
    "078wl": {
-    "news": [],
+    "news": [
+     "Oct 11, 4:32 AM: Suzuki had three saves and allowed two..."
+    ],
     "status": []
    }
   },
   "idmap": {
+   "0327r": 231,
    "0414o": 515,
    "04qr9": 480,
    "051k7": 142,
@@ -188,6 +203,7 @@
    "06yb7": 331,
    "0703c": 533,
    "070cj": 336,
+   "078ud": 593,
    "078wl": 597
   },
   "lag": {
@@ -220,6 +236,10 @@
     "rw": "2026-10-10 13:02",
     "what": "Not available Saturday"
    },
+   "0639x": {
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 4:52 AM: Tavernier generated eight crosses (one..."
+   },
    "06r5b": {
     "fx": "2026-10-11 06:00",
     "rw": "2026-10-11 06:00",
@@ -230,10 +250,17 @@
     "rw": "2026-10-02 13:02",
     "what": "Shines in Germany victory"
    },
+   "06y26": {
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 3:04 AM: Boscagli generated three crosses (one..."
+   },
+   "0703c": {
+    "rw": "2026-10-11 12:42",
+    "what": "Three shots from defence in defeat"
+   },
    "078wl": {
-    "fx": "2026-10-01 14:50",
-    "rw": "2026-10-01 14:02",
-    "what": "Keeps clean sheet for Japan"
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 4:32 AM: Suzuki had three saves and allowed two..."
    }
   },
   "ready": true,
@@ -246,35 +273,11 @@
     "joao-pedro-27563": "05g2o",
     "morgan-gibbs-white-26138": "04qr9",
     "nathan-collins-31313": "05u1m",
+    "nordi-mukiele-23329": "0703c",
     "reece-james-29315": "051k7",
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "537852",
-    "537853",
-    "537854",
-    "537855",
-    "537856",
-    "537857",
-    "537858",
-    "537859",
-    "537860",
-    "537861",
-    "537862",
-    "537863",
-    "537864",
-    "537865",
-    "537866",
-    "537867",
-    "537868",
-    "537869",
-    "537870",
-    "537871",
-    "537872",
-    "537873",
-    "537874",
-    "537875",
-    "537876",
     "537877",
     "537878",
     "537879",
@@ -449,7 +452,32 @@
     "538135",
     "538136",
     "538137",
-    "538138"
+    "538138",
+    "538256",
+    "538257",
+    "538258",
+    "538259",
+    "538260",
+    "538261",
+    "538262",
+    "538263",
+    "538264",
+    "538265",
+    "538266",
+    "538267",
+    "538268",
+    "538269",
+    "538270",
+    "538271",
+    "538272",
+    "538273",
+    "538274",
+    "538275",
+    "538276",
+    "538277",
+    "538278",
+    "538279",
+    "538280"
    ]
   },
   "rwSent": {
@@ -461,17 +489,13 @@
    "05u1m": 1791637358.89647,
    "06r5b": 1791698444.755271,
    "06v21": 1790946167.482232,
+   "0703c": 1791722565.619596,
    "078wl": 1790863340.684271
   }
  },
  "rylahk": {
   "fpl": {
    "03am7": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "03m3q": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -487,9 +511,9 @@
     "status": "a"
    },
    "05a6e": {
-    "chance": 50,
-    "news": "Illness - 50% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "05oz3": {
     "chance": null,
@@ -546,6 +570,11 @@
     "news": "",
     "status": "a"
    },
+   "0785d": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
    "07877": {
     "chance": null,
     "news": "",
@@ -554,10 +583,6 @@
   },
   "fx": {
    "03am7": {
-    "news": [],
-    "status": []
-   },
-   "03m3q": {
     "news": [],
     "status": []
    },
@@ -575,10 +600,10 @@
    },
    "05a6e": {
     "news": [
-     "Oct 9, 9:33 AM: Williams (illness) is questionable for..."
+     "Oct 11, 7:53 AM: Williams (illness) is in the starting..."
     ],
     "status": [
-     "Illness - Late fitness test (Game-time decision)"
+     "Starting in upcoming/current game"
     ]
    },
    "05oz3": {
@@ -591,11 +616,15 @@
    },
    "061ya": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "0635j": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "068n8": {
     "news": [
@@ -614,11 +643,15 @@
     "status": []
    },
    "06v0y": {
-    "news": [],
+    "news": [
+     "Oct 11, 2:35 AM: Vuskovic recorded two shots (zero on..."
+    ],
     "status": []
    },
    "06ymu": {
-    "news": [],
+    "news": [
+     "Oct 11, 4:38 AM: Diouf registered two shots (zero on..."
+    ],
     "status": []
    },
    "06zbx": {
@@ -627,12 +660,18 @@
    },
    "0784b": {
     "news": [
-     "Oct 10, 8:56 AM: Palestra (thigh) is on the bench for..."
+     "Oct 11, 4:56 AM: Palestra recorded no stats in..."
     ],
     "status": []
    },
-   "07877": {
+   "0785d": {
     "news": [],
+    "status": []
+   },
+   "07877": {
+    "news": [
+     "Oct 11, 4:42 AM: Sangare registered three tackles (two..."
+    ],
     "status": []
    }
   },
@@ -655,6 +694,7 @@
    "06zbx": 335,
    "0700t": 535,
    "0784b": 152,
+   "0785d": 461,
    "07877": 565,
    "078wo": 598,
    "0794i": 648
@@ -671,9 +711,9 @@
     "what": "Scores winner vs. Fulham"
    },
    "05a6e": {
-    "fx": "2026-10-09 13:55",
-    "rw": "2026-10-09 13:55",
-    "what": "Late call due to illness"
+    "fx": "2026-10-11 12:42",
+    "rw": "2026-10-11 12:42",
+    "what": "Starts despite recent illness"
    },
    "05y9n": {
     "fx": "2026-09-29 21:13",
@@ -690,10 +730,21 @@
     "rw": "2026-10-03 08:48",
     "what": "Withdrawn with cramp"
    },
+   "06v0y": {
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 2:35 AM: Vuskovic recorded two shots (zero on..."
+   },
+   "06ymu": {
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 4:38 AM: Diouf registered two shots (zero on..."
+   },
    "0784b": {
-    "fx": "2026-10-10 13:25",
-    "rw": "2026-10-10 13:02",
-    "what": "Makes bench Saturday"
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 4:56 AM: Palestra recorded no stats in..."
+   },
+   "07877": {
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 4:42 AM: Sangare registered three tackles (two..."
    },
    "078wo": {
     "fx": "2026-09-30 10:26",
@@ -720,31 +771,6 @@
     "pascal-gross-19912": "04fk1"
    },
    "seen": [
-    "537852",
-    "537853",
-    "537854",
-    "537855",
-    "537856",
-    "537857",
-    "537858",
-    "537859",
-    "537860",
-    "537861",
-    "537862",
-    "537863",
-    "537864",
-    "537865",
-    "537866",
-    "537867",
-    "537868",
-    "537869",
-    "537870",
-    "537871",
-    "537872",
-    "537873",
-    "537874",
-    "537875",
-    "537876",
     "537877",
     "537878",
     "537879",
@@ -919,13 +945,38 @@
     "538135",
     "538136",
     "538137",
-    "538138"
+    "538138",
+    "538256",
+    "538257",
+    "538258",
+    "538259",
+    "538260",
+    "538261",
+    "538262",
+    "538263",
+    "538264",
+    "538265",
+    "538266",
+    "538267",
+    "538268",
+    "538269",
+    "538270",
+    "538271",
+    "538272",
+    "538273",
+    "538274",
+    "538275",
+    "538276",
+    "538277",
+    "538278",
+    "538279",
+    "538280"
    ]
   },
   "rwSent": {
    "04fk1": 1791677789.517426,
    "04gpx": 1791667171.982495,
-   "05a6e": 1791554152.769978,
+   "05a6e": 1791722561.372898,
    "05y9n": 1790715117.051034,
    "068n8": 1791648741.895331,
    "06cmm": 1791017280.730694,
@@ -1020,7 +1071,9 @@
   "fx": {
    "032f9": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "03am7": {
     "news": [],
@@ -1028,7 +1081,9 @@
    },
    "0477b": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "04e1e": {
     "news": [
@@ -1044,14 +1099,16 @@
    },
    "04qr9": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "05u1m": {
     "news": [
      "Oct 10, 8:59 AM: Collins (calf) is not in the squad for..."
     ],
     "status": [
-     "Calf - Out for next game"
+     "Calf - Late fitness test (Game-time decision)"
     ]
    },
    "05ye7": {
@@ -1060,10 +1117,14 @@
    },
    "06jgi": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06mn0": {
-    "news": [],
+    "news": [
+     "Oct 11, 4:41 AM: Thiago generated one shot (zero on..."
+    ],
     "status": []
    },
    "06r5b": {
@@ -1082,7 +1143,9 @@
    },
    "06ybp": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "078ud": {
     "news": [
@@ -1138,6 +1201,10 @@
     "rw": "2026-10-10 13:02",
     "what": "Not available Saturday"
    },
+   "06mn0": {
+    "fx": "2026-10-11 12:42",
+    "what": "Oct 11, 4:41 AM: Thiago generated one shot (zero on..."
+   },
    "06r5b": {
     "fx": "2026-10-11 06:00",
     "rw": "2026-10-11 06:00",
@@ -1166,31 +1233,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "537852",
-    "537853",
-    "537854",
-    "537855",
-    "537856",
-    "537857",
-    "537858",
-    "537859",
-    "537860",
-    "537861",
-    "537862",
-    "537863",
-    "537864",
-    "537865",
-    "537866",
-    "537867",
-    "537868",
-    "537869",
-    "537870",
-    "537871",
-    "537872",
-    "537873",
-    "537874",
-    "537875",
-    "537876",
     "537877",
     "537878",
     "537879",
@@ -1365,7 +1407,32 @@
     "538135",
     "538136",
     "538137",
-    "538138"
+    "538138",
+    "538256",
+    "538257",
+    "538258",
+    "538259",
+    "538260",
+    "538261",
+    "538262",
+    "538263",
+    "538264",
+    "538265",
+    "538266",
+    "538267",
+    "538268",
+    "538269",
+    "538270",
+    "538271",
+    "538272",
+    "538273",
+    "538274",
+    "538275",
+    "538276",
+    "538277",
+    "538278",
+    "538279",
+    "538280"
    ]
   },
   "rwSent": {
