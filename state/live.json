@@ -4398,7 +4398,10 @@
  },
  "yb5sb5camrzcbh8e": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "5xsj4mxjms0a28ls": {},
+   "fgx8fdwlms0vdtov": {}
+  },
   "finalSent": false,
   "games": {
    "06m6u": "LEE 1 @ ARS 2 F|06m6u|3",
