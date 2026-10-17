@@ -1,10 +1,13 @@
 {
  "5cfv4rkwmrcniqha": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "6jj1vsj8mruuonm3": {},
+   "t0ehw0d9ms0tpez6": {}
+  },
   "finalSent": false,
   "games": {
-   "06m77": "CHE 0 @ EVE 0 47'|06m77|2"
+   "06m77": "CHE 0 @ EVE 0 Halftime|06m77|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -822,19 +825,12 @@
  "yb5sb5camrzcbh8e": {
   "announced": true,
   "digest": {
-   "5xsj4mxjms0a28ls": {
-    "032f9": {
-     "Sv": [
-      1.0,
-      2.0
-     ]
-    }
-   },
+   "5xsj4mxjms0a28ls": {},
    "hx9lanrvms0sdrmq": {}
   },
   "finalSent": false,
   "games": {
-   "06m77": "CHE 0 @ EVE 0 47'|06m77|2"
+   "06m77": "CHE 0 @ EVE 0 Halftime|06m77|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -886,7 +882,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792239422.9414947,
+  "lastDigest": 1792239743.8511684,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
