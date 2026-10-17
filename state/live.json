@@ -68,7 +68,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792253373.644798,
+  "lastDigest": 1792253653.2066143,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "03fgl": {
@@ -1202,14 +1202,9 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792251688.7793336,
+  "lastDigest": 1792253650.052691,
   "me": "wfwa6qr6mrsux39t",
   "names": {
-   "03am7": {
-    "club": "NEW",
-    "pos": "M",
-    "short": "Jacob Murphy"
-   },
    "04fk1": {
     "club": "BHA",
     "pos": "M",
@@ -1280,6 +1275,11 @@
     "pos": "M",
     "short": "N. Madueke"
    },
+   "068yc": {
+    "club": "BHA",
+    "pos": "M",
+    "short": "Y. Ayari"
+   },
    "06cm1": {
     "club": "AVL",
     "pos": "F",
@@ -1290,25 +1290,35 @@
     "pos": "M",
     "short": "D. Szoboszlai"
    },
-   "06do4": {
-    "club": "LIV",
-    "pos": "F",
-    "short": "L. Koumas"
-   },
    "06fv8": {
     "club": "TOT",
     "pos": "M",
     "short": "M. Kudus"
+   },
+   "06mow": {
+    "club": "CRY",
+    "pos": "F",
+    "short": "J. Strand Larsen"
    },
    "06msb": {
     "club": "BHA",
     "pos": "M",
     "short": "M. Yalcouye"
    },
+   "06nbu": {
+    "club": "COV",
+    "pos": "D",
+    "short": "S. Mfuni"
+   },
    "06r6s": {
     "club": "TOT",
     "pos": "G",
     "short": "A. Kinsky"
+   },
+   "06v0g": {
+    "club": "SUN",
+    "pos": "D",
+    "short": "T. Hume"
    },
    "06v0y": {
     "club": "BHA",
@@ -1355,11 +1365,6 @@
     "pos": "D",
     "short": "M. Palestra"
    },
-   "0784w": {
-    "club": "IPS",
-    "pos": "F",
-    "short": "Emersonn"
-   },
    "07877": {
     "club": "BRF",
     "pos": "M",
@@ -1369,11 +1374,6 @@
     "club": "LIV",
     "pos": "D",
     "short": "R. Araujo"
-   },
-   "078le": {
-    "club": "CHE",
-    "pos": "D",
-    "short": "P. Chavarría"
    }
   },
   "opp": "k5ygjac7mrsux39s",
@@ -1960,18 +1960,13 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792253441.476264,
+  "lastDigest": 1792253656.5403597,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
     "club": "EVE",
     "pos": "G",
     "short": "J. Pickford"
-   },
-   "03am7": {
-    "club": "NEW",
-    "pos": "M",
-    "short": "Jacob Murphy"
    },
    "0477b": {
     "club": "HUL",
@@ -2037,6 +2032,11 @@
     "club": "BHA",
     "pos": "M",
     "short": "J. Hinshelwood"
+   },
+   "068yc": {
+    "club": "BHA",
+    "pos": "M",
+    "short": "Y. Ayari"
    },
    "06cm1": {
     "club": "AVL",
