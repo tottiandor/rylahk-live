@@ -3,28 +3,11 @@
   "announced": true,
   "digest": {
    "6jj1vsj8mruuonm3": {},
-   "t0ehw0d9ms0tpez6": {
-    "0522h": {
-     "DIS": [
-      1.0,
-      -0.5
-     ],
-     "TkW": [
-      1.0,
-      1.0
-     ]
-    },
-    "078i7": {
-     "AER": [
-      1.0,
-      1.0
-     ]
-    }
-   }
+   "t0ehw0d9ms0tpez6": {}
   },
   "finalSent": false,
   "games": {
-   "06m75": "LIV 0 @ BRF 1 48'|06m75|2",
+   "06m75": "LIV 0 @ BRF 1 Halftime|06m75|2",
    "06m77": "CHE 2 @ EVE 0 F|06m77|3",
    "06m78": "HUL 0 @ FUL 1 Halftime|06m78|2"
   },
@@ -78,7 +61,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792248417.475454,
+  "lastDigest": 1792249072.411371,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "03fgl": {
@@ -342,8 +325,8 @@
     },
     "06v21": {
      "5010#6002#-1": [
-      3.0,
-      6.0
+      4.0,
+      8.0
      ],
      "5010#6007#-1": [
       0,
@@ -822,8 +805,8 @@
       1.0
      ],
      "5010#6009#-1": [
-      0,
-      0
+      1.0,
+      1.0
      ],
      "5010#6016#-1": [
       0,
@@ -1153,20 +1136,13 @@
  "rylahk": {
   "announced": true,
   "digest": {
-   "k5ygjac7mrsux39s": {
-    "078i7": {
-     "AER": [
-      1.0,
-      1.0
-     ]
-    }
-   },
+   "k5ygjac7mrsux39s": {},
    "wfwa6qr6mrsux39t": {}
   },
   "finalSent": false,
   "games": {
-   "06m75": "LIV 0 @ BRF 1 48'|06m75|2",
-   "06m7a": "IPS 1 @ MCI 2 47'|06m7a|2"
+   "06m75": "LIV 0 @ BRF 1 Halftime|06m75|2",
+   "06m7a": "IPS 1 @ MCI 2 Halftime|06m7a|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -1219,7 +1195,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792248350.4453087,
+  "lastDigest": 1792249006.1935642,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "03am7": {
@@ -1595,8 +1571,8 @@
     },
     "06v21": {
      "5010#6002#-1": [
-      3.0,
-      6.0
+      4.0,
+      8.0
      ],
      "5010#6007#-1": [
       0,
@@ -1910,29 +1886,15 @@
  "yb5sb5camrzcbh8e": {
   "announced": true,
   "digest": {
-   "5xsj4mxjms0a28ls": {
-    "06mn0": {
-     "KP": [
-      1.0,
-      2.0
-     ]
-    }
-   },
-   "hx9lanrvms0sdrmq": {
-    "050jq": {
-     "KP": [
-      1.0,
-      2.0
-     ]
-    }
-   }
+   "5xsj4mxjms0a28ls": {},
+   "hx9lanrvms0sdrmq": {}
   },
   "finalSent": false,
   "games": {
-   "06m75": "LIV 0 @ BRF 1 48'|06m75|2",
+   "06m75": "LIV 0 @ BRF 1 Halftime|06m75|2",
    "06m77": "CHE 2 @ EVE 0 F|06m77|3",
    "06m78": "HUL 0 @ FUL 1 Halftime|06m78|2",
-   "06m7a": "IPS 1 @ MCI 2 47'|06m7a|2"
+   "06m7a": "IPS 1 @ MCI 2 Halftime|06m7a|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -1984,7 +1946,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792248285.206195,
+  "lastDigest": 1792248942.4848335,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
@@ -2439,8 +2401,8 @@
       1.0
      ],
      "5010#6009#-1": [
-      0,
-      0
+      1.0,
+      1.0
      ],
      "5010#6016#-1": [
       0,
