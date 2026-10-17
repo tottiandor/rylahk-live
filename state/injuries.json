@@ -32,9 +32,9 @@
     "status": "a"
    },
    "05u1m": {
-    "chance": 50,
-    "news": "Calf injury - 50% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "0639x": {
     "chance": null,
@@ -102,7 +102,9 @@
     ]
    },
    "05g2o": {
-    "news": [],
+    "news": [
+     "Oct 17, 10:28 AM: Joao Pedro recorded three shots (two on..."
+    ],
     "status": []
    },
    "05l2z": {
@@ -115,12 +117,9 @@
    },
    "05u1m": {
     "news": [
-     "Oct 16, 9:25 AM: Collins (calf) is progressing toward a..."
+     "Oct 17, 8:53 AM: Collins (calf) is on the bench for..."
     ],
-    "status": [
-     "Calf - Late fitness test (Game-time decision) - Expected return Oct 17",
-     "On the bench, potential substitute"
-    ]
+    "status": []
    },
    "0639x": {
     "news": [],
@@ -142,9 +141,7 @@
    },
    "06v21": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06y26": {
     "news": [],
@@ -160,7 +157,9 @@
    },
    "078wl": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    }
   },
   "idmap": {
@@ -204,8 +203,8 @@
     "what": "Oct 13, 9:34 AM: James was absent for the first 15..."
    },
    "05g2o": {
-    "fx": "2026-10-10 21:19",
-    "what": "Oct 10, 3:46 PM: Pedro scored two goals to go with two..."
+    "fx": "2026-10-17 16:14",
+    "what": "Oct 17, 10:28 AM: Joao Pedro recorded three shots (two on..."
    },
    "05l2z": {
     "fx": "2026-10-14 17:29",
@@ -218,6 +217,7 @@
     "what": "Two shots Tuesday"
    },
    "05u1m": {
+    "fx": "2026-10-17 16:14",
     "rw": "2026-10-17 12:55",
     "what": "Finds bench role"
    },
@@ -275,31 +275,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "539617",
-    "539618",
-    "539619",
-    "539620",
-    "539621",
-    "539622",
-    "539623",
-    "539624",
-    "539625",
-    "539626",
-    "539627",
-    "539628",
-    "539629",
-    "539630",
-    "539631",
-    "539632",
-    "539633",
-    "539634",
-    "539635",
-    "539636",
-    "539637",
-    "539638",
-    "539639",
-    "539674",
-    "539675",
     "539676",
     "539677",
     "539678",
@@ -474,7 +449,32 @@
     "539939",
     "539940",
     "539941",
-    "539942"
+    "539942",
+    "539993",
+    "539994",
+    "539995",
+    "539996",
+    "539997",
+    "539998",
+    "539999",
+    "540000",
+    "540001",
+    "540002",
+    "540003",
+    "540004",
+    "540005",
+    "540006",
+    "540007",
+    "540008",
+    "540009",
+    "540010",
+    "540011",
+    "540012",
+    "540013",
+    "540014",
+    "540015",
+    "540016",
+    "540017"
    ]
   },
   "rwSent": {
@@ -494,11 +494,6 @@
  },
  "rylahk": {
   "fpl": {
-   "03am7": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "04fk1": {
     "chance": null,
     "news": "",
@@ -539,12 +534,22 @@
     "news": "",
     "status": "a"
    },
+   "068yc": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
    "06cmm": {
-    "chance": 25,
-    "news": "Hamstring injury - 25% chance of playing",
+    "chance": 75,
+    "news": "Unspecified injury - 75% chance of playing",
     "status": "d"
    },
    "06mow": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v0g": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -576,19 +581,13 @@
    }
   },
   "fx": {
-   "03am7": {
-    "news": [],
-    "status": []
-   },
    "04fk1": {
     "news": [],
     "status": []
    },
    "04gpx": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "04rzl": {
     "news": [],
@@ -604,7 +603,9 @@
    },
    "05y9n": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "0635j": {
     "news": [],
@@ -614,15 +615,23 @@
     "news": [],
     "status": []
    },
+   "068yc": {
+    "news": [],
+    "status": []
+   },
    "06cmm": {
     "news": [
-     "Oct 15, 7:08 AM: Szoboszlai (hamstring) remains a late..."
+     "Oct 17, 10:35 AM: Szoboszlai was forced off with an..."
     ],
     "status": [
-     "Starting in upcoming/current game"
+     "Hamstring - Out for next game - Expected return Oct 20"
     ]
    },
    "06mow": {
+    "news": [],
+    "status": []
+   },
+   "06v0g": {
     "news": [],
     "status": []
    },
@@ -632,9 +641,7 @@
    },
    "06ymu": {
     "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
+    "status": []
    },
    "06zbx": {
     "news": [],
@@ -646,9 +653,7 @@
    },
    "07877": {
     "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
+    "status": []
    }
   },
   "idmap": {
@@ -664,9 +669,11 @@
    "0635j": 202,
    "066nn": 72,
    "068n8": 16,
+   "068yc": 129,
    "06cmm": 368,
    "06do4": 381,
    "06mow": 222,
+   "06v0g": 534,
    "06v0y": 504,
    "06y9o": 491,
    "06ymu": 620,
@@ -709,8 +716,8 @@
     "what": "Lucky to get assist"
    },
    "06cmm": {
-    "fx": "2026-10-15 12:38",
-    "what": "Oct 15, 7:08 AM: Szoboszlai (hamstring) remains a late..."
+    "fx": "2026-10-17 16:14",
+    "what": "Oct 17, 10:35 AM: Szoboszlai was forced off with an..."
    },
    "06do4": {
     "fx": "2026-10-14 23:46",
@@ -769,31 +776,6 @@
     "pascal-gross-19912": "04fk1"
    },
    "seen": [
-    "539617",
-    "539618",
-    "539619",
-    "539620",
-    "539621",
-    "539622",
-    "539623",
-    "539624",
-    "539625",
-    "539626",
-    "539627",
-    "539628",
-    "539629",
-    "539630",
-    "539631",
-    "539632",
-    "539633",
-    "539634",
-    "539635",
-    "539636",
-    "539637",
-    "539638",
-    "539639",
-    "539674",
-    "539675",
     "539676",
     "539677",
     "539678",
@@ -968,7 +950,32 @@
     "539939",
     "539940",
     "539941",
-    "539942"
+    "539942",
+    "539993",
+    "539994",
+    "539995",
+    "539996",
+    "539997",
+    "539998",
+    "539999",
+    "540000",
+    "540001",
+    "540002",
+    "540003",
+    "540004",
+    "540005",
+    "540006",
+    "540007",
+    "540008",
+    "540009",
+    "540010",
+    "540011",
+    "540012",
+    "540013",
+    "540014",
+    "540015",
+    "540016",
+    "540017"
    ]
   },
   "rwSent": {
@@ -988,11 +995,6 @@
  "yb5sb5camrzcbh8e": {
   "fpl": {
    "032f9": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "03am7": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -1024,6 +1026,11 @@
    },
    "05ye7": {
     "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "068yc": {
+    "chance": 100,
     "news": "",
     "status": "a"
    },
@@ -1070,18 +1077,14 @@
   },
   "fx": {
    "032f9": {
-    "news": [],
-    "status": []
-   },
-   "03am7": {
-    "news": [],
+    "news": [
+     "Oct 17, 10:01 AM: Pickford recorded four saves and..."
+    ],
     "status": []
    },
    "0477b": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "04e1e": {
     "news": [],
@@ -1089,9 +1092,7 @@
    },
    "04gpx": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "04qr9": {
     "news": [
@@ -1103,15 +1104,15 @@
    },
    "05o4c": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "05ye7": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
+   },
+   "068yc": {
+    "news": [],
+    "status": []
    },
    "06jgi": {
     "news": [],
@@ -1119,9 +1120,7 @@
    },
    "06mn0": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06r5b": {
     "news": [],
@@ -1129,9 +1128,7 @@
    },
    "06v07": {
     "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
+    "status": []
    },
    "06xzd": {
     "news": [],
@@ -1143,13 +1140,13 @@
    },
    "0700p": {
     "news": [],
-    "status": []
-   },
-   "0793q": {
-    "news": [],
     "status": [
      "Starting in upcoming/current game"
     ]
+   },
+   "0793q": {
+    "news": [],
+    "status": []
    }
   },
   "idmap": {
@@ -1163,6 +1160,7 @@
    "05opl": 145,
    "05u1m": 84,
    "05ye7": 264,
+   "068yc": 129,
    "06jgi": 201,
    "06mn0": 106,
    "06r5b": 127,
@@ -1176,8 +1174,8 @@
   },
   "lag": {
    "032f9": {
-    "fx": "2026-10-12 06:30",
-    "what": "Oct 11, 10:12 PM: Pickford registered two saves and..."
+    "fx": "2026-10-17 16:14",
+    "what": "Oct 17, 10:01 AM: Pickford recorded four saves and..."
    },
    "04e1e": {
     "fx": "2026-10-10 14:18",
@@ -1253,31 +1251,6 @@
     "rayan-cherki-30601": "06v07"
    },
    "seen": [
-    "539617",
-    "539618",
-    "539619",
-    "539620",
-    "539621",
-    "539622",
-    "539623",
-    "539624",
-    "539625",
-    "539626",
-    "539627",
-    "539628",
-    "539629",
-    "539630",
-    "539631",
-    "539632",
-    "539633",
-    "539634",
-    "539635",
-    "539636",
-    "539637",
-    "539638",
-    "539639",
-    "539674",
-    "539675",
     "539676",
     "539677",
     "539678",
@@ -1452,7 +1425,32 @@
     "539939",
     "539940",
     "539941",
-    "539942"
+    "539942",
+    "539993",
+    "539994",
+    "539995",
+    "539996",
+    "539997",
+    "539998",
+    "539999",
+    "540000",
+    "540001",
+    "540002",
+    "540003",
+    "540004",
+    "540005",
+    "540006",
+    "540007",
+    "540008",
+    "540009",
+    "540010",
+    "540011",
+    "540012",
+    "540013",
+    "540014",
+    "540015",
+    "540016",
+    "540017"
    ]
   },
   "rwSent": {
