@@ -60,11 +60,6 @@
   "lastDigest": 1791836756.0495315,
   "me": "6jj1vsj8mruuonm3",
   "names": {
-   "0327r": {
-    "club": "EVE",
-    "pos": "D",
-    "short": "M. Keane"
-   },
    "03fgl": {
     "club": "COV",
     "pos": "D",
@@ -75,6 +70,11 @@
     "pos": "M",
     "short": "J. Maddison"
    },
+   "04e1c": {
+    "club": "BHA",
+    "pos": "D",
+    "short": "L. Dunk"
+   },
    "04qor": {
     "club": "FUL",
     "pos": "G",
@@ -84,11 +84,6 @@
     "club": "NOT",
     "pos": "M",
     "short": "M. Gibbs-White"
-   },
-   "051k7": {
-    "club": "CHE",
-    "pos": "D",
-    "short": "R. James"
    },
    "052ca": {
     "club": "ARS",
@@ -150,6 +145,11 @@
     "pos": "M",
     "short": "K. Mainoo"
    },
+   "0689w": {
+    "club": "BHA",
+    "pos": "F",
+    "short": "G. Rutter"
+   },
    "068yc": {
     "club": "BHA",
     "pos": "M",
@@ -185,20 +185,25 @@
     "pos": "M",
     "short": "Diego Gomez"
    },
-   "06uzy": {
-    "club": "LEE",
-    "pos": "M",
-    "short": "A. Tanaka"
-   },
    "06v21": {
     "club": "LIV",
     "pos": "M",
     "short": "F. Wirtz"
    },
+   "06xza": {
+    "club": "BOU",
+    "pos": "F",
+    "short": "E. Kroupi"
+   },
    "06y26": {
     "club": "BHA",
     "pos": "D",
     "short": "O. Boscagli"
+   },
+   "06yb7": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "G. Gudmundsson"
    },
    "0703c": {
     "club": "SUN",
@@ -209,11 +214,6 @@
     "club": "LIV",
     "pos": "D",
     "short": "R. Araujo"
-   },
-   "078ud": {
-    "club": "NEW",
-    "pos": "D",
-    "short": "A. Dedic"
    },
    "078wl": {
     "club": "AVL",
@@ -452,6 +452,16 @@
     "pos": "D",
     "short": "D. O'Shea"
    },
+   "04rzl": {
+    "club": "COV",
+    "pos": "F",
+    "short": "T. Awoniyi"
+   },
+   "051k8": {
+    "club": "TOT",
+    "pos": "M",
+    "short": "C. Gallagher"
+   },
    "05a6e": {
     "club": "NOT",
     "pos": "D",
@@ -476,11 +486,6 @@
     "club": "NEW",
     "pos": "D",
     "short": "L. Hall"
-   },
-   "061ya": {
-    "club": "EVE",
-    "pos": "F",
-    "short": "B. Johnson"
    },
    "062a9": {
     "club": "NEW",
@@ -567,11 +572,6 @@
     "pos": "F",
     "short": "Rayan"
    },
-   "072zs": {
-    "club": "SUN",
-    "pos": "M",
-    "short": "N. Angulo"
-   },
    "076d3": {
     "club": "COV",
     "pos": "M",
@@ -587,10 +587,10 @@
     "pos": "D",
     "short": "M. Palestra"
    },
-   "0785d": {
-    "club": "NEW",
+   "0784w": {
+    "club": "IPS",
     "pos": "F",
-    "short": "B. Touré"
+    "short": "Emersonn"
    },
    "07877": {
     "club": "BRF",
@@ -736,15 +736,10 @@
     "pos": "D",
     "short": "S. van den Berg"
    },
-   "052ca": {
-    "club": "ARS",
+   "05o4c": {
+    "club": "FUL",
     "pos": "D",
-    "short": "E. Konsa"
-   },
-   "05u1m": {
-    "club": "BRF",
-    "pos": "D",
-    "short": "N. Collins"
+    "short": "T. Castagne"
    },
    "05uht": {
     "club": "CHE",
@@ -816,6 +811,11 @@
     "pos": "F",
     "short": "T. Barry"
    },
+   "0700p": {
+    "club": "NEW",
+    "pos": "D",
+    "short": "M. Thiaw"
+   },
    "070hs": {
     "club": "MCI",
     "pos": "G",
@@ -835,11 +835,6 @@
     "club": "CHE",
     "pos": "D",
     "short": "P. Chavarría"
-   },
-   "078ud": {
-    "club": "NEW",
-    "pos": "D",
-    "short": "A. Dedic"
    },
    "0793q": {
     "club": "LIV",
