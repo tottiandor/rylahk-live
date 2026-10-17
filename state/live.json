@@ -7,7 +7,7 @@
   },
   "finalSent": false,
   "games": {
-   "06m77": "CHE 2 @ EVE 0 103'|06m77|2"
+   "06m77": "CHE 2 @ EVE 0 F|06m77|3"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -277,7 +277,7 @@
       0
      ],
      "5010#6120#-1": [
-      90.0,
+      88.0,
       0
      ],
      "5010#6175#-1": [
@@ -826,18 +826,11 @@
   "announced": true,
   "digest": {
    "5xsj4mxjms0a28ls": {},
-   "hx9lanrvms0sdrmq": {
-    "05uht": {
-     "DIS": [
-      -1.0,
-      0.5
-     ]
-    }
-   }
+   "hx9lanrvms0sdrmq": {}
   },
   "finalSent": false,
   "games": {
-   "06m77": "CHE 2 @ EVE 0 103'|06m77|2"
+   "06m77": "CHE 2 @ EVE 0 F|06m77|3"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -889,7 +882,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792243838.3519318,
+  "lastDigest": 1792244412.2850122,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
