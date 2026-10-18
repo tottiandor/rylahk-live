@@ -14,7 +14,7 @@
    "06m78": "HUL 0 @ FUL 1 F|06m78|3",
    "06m79": "MUN 1 @ LEE 1 F|06m79|3",
    "06m7b": "AVL 1 @ NEW 0 F|06m7b|3",
-   "06m7c": "ARS 0 @ NOT 0 Halftime|06m7c|2"
+   "06m7c": "ARS 0 @ NOT 0 45'|06m7c|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -2280,7 +2280,7 @@
    "06m79": "MUN 1 @ LEE 1 F|06m79|3",
    "06m7a": "IPS 2 @ MCI 3 F|06m7a|3",
    "06m7b": "AVL 1 @ NEW 0 F|06m7b|3",
-   "06m7c": "ARS 0 @ NOT 0 Halftime|06m7c|2"
+   "06m7c": "ARS 0 @ NOT 0 45'|06m7c|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -4305,7 +4305,7 @@
    "06m78": "HUL 0 @ FUL 1 F|06m78|3",
    "06m7a": "IPS 2 @ MCI 3 F|06m7a|3",
    "06m7b": "AVL 1 @ NEW 0 F|06m7b|3",
-   "06m7c": "ARS 0 @ NOT 0 Halftime|06m7c|2"
+   "06m7c": "ARS 0 @ NOT 0 45'|06m7c|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
