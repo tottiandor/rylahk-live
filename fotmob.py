@@ -69,7 +69,9 @@ def same_player(person, p):
     a, b = norm(person.get('name')), norm(p['name'])
     if not a or not b or not (a == b or a.split()[-1] == b.split()[-1]):
         return False
-    return same_club(person.get('primaryTeamName'), p['club'])
+    # internationals carry the player's club; in club games FotMob leaves it out (the team
+    # IS the club), so fall back to the team he is listed under
+    return same_club(person.get('primaryTeamName') or person.get('_team'), p['club'])
 
 
 def lineup_people(content):
@@ -82,7 +84,7 @@ def lineup_people(content):
         t = lu.get(side) or {}
         for role in ('starters', 'subs', 'unavailable'):
             for person in t.get(role) or []:
-                out.append((role, person, t.get('name')))
+                out.append((role, dict(person, _team=t.get('name')), t.get('name')))
     return out, lu.get('lineupType') == 'standard'
 
 

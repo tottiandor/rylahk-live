@@ -212,6 +212,11 @@ def esc(s):
     return str(s).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+# letters that accent-stripping alone would drop (Groß -> "gro" never matched "Gross")
+SPELL = str.maketrans({'ß': 'ss', 'ø': 'o', 'Ø': 'O', 'æ': 'ae', 'Æ': 'AE', 'œ': 'oe', 'ł': 'l',
+                       'Ł': 'L', 'đ': 'd', 'Đ': 'D', 'ı': 'i', 'þ': 'th', 'ð': 'd'})
+
+
 def norm(s):
-    s = unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode()
+    s = unicodedata.normalize('NFKD', (s or '').translate(SPELL)).encode('ascii', 'ignore').decode()
     return ' '.join(s.lower().replace('-', ' ').replace("'", '').replace('.', '').split())
