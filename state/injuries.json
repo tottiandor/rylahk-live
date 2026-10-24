@@ -2,9 +2,9 @@
  "5cfv4rkwmrcniqha": {
   "fpl": {
    "0414o": {
-    "chance": 75,
-    "news": "Unspecified injury - 75% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "04hk9": {
     "chance": null,
@@ -17,14 +17,14 @@
     "status": "a"
    },
    "05g2o": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
+    "chance": 75,
+    "news": "Unspecified injury - 75% chance of playing",
+    "status": "d"
    },
    "05l2z": {
-    "chance": null,
-    "news": "",
-    "status": "a"
+    "chance": 75,
+    "news": "Unspecified injury - 75% chance of playing",
+    "status": "d"
    },
    "05ogb": {
     "chance": 75,
@@ -85,28 +85,29 @@
   "fx": {
    "0414o": {
     "news": [
-     "Oct 24, 11:21 AM: Maddison (undisclosed) starts..."
+     "Oct 24, 1:43 PM: Maddison was forced off in the 49th..."
     ],
     "status": [
-     "Starting in upcoming/current game"
+     "Undisclosed - Out for next game - Expected return Oct 31"
     ]
    },
    "04hk9": {
-    "news": [],
+    "news": [
+     "Oct 24, 1:49 PM: Merino had five shots (zero on goal)..."
+    ],
     "status": []
    },
    "04qr9": {
     "news": [
-     "Oct 23, 1:51 PM: Gibbs-White (undisclosed) is in the..."
+     "Oct 24, 1:25 PM: Gibbs-White generated two shots (one on..."
     ],
     "status": []
    },
    "05g2o": {
     "news": [
-     "Oct 24, 11:24 AM: Joao Pedro is absent from the squad for..."
+     "Oct 24, 11:24 AM: Joao Pedro was left out of the squad..."
     ],
     "status": [
-     "Not starting in upcoming/current game",
      "Undisclosed - Out for next game - Expected return Oct 31"
     ]
    },
@@ -115,7 +116,7 @@
      "Oct 24, 11:30 AM: Thomas was forced off with an apparent..."
     ],
     "status": [
-     "Undisclosed - Out for next game"
+     "Undisclosed - Out for next game - Expected return Oct 31"
     ]
    },
    "05ogb": {
@@ -205,23 +206,24 @@
   },
   "lag": {
    "0414o": {
-    "fx": "2026-10-24 15:46",
-    "rw": "2026-10-24 15:46",
-    "what": "Starts against Chelsea"
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:43 PM: Maddison was forced off in the 49th..."
+   },
+   "04hk9": {
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:49 PM: Merino had five shots (zero on goal)..."
    },
    "04qr9": {
-    "fx": "2026-10-23 20:24",
-    "rw": "2026-10-23 20:24",
-    "what": "Starting Friday"
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:25 PM: Gibbs-White generated two shots (one on..."
    },
    "051k7": {
     "fx": "2026-10-13 18:05",
     "what": "Oct 13, 9:34 AM: James was absent for the first 15..."
    },
    "05g2o": {
-    "fx": "2026-10-24 15:46",
-    "rw": "2026-10-24 15:46",
-    "what": "Missing from squad"
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 11:24 AM: Joao Pedro was left out of the squad..."
    },
    "05l2z": {
     "fx": "2026-10-24 15:46",
@@ -297,31 +299,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "541427",
-    "541428",
-    "541429",
-    "541430",
-    "541431",
-    "541432",
-    "541433",
-    "541434",
-    "541435",
-    "541436",
-    "541437",
-    "541438",
-    "541439",
-    "541440",
-    "541441",
-    "541442",
-    "541443",
-    "541444",
-    "541445",
-    "541446",
-    "541447",
-    "541448",
-    "541449",
-    "541450",
-    "541451",
     "541452",
     "541453",
     "541454",
@@ -496,7 +473,32 @@
     "541772",
     "541773",
     "541774",
-    "541775"
+    "541775",
+    "541828",
+    "541829",
+    "541830",
+    "541831",
+    "541832",
+    "541833",
+    "541834",
+    "541835",
+    "541836",
+    "541837",
+    "541838",
+    "541839",
+    "541840",
+    "541841",
+    "541842",
+    "541843",
+    "541844",
+    "541845",
+    "541846",
+    "541847",
+    "541848",
+    "541849",
+    "541850",
+    "541851",
+    "541852"
    ]
   },
   "rwSent": {
@@ -614,7 +616,9 @@
     "status": []
    },
    "04hk9": {
-    "news": [],
+    "news": [
+     "Oct 24, 1:49 PM: Merino had five shots (zero on goal)..."
+    ],
     "status": []
    },
    "05a6e": {
@@ -638,7 +642,9 @@
     "status": []
    },
    "068n8": {
-    "news": [],
+    "news": [
+     "Oct 24, 1:49 PM: Madueke had three shots (zero on goal),..."
+    ],
     "status": []
    },
    "068yc": {
@@ -673,9 +679,7 @@
    },
    "0784b": {
     "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
+    "status": []
    },
    "0785d": {
     "news": [],
@@ -732,6 +736,10 @@
     "rw": "2026-10-10 21:19",
     "what": "Scores winner vs. Fulham"
    },
+   "04hk9": {
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:49 PM: Merino had five shots (zero on goal)..."
+   },
    "05a6e": {
     "fx": "2026-10-24 11:56",
     "what": "Oct 24, 3:26 AM: Williams scored one goal to go with two..."
@@ -746,9 +754,8 @@
     "what": "Five crosses in 1-0 loss"
    },
    "068n8": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Scores game winner"
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:49 PM: Madueke had three shots (zero on goal),..."
    },
    "068yc": {
     "fx": "2026-10-18 19:22",
@@ -818,31 +825,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "541427",
-    "541428",
-    "541429",
-    "541430",
-    "541431",
-    "541432",
-    "541433",
-    "541434",
-    "541435",
-    "541436",
-    "541437",
-    "541438",
-    "541439",
-    "541440",
-    "541441",
-    "541442",
-    "541443",
-    "541444",
-    "541445",
-    "541446",
-    "541447",
-    "541448",
-    "541449",
-    "541450",
-    "541451",
     "541452",
     "541453",
     "541454",
@@ -1017,7 +999,32 @@
     "541772",
     "541773",
     "541774",
-    "541775"
+    "541775",
+    "541828",
+    "541829",
+    "541830",
+    "541831",
+    "541832",
+    "541833",
+    "541834",
+    "541835",
+    "541836",
+    "541837",
+    "541838",
+    "541839",
+    "541840",
+    "541841",
+    "541842",
+    "541843",
+    "541844",
+    "541845",
+    "541846",
+    "541847",
+    "541848",
+    "541849",
+    "541850",
+    "541851",
+    "541852"
    ]
   },
   "rwSent": {
@@ -1121,7 +1128,9 @@
   },
   "fx": {
    "032f9": {
-    "news": [],
+    "news": [
+     "Oct 24, 1:50 PM: Pickford had two saves and allowed two..."
+    ],
     "status": []
    },
    "0477b": {
@@ -1129,7 +1138,9 @@
     "status": []
    },
    "04e1e": {
-    "news": [],
+    "news": [
+     "Oct 24, 1:48 PM: White assisted once to go with two..."
+    ],
     "status": []
    },
    "04gpx": {
@@ -1138,7 +1149,7 @@
    },
    "04qr9": {
     "news": [
-     "Oct 23, 1:51 PM: Gibbs-White (undisclosed) is in the..."
+     "Oct 24, 1:25 PM: Gibbs-White generated two shots (one on..."
     ],
     "status": []
    },
@@ -1155,7 +1166,9 @@
     "status": []
    },
    "06jgi": {
-    "news": [],
+    "news": [
+     "Oct 24, 1:20 PM: Munoz assisted once to go with one shot..."
+    ],
     "status": []
    },
    "06mn0": {
@@ -1167,7 +1180,9 @@
     "status": []
    },
    "06v07": {
-    "news": [],
+    "news": [
+     "Oct 24, 11:52 AM: Cherki generated one shot (one on..."
+    ],
     "status": []
    },
    "06xzd": {
@@ -1175,7 +1190,9 @@
     "status": []
    },
    "06ybp": {
-    "news": [],
+    "news": [
+     "Oct 24, 1:53 PM: Barry registered two shots (one on..."
+    ],
     "status": []
    },
    "0700p": {
@@ -1214,8 +1231,9 @@
   },
   "lag": {
    "032f9": {
-    "fx": "2026-10-17 16:14",
-    "what": "Oct 17, 10:01 AM: Pickford recorded four saves and..."
+    "fx": "2026-10-24 18:23",
+    "rw": "2026-10-24 18:23",
+    "what": "Concedes twice in defeat"
    },
    "0477b": {
     "fx": "2026-10-17 22:59",
@@ -1223,8 +1241,8 @@
     "what": "Neutralized by Fulham"
    },
    "04e1e": {
-    "fx": "2026-10-19 14:55",
-    "what": "Oct 19, 4:50 AM: White had one cross (zero accurate) and..."
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:48 PM: White assisted once to go with two..."
    },
    "04gpx": {
     "fx": "2026-10-10 21:19",
@@ -1232,9 +1250,8 @@
     "what": "Scores winner vs. Fulham"
    },
    "04qr9": {
-    "fx": "2026-10-23 20:24",
-    "rw": "2026-10-23 20:24",
-    "what": "Starting Friday"
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:25 PM: Gibbs-White generated two shots (one on..."
    },
    "05o4c": {
     "fx": "2026-10-17 22:59",
@@ -1256,8 +1273,8 @@
     "what": "Scores against Crystal Palace"
    },
    "06jgi": {
-    "fx": "2026-10-19 14:55",
-    "what": "Oct 19, 4:52 AM: Munoz registered one cross (zero..."
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 1:20 PM: Munoz assisted once to go with one shot..."
    },
    "06mn0": {
     "fx": "2026-10-19 14:55",
@@ -1269,9 +1286,8 @@
     "what": "Scores in victory"
    },
    "06v07": {
-    "fx": "2026-10-21 19:29",
-    "rw": "2026-10-21 19:29",
-    "what": "Five shots, records goal"
+    "fx": "2026-10-24 18:23",
+    "what": "Oct 24, 11:52 AM: Cherki generated one shot (one on..."
    },
    "06xzd": {
     "fx": "2026-10-18 19:22",
@@ -1279,8 +1295,9 @@
     "what": "Involved in two goals in win"
    },
    "06ybp": {
-    "fx": "2026-10-11 17:49",
-    "what": "Oct 11, 11:16 AM: Barry scored one goal to go with five..."
+    "fx": "2026-10-24 18:23",
+    "rw": "2026-10-24 18:23",
+    "what": "Endures another scoreless outing"
    },
    "0700p": {
     "fx": "2026-10-19 14:55",
@@ -1305,40 +1322,17 @@
     "daniel-munoz-41175": "06jgi",
     "dara-oshea-31343": "04gpx",
     "diego-gomez-39929": "06r5b",
+    "jordan-pickford-19035": "032f9",
     "malick-thiaw-31009": "0700p",
     "morgan-gibbs-white-26138": "04qr9",
     "nathan-collins-31313": "05u1m",
     "oliver-mcburnie-23104": "0477b",
     "rayan-cherki-30601": "06v07",
+    "thierno-barry-44100": "06ybp",
     "timothy-castagne-24955": "05o4c",
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "541427",
-    "541428",
-    "541429",
-    "541430",
-    "541431",
-    "541432",
-    "541433",
-    "541434",
-    "541435",
-    "541436",
-    "541437",
-    "541438",
-    "541439",
-    "541440",
-    "541441",
-    "541442",
-    "541443",
-    "541444",
-    "541445",
-    "541446",
-    "541447",
-    "541448",
-    "541449",
-    "541450",
-    "541451",
     "541452",
     "541453",
     "541454",
@@ -1513,10 +1507,36 @@
     "541772",
     "541773",
     "541774",
-    "541775"
+    "541775",
+    "541828",
+    "541829",
+    "541830",
+    "541831",
+    "541832",
+    "541833",
+    "541834",
+    "541835",
+    "541836",
+    "541837",
+    "541838",
+    "541839",
+    "541840",
+    "541841",
+    "541842",
+    "541843",
+    "541844",
+    "541845",
+    "541846",
+    "541847",
+    "541848",
+    "541849",
+    "541850",
+    "541851",
+    "541852"
    ]
   },
   "rwSent": {
+   "032f9": 1792866210.826966,
    "0477b": 1792277968.589335,
    "04e1e": 1791640727.217396,
    "04gpx": 1791667173.812962,
@@ -1528,6 +1548,7 @@
    "06r5b": 1792351346.661943,
    "06v07": 1792610966.566407,
    "06xzd": 1792351346.661948,
+   "06ybp": 1792866210.827744,
    "0700p": 1792421722.484564,
    "0793q": 1792669158.54449
   }
