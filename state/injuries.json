@@ -6,6 +6,11 @@
     "news": "Unspecified injury - 75% chance of playing",
     "status": "d"
    },
+   "04hk9": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
    "04qr9": {
     "chance": 100,
     "news": "",
@@ -20,6 +25,11 @@
     "chance": null,
     "news": "",
     "status": "a"
+   },
+   "05ogb": {
+    "chance": 75,
+    "news": "Hamstring injury - 75% chance of playing",
+    "status": "d"
    },
    "05trb": {
     "chance": null,
@@ -42,11 +52,6 @@
     "status": "a"
    },
    "06r5b": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "06v0g": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -75,21 +80,20 @@
     "chance": null,
     "news": "",
     "status": "a"
-   },
-   "078wo": {
-    "chance": null,
-    "news": "",
-    "status": "a"
    }
   },
   "fx": {
    "0414o": {
     "news": [
-     "Oct 23, 9:24 AM: Maddison (undisclosed) is questionable..."
+     "Oct 24, 11:21 AM: Maddison (undisclosed) starts..."
     ],
     "status": [
-     "Undisclosed - Late fitness test (Game-time decision) - Expected return Oct 24"
+     "Starting in upcoming/current game"
     ]
+   },
+   "04hk9": {
+    "news": [],
+    "status": []
    },
    "04qr9": {
     "news": [
@@ -98,12 +102,29 @@
     "status": []
    },
    "05g2o": {
-    "news": [],
-    "status": []
+    "news": [
+     "Oct 24, 11:24 AM: Joao Pedro is absent from the squad for..."
+    ],
+    "status": [
+     "Not starting in upcoming/current game",
+     "Undisclosed - Out for next game - Expected return Oct 31"
+    ]
    },
    "05l2z": {
-    "news": [],
-    "status": []
+    "news": [
+     "Oct 24, 11:30 AM: Thomas was forced off with an apparent..."
+    ],
+    "status": [
+     "Undisclosed - Out for next game"
+    ]
+   },
+   "05ogb": {
+    "news": [
+     "Oct 23, 9:14 AM: Elanga (hamstring) could return to..."
+    ],
+    "status": [
+     "Hamstring - Late fitness test (Game-time decision) - Expected return Oct 25"
+    ]
    },
    "05trb": {
     "news": [],
@@ -127,14 +148,8 @@
     "news": [],
     "status": []
    },
-   "06v0g": {
-    "news": [],
-    "status": []
-   },
    "06v21": {
-    "news": [
-     "Oct 23, 8:14 AM: Wirtz scored one goal to go with four..."
-    ],
+    "news": [],
     "status": []
    },
    "06y26": {
@@ -150,11 +165,9 @@
     "status": []
    },
    "078wl": {
-    "news": [],
-    "status": []
-   },
-   "078wo": {
-    "news": [],
+    "news": [
+     "Oct 24, 10:36 AM: Suzuki made six saves and allowed one..."
+    ],
     "status": []
    }
   },
@@ -162,11 +175,13 @@
    "0327r": 231,
    "0414o": 515,
    "04e1c": 116,
+   "04hk9": 17,
    "04qr9": 480,
    "051k7": 142,
    "05g2o": 165,
    "05l2z": 173,
    "05o4c": 258,
+   "05ogb": 454,
    "05trb": 427,
    "05u1m": 84,
    "0635j": 202,
@@ -190,8 +205,9 @@
   },
   "lag": {
    "0414o": {
-    "fx": "2026-10-23 17:01",
-    "what": "Oct 23, 9:24 AM: Maddison (undisclosed) is questionable..."
+    "fx": "2026-10-24 15:46",
+    "rw": "2026-10-24 15:46",
+    "what": "Starts against Chelsea"
    },
    "04qr9": {
     "fx": "2026-10-23 20:24",
@@ -203,13 +219,14 @@
     "what": "Oct 13, 9:34 AM: James was absent for the first 15..."
    },
    "05g2o": {
-    "fx": "2026-10-17 16:14",
-    "what": "Oct 17, 10:28 AM: Joao Pedro recorded three shots (two on..."
+    "fx": "2026-10-24 15:46",
+    "rw": "2026-10-24 15:46",
+    "what": "Missing from squad"
    },
    "05l2z": {
-    "fx": "2026-10-14 17:29",
-    "rw": "2026-10-14 17:29",
-    "what": "16 clearances in win"
+    "fx": "2026-10-24 15:46",
+    "rw": "2026-10-24 15:46",
+    "what": "Exits early against Fulham"
    },
    "05trb": {
     "fx": "2026-10-18 16:59",
@@ -257,9 +274,8 @@
     "what": "Oct 12, 2:19 PM: Dedic (hamstring) is on the bench for..."
    },
    "078wl": {
-    "fx": "2026-10-23 01:40",
-    "rw": "2026-10-23 01:40",
-    "what": "Beaten late in win"
+    "fx": "2026-10-24 15:46",
+    "what": "Oct 24, 10:36 AM: Suzuki made six saves and allowed one..."
    }
   },
   "ready": true,
@@ -281,31 +297,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "541402",
-    "541403",
-    "541404",
-    "541405",
-    "541406",
-    "541407",
-    "541408",
-    "541409",
-    "541410",
-    "541411",
-    "541412",
-    "541413",
-    "541414",
-    "541415",
-    "541416",
-    "541417",
-    "541418",
-    "541419",
-    "541420",
-    "541421",
-    "541422",
-    "541423",
-    "541424",
-    "541425",
-    "541426",
     "541427",
     "541428",
     "541429",
@@ -480,15 +471,40 @@
     "541696",
     "541697",
     "541698",
-    "541699"
+    "541699",
+    "541751",
+    "541752",
+    "541753",
+    "541754",
+    "541755",
+    "541756",
+    "541757",
+    "541758",
+    "541759",
+    "541760",
+    "541761",
+    "541762",
+    "541763",
+    "541764",
+    "541765",
+    "541766",
+    "541767",
+    "541768",
+    "541769",
+    "541770",
+    "541771",
+    "541772",
+    "541773",
+    "541774",
+    "541775"
    ]
   },
   "rwSent": {
-   "0414o": 1792454043.99916,
+   "0414o": 1792856813.855861,
    "04qr9": 1792787095.996687,
    "051k7": 1791638728.685333,
-   "05g2o": 1791637358.8964,
-   "05l2z": 1791998958.846342,
+   "05g2o": 1792856813.85596,
+   "05l2z": 1792856813.856365,
    "05trb": 1791941083.626996,
    "05u1m": 1792241759.671321,
    "0639x": 1792441602.204305,
@@ -512,8 +528,8 @@
     "news": "",
     "status": "a"
    },
-   "04rzl": {
-    "chance": 100,
+   "04hk9": {
+    "chance": null,
     "news": "",
     "status": "a"
    },
@@ -521,6 +537,11 @@
     "chance": 75,
     "news": "Arm injury - 75% chance of playing",
     "status": "d"
+   },
+   "05n3u": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "05oz3": {
     "chance": null,
@@ -546,11 +567,6 @@
     "chance": 0,
     "news": "Hamstring injury - Unknown return date",
     "status": "i"
-   },
-   "06v0g": {
-    "chance": null,
-    "news": "",
-    "status": "a"
    },
    "06v0y": {
     "chance": null,
@@ -597,7 +613,7 @@
     "news": [],
     "status": []
    },
-   "04rzl": {
+   "04hk9": {
     "news": [],
     "status": []
    },
@@ -608,6 +624,10 @@
     "status": [
      "Elbow - Late fitness test (Game-time decision) - Expected return Oct 31"
     ]
+   },
+   "05n3u": {
+    "news": [],
+    "status": []
    },
    "05oz3": {
     "news": [],
@@ -633,10 +653,6 @@
      "Hamstring - Out for next game - Expected return Nov 22"
     ]
    },
-   "06v0g": {
-    "news": [],
-    "status": []
-   },
    "06v0y": {
     "news": [],
     "status": []
@@ -646,9 +662,7 @@
     "status": []
    },
    "06zbx": {
-    "news": [
-     "Oct 23, 8:52 AM: Stach (adductor) is dealing with an..."
-    ],
+    "news": [],
     "status": [
      "Groin - Late fitness test (Game-time decision) - Expected return Oct 25"
     ]
@@ -659,7 +673,9 @@
    },
    "0784b": {
     "news": [],
-    "status": []
+    "status": [
+     "On the bench, potential substitute"
+    ]
    },
    "0785d": {
     "news": [],
@@ -675,8 +691,10 @@
    "03m3q": 649,
    "04fk1": 124,
    "04gpx": 304,
+   "04hk9": 17,
    "04rzl": 492,
    "05a6e": 469,
+   "05n3u": 340,
    "05oz3": 385,
    "05y9n": 449,
    "061ya": 209,
@@ -800,31 +818,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "541402",
-    "541403",
-    "541404",
-    "541405",
-    "541406",
-    "541407",
-    "541408",
-    "541409",
-    "541410",
-    "541411",
-    "541412",
-    "541413",
-    "541414",
-    "541415",
-    "541416",
-    "541417",
-    "541418",
-    "541419",
-    "541420",
-    "541421",
-    "541422",
-    "541423",
-    "541424",
-    "541425",
-    "541426",
     "541427",
     "541428",
     "541429",
@@ -999,7 +992,32 @@
     "541696",
     "541697",
     "541698",
-    "541699"
+    "541699",
+    "541751",
+    "541752",
+    "541753",
+    "541754",
+    "541755",
+    "541756",
+    "541757",
+    "541758",
+    "541759",
+    "541760",
+    "541761",
+    "541762",
+    "541763",
+    "541764",
+    "541765",
+    "541766",
+    "541767",
+    "541768",
+    "541769",
+    "541770",
+    "541771",
+    "541772",
+    "541773",
+    "541774",
+    "541775"
    ]
   },
   "rwSent": {
@@ -1296,31 +1314,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "541402",
-    "541403",
-    "541404",
-    "541405",
-    "541406",
-    "541407",
-    "541408",
-    "541409",
-    "541410",
-    "541411",
-    "541412",
-    "541413",
-    "541414",
-    "541415",
-    "541416",
-    "541417",
-    "541418",
-    "541419",
-    "541420",
-    "541421",
-    "541422",
-    "541423",
-    "541424",
-    "541425",
-    "541426",
     "541427",
     "541428",
     "541429",
@@ -1495,7 +1488,32 @@
     "541696",
     "541697",
     "541698",
-    "541699"
+    "541699",
+    "541751",
+    "541752",
+    "541753",
+    "541754",
+    "541755",
+    "541756",
+    "541757",
+    "541758",
+    "541759",
+    "541760",
+    "541761",
+    "541762",
+    "541763",
+    "541764",
+    "541765",
+    "541766",
+    "541767",
+    "541768",
+    "541769",
+    "541770",
+    "541771",
+    "541772",
+    "541773",
+    "541774",
+    "541775"
    ]
   },
   "rwSent": {
