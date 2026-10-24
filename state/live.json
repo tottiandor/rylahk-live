@@ -2180,7 +2180,10 @@
  },
  "yb5sb5camrzcbh8e": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "3u8aixk3ms3h7sw5": {},
+   "5xsj4mxjms0a28ls": {}
+  },
   "finalSent": false,
   "games": {
    "06m7e": "EVE 0 @ ARS 2 F|06m7e|3",
