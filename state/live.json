@@ -9,7 +9,7 @@
   "games": {
    "06m7e": "EVE 0 @ ARS 2 F|06m7e|3",
    "06m7f": "MCI 1 @ AVL 2 F|06m7f|3",
-   "06m7g": "TOT 2 @ CHE 0 94'|06m7g|2",
+   "06m7g": "TOT 2 @ CHE 0 F|06m7g|3",
    "06m7h": "FUL 1 @ COV 0 F|06m7h|3",
    "06m7k": "NOT 1 @ IPS 1 F|06m7k|3"
   },
@@ -63,7 +63,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792865714.4219892,
+  "lastDigest": 1792866629.0972967,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "02lz0": {
