@@ -63,7 +63,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792866629.0972967,
+  "lastDigest": 1792934496.1833508,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "02lz0": {
@@ -96,6 +96,11 @@
     "pos": "M",
     "short": "J. McGinn"
    },
+   "052cd": {
+    "club": "MUN",
+    "pos": "M",
+    "short": "M. Mount"
+   },
    "05g2o": {
     "club": "CHE",
     "pos": "F",
@@ -120,11 +125,6 @@
     "club": "MUN",
     "pos": "F",
     "short": "B. Mbeumo"
-   },
-   "05u1m": {
-    "club": "BRF",
-    "pos": "D",
-    "short": "N. Collins"
    },
    "05uht": {
     "club": "CHE",
@@ -221,10 +221,10 @@
     "pos": "F",
     "short": "I. Mbaye"
    },
-   "07942": {
-    "club": "NEW",
+   "0794j": {
+    "club": "SUN",
     "pos": "F",
-    "short": "M. Fernandez-Pardo"
+    "short": "M. Fofana"
    }
   },
   "opp": "0lnrl4kxmrv8hvuf",
@@ -245,8 +245,8 @@
       0
      ],
      "5010#6016#-1": [
-      2.0,
-      0.5
+      1.0,
+      0.25
      ],
      "5010#6019#-1": [
       0,
@@ -277,8 +277,8 @@
       0
      ],
      "5010#6108#-1": [
-      0,
-      0
+      1.0,
+      1.0
      ],
      "5010#6120#-1": [
       64.0,
@@ -719,8 +719,8 @@
       0
      ],
      "5010#6019#-1": [
-      1.0,
-      1.0
+      0,
+      0
      ],
      "5010#6029#-1": [
       0,
@@ -1480,7 +1480,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792860714.0575378,
+  "lastDigest": 1792934493.4972951,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "02lm7": {
@@ -1523,11 +1523,6 @@
     "pos": "D",
     "short": "P. Porro"
    },
-   "05n3u": {
-    "club": "HUL",
-    "pos": "F",
-    "short": "J. Gelhardt"
-   },
    "05oz3": {
     "club": "LEE",
     "pos": "G",
@@ -1557,6 +1552,11 @@
     "club": "EVE",
     "pos": "D",
     "short": "V. Mykolenko"
+   },
+   "061vp": {
+    "club": "LEE",
+    "pos": "M",
+    "short": "B. Aaronson"
    },
    "063zi": {
     "club": "MCI",
@@ -2453,8 +2453,8 @@
       0
      ],
      "5010#6019#-1": [
-      2.0,
-      2.0
+      3.0,
+      3.0
      ],
      "5010#6029#-1": [
       0,
@@ -2780,11 +2780,6 @@
     "pos": "M",
     "short": "O. Bobb"
    },
-   "062a9": {
-    "club": "NEW",
-    "pos": "D",
-    "short": "S. Botman"
-   },
    "062ci": {
     "club": "BHA",
     "pos": "M",
@@ -2830,6 +2825,11 @@
     "pos": "M",
     "short": "R. Cherki"
    },
+   "06v0g": {
+    "club": "SUN",
+    "pos": "D",
+    "short": "T. Hume"
+   },
    "06v0p": {
     "club": "SUN",
     "pos": "M",
@@ -2850,15 +2850,15 @@
     "pos": "F",
     "short": "D. Ndoye"
    },
-   "0700p": {
-    "club": "NEW",
-    "pos": "D",
-    "short": "M. Thiaw"
-   },
    "0700t": {
     "club": "SUN",
     "pos": "D",
     "short": "O. Alderete"
+   },
+   "070hb": {
+    "club": "CRY",
+    "pos": "D",
+    "short": "J. Canvot"
    },
    "070hl": {
     "club": "MUN",
