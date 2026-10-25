@@ -2458,14 +2458,7 @@
  "rylahk": {
   "announced": true,
   "digest": {
-   "850o6ko7mrsux39s": {
-    "0521z": {
-     "TkW": [
-      -1.0,
-      -1.0
-     ]
-    }
-   },
+   "850o6ko7mrsux39s": {},
    "wfwa6qr6mrsux39t": {}
   },
   "finalSent": false,
@@ -2530,7 +2523,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792948471.0888727,
+  "lastDigest": 1792948806.5586045,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "02lm7": {
@@ -4874,14 +4867,7 @@
  "yb5sb5camrzcbh8e": {
   "announced": true,
   "digest": {
-   "3u8aixk3ms3h7sw5": {
-    "06yb9": {
-     "CLR": [
-      1.0,
-      0.25
-     ]
-    }
-   },
+   "3u8aixk3ms3h7sw5": {},
    "5xsj4mxjms0a28ls": {}
   },
   "finalSent": false,
@@ -4946,7 +4932,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792948475.1245143,
+  "lastDigest": 1792948810.4886916,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "02lm7": {
