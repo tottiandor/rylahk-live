@@ -1,7 +1,10 @@
 {
  "5cfv4rkwmrcniqha": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "0lnrl4kxmrv8hvuf": {},
+   "6jj1vsj8mruuonm3": {}
+  },
   "finalSent": true,
   "games": {
    "06m7e": "EVE 0 @ ARS 2 F|06m7e|3",
@@ -2454,7 +2457,10 @@
  },
  "rylahk": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "850o6ko7mrsux39s": {},
+   "wfwa6qr6mrsux39t": {}
+  },
   "finalSent": true,
   "games": {
    "06m7e": "EVE 0 @ ARS 2 F|06m7e|3",
@@ -2517,7 +2523,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1792952734.7714975,
+  "lastDigest": 1792952875.6629076,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "02lm7": {
@@ -2704,8 +2710,8 @@
       0
      ],
      "5010#6016#-1": [
-      5.0,
-      1.25
+      4.0,
+      1.0
      ],
      "5010#6019#-1": [
       1.0,
