@@ -6,11 +6,6 @@
     "news": "Unspecified injury - 75% chance of playing",
     "status": "d"
    },
-   "04hk9": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "04qr9": {
     "chance": 100,
     "news": "",
@@ -75,11 +70,6 @@
     "chance": null,
     "news": "",
     "status": "a"
-   },
-   "0794j": {
-    "chance": null,
-    "news": "",
-    "status": "a"
    }
   },
   "fx": {
@@ -88,10 +78,6 @@
     "status": [
      "Groin - Late fitness test (Game-time decision) - Expected return Oct 31"
     ]
-   },
-   "04hk9": {
-    "news": [],
-    "status": []
    },
    "04qr9": {
     "news": [],
@@ -122,29 +108,33 @@
     "status": []
    },
    "0639x": {
-    "news": [],
+    "news": [
+     "Oct 26, 2:57 PM: Tavernier scored one goal to go with..."
+    ],
     "status": []
    },
    "06clt": {
     "news": [
-     "Oct 14, 7:29 AM: Kluivert (strain) is fit and available..."
+     "Oct 26, 2:58 PM: Kluivert assisted once to go with three..."
     ],
     "status": []
    },
    "06r5b": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:35 PM: Diego Gomez had two shots (zero on..."
+    ],
     "status": []
    },
    "06v21": {
-    "news": [
-     "Oct 25, 12:49 PM: Wirtz sustained a minor ankle twist..."
-    ],
+    "news": [],
     "status": [
      "Ankle - Late fitness test (Game-time decision) - Expected return Nov 1"
     ]
    },
    "06y26": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:38 PM: Boscagli had one shot (zero on goal)..."
+    ],
     "status": []
    },
    "06yb7": {
@@ -160,10 +150,6 @@
     ]
    },
    "078wl": {
-    "news": [],
-    "status": []
-   },
-   "0794j": {
     "news": [],
     "status": []
    }
@@ -242,19 +228,18 @@
     "what": "Oct 22, 10:12 AM: Collins (calf) has made further..."
    },
    "0639x": {
-    "fx": "2026-10-19 20:26",
-    "rw": "2026-10-19 20:26",
-    "what": "Scores in Sunday's win"
+    "fx": "2026-10-26 19:31",
+    "rw": "2026-10-26 19:31",
+    "what": "Bags another goal Sunday"
    },
    "06clt": {
-    "fx": "2026-10-14 12:21",
-    "rw": "2026-10-14 12:21",
-    "what": "Cleared for limited return"
+    "fx": "2026-10-26 19:31",
+    "rw": "2026-10-26 19:31",
+    "what": "Assists opener Sunday"
    },
    "06r5b": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Scores in victory"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:35 PM: Diego Gomez had two shots (zero on..."
    },
    "06v21": {
     "fx": "2026-10-25 18:23",
@@ -262,9 +247,8 @@
     "what": "Suffers minor ankle twist"
    },
    "06y26": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Provides assist in victory"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:38 PM: Boscagli had one shot (zero on goal)..."
    },
    "06yb7": {
     "fx": "2026-10-19 07:27",
@@ -303,31 +287,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "541888",
-    "541889",
-    "541890",
-    "541891",
-    "541892",
-    "541893",
-    "541894",
-    "541895",
-    "541896",
-    "541897",
-    "541898",
-    "541899",
-    "541900",
-    "541901",
-    "541902",
-    "541903",
-    "541904",
-    "541905",
-    "541906",
-    "541907",
-    "541908",
-    "541909",
-    "541910",
-    "541911",
-    "541912",
     "541913",
     "541914",
     "541961",
@@ -502,7 +461,32 @@
     "542294",
     "542295",
     "542296",
-    "542297"
+    "542297",
+    "542407",
+    "542408",
+    "542409",
+    "542410",
+    "542411",
+    "542412",
+    "542413",
+    "542414",
+    "542415",
+    "542416",
+    "542417",
+    "542418",
+    "542419",
+    "542420",
+    "542421",
+    "542422",
+    "542423",
+    "542424",
+    "542425",
+    "542426",
+    "542427",
+    "542428",
+    "542429",
+    "542430",
+    "542431"
    ]
   },
   "rwSent": {
@@ -513,8 +497,8 @@
    "05l2z": 1792856813.856365,
    "05trb": 1791941083.626996,
    "05u1m": 1792241759.671321,
-   "0639x": 1792441602.204305,
-   "06clt": 1791980490.501961,
+   "0639x": 1793043063.193028,
+   "06clt": 1793043063.193041,
    "06r5b": 1792351345.466236,
    "06v21": 1792952585.664392,
    "06y26": 1792351345.466085,
@@ -534,11 +518,6 @@
     "news": "",
     "status": "a"
    },
-   "04hk9": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "05a6e": {
     "chance": 75,
     "news": "Arm injury - 75% chance of playing",
@@ -550,11 +529,6 @@
     "status": "a"
    },
    "05y9n": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "061vp": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -599,11 +573,6 @@
     "news": "",
     "status": "a"
    },
-   "0785d": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
    "07877": {
     "chance": null,
     "news": "",
@@ -612,14 +581,12 @@
   },
   "fx": {
    "04fk1": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:39 PM: Gross had an own goal, five crosses..."
+    ],
     "status": []
    },
    "04gpx": {
-    "news": [],
-    "status": []
-   },
-   "04hk9": {
     "news": [],
     "status": []
    },
@@ -634,11 +601,9 @@
     "status": []
    },
    "05y9n": {
-    "news": [],
-    "status": []
-   },
-   "061vp": {
-    "news": [],
+    "news": [
+     "Oct 26, 11:44 AM: Hall generated two crosses (one..."
+    ],
     "status": []
    },
    "068n8": {
@@ -646,7 +611,9 @@
     "status": []
    },
    "068yc": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
+    ],
     "status": []
    },
    "06cmm": {
@@ -658,7 +625,9 @@
     ]
    },
    "06v0y": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:36 PM: Vuskovic had two shots (zero on goal)..."
+    ],
     "status": []
    },
    "06ymu": {
@@ -666,9 +635,7 @@
     "status": []
    },
    "06zbx": {
-    "news": [
-     "Oct 25, 11:40 AM: Stach (adductor) has been named among..."
-    ],
+    "news": [],
     "status": []
    },
    "072j3": {
@@ -676,10 +643,6 @@
     "status": []
    },
    "0784b": {
-    "news": [],
-    "status": []
-   },
-   "0785d": {
     "news": [],
     "status": []
    },
@@ -726,9 +689,8 @@
   },
   "lag": {
    "04fk1": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Busy from set pieces Sunday"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:39 PM: Gross had an own goal, five crosses..."
    },
    "04gpx": {
     "fx": "2026-10-10 21:19",
@@ -748,18 +710,16 @@
     "what": "Oct 19, 2:13 AM: Trafford had two saves and allowed one..."
    },
    "05y9n": {
-    "fx": "2026-10-19 14:55",
-    "rw": "2026-10-19 14:55",
-    "what": "Five crosses in 1-0 loss"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 11:44 AM: Hall generated two crosses (one..."
    },
    "068n8": {
     "fx": "2026-10-24 18:23",
     "what": "Oct 24, 1:49 PM: Madueke had three shots (zero on goal),..."
    },
    "068yc": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Scores against Crystal Palace"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
    },
    "06cmm": {
     "fx": "2026-10-23 17:01",
@@ -771,8 +731,8 @@
     "what": "Goal and assist against LASK"
    },
    "06v0y": {
-    "fx": "2026-10-11 12:42",
-    "what": "Oct 11, 2:35 AM: Vuskovic recorded two shots (zero on..."
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:36 PM: Vuskovic had two shots (zero on goal)..."
    },
    "06ymu": {
     "fx": "2026-10-11 12:42",
@@ -824,31 +784,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "541888",
-    "541889",
-    "541890",
-    "541891",
-    "541892",
-    "541893",
-    "541894",
-    "541895",
-    "541896",
-    "541897",
-    "541898",
-    "541899",
-    "541900",
-    "541901",
-    "541902",
-    "541903",
-    "541904",
-    "541905",
-    "541906",
-    "541907",
-    "541908",
-    "541909",
-    "541910",
-    "541911",
-    "541912",
     "541913",
     "541914",
     "541961",
@@ -1023,7 +958,32 @@
     "542294",
     "542295",
     "542296",
-    "542297"
+    "542297",
+    "542407",
+    "542408",
+    "542409",
+    "542410",
+    "542411",
+    "542412",
+    "542413",
+    "542414",
+    "542415",
+    "542416",
+    "542417",
+    "542418",
+    "542419",
+    "542420",
+    "542421",
+    "542422",
+    "542423",
+    "542424",
+    "542425",
+    "542426",
+    "542427",
+    "542428",
+    "542429",
+    "542430",
+    "542431"
    ]
   },
   "rwSent": {
@@ -1131,9 +1091,7 @@
     "status": []
    },
    "0477b": {
-    "news": [
-     "Oct 25, 3:03 PM: McBurnie scored one goal to go with one..."
-    ],
+    "news": [],
     "status": []
    },
    "04e1e": {
@@ -1157,7 +1115,9 @@
     "status": []
    },
    "068yc": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
+    ],
     "status": []
    },
    "06jgi": {
@@ -1165,13 +1125,13 @@
     "status": []
    },
    "06mn0": {
-    "news": [
-     "Oct 25, 3:11 PM: Thiago assisted once to go with one..."
-    ],
+    "news": [],
     "status": []
    },
    "06r5b": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:35 PM: Diego Gomez had two shots (zero on..."
+    ],
     "status": []
    },
    "06v07": {
@@ -1183,7 +1143,9 @@
     "status": []
    },
    "06xzd": {
-    "news": [],
+    "news": [
+     "Oct 26, 12:32 PM: Kostoulas had four shots (one on goal)..."
+    ],
     "status": []
    },
    "06ybp": {
@@ -1192,7 +1154,7 @@
    },
    "0793q": {
     "news": [
-     "Oct 23, 8:37 AM: Barcola is fully available for Sunday's..."
+     "Oct 26, 12:25 PM: Barcola assisted once to go with one..."
     ],
     "status": []
    }
@@ -1259,9 +1221,8 @@
     "what": "Scores game-winner vs. Coventry"
    },
    "068yc": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Scores against Crystal Palace"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
    },
    "06jgi": {
     "fx": "2026-10-24 18:23",
@@ -1272,18 +1233,16 @@
     "what": "Oct 25, 3:11 PM: Thiago assisted once to go with one..."
    },
    "06r5b": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Scores in victory"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:35 PM: Diego Gomez had two shots (zero on..."
    },
    "06v07": {
     "fx": "2026-10-24 18:23",
     "what": "Oct 24, 11:52 AM: Cherki generated one shot (one on..."
    },
    "06xzd": {
-    "fx": "2026-10-18 19:22",
-    "rw": "2026-10-18 19:22",
-    "what": "Involved in two goals in win"
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:32 PM: Kostoulas had four shots (one on goal)..."
    },
    "06ybp": {
     "fx": "2026-10-24 18:23",
@@ -1300,8 +1259,8 @@
     "what": "Oct 12, 2:19 PM: Dedic (hamstring) is on the bench for..."
    },
    "0793q": {
-    "fx": "2026-10-23 17:01",
-    "what": "Oct 23, 8:37 AM: Barcola is fully available for Sunday's..."
+    "fx": "2026-10-26 19:31",
+    "what": "Oct 26, 12:25 PM: Barcola assisted once to go with one..."
    }
   },
   "ready": true,
@@ -1325,31 +1284,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "541888",
-    "541889",
-    "541890",
-    "541891",
-    "541892",
-    "541893",
-    "541894",
-    "541895",
-    "541896",
-    "541897",
-    "541898",
-    "541899",
-    "541900",
-    "541901",
-    "541902",
-    "541903",
-    "541904",
-    "541905",
-    "541906",
-    "541907",
-    "541908",
-    "541909",
-    "541910",
-    "541911",
-    "541912",
     "541913",
     "541914",
     "541961",
@@ -1524,7 +1458,32 @@
     "542294",
     "542295",
     "542296",
-    "542297"
+    "542297",
+    "542407",
+    "542408",
+    "542409",
+    "542410",
+    "542411",
+    "542412",
+    "542413",
+    "542414",
+    "542415",
+    "542416",
+    "542417",
+    "542418",
+    "542419",
+    "542420",
+    "542421",
+    "542422",
+    "542423",
+    "542424",
+    "542425",
+    "542426",
+    "542427",
+    "542428",
+    "542429",
+    "542430",
+    "542431"
    ]
   },
   "rwSent": {
