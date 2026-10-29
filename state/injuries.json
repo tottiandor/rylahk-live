@@ -11,18 +11,28 @@
     "news": "",
     "status": "a"
    },
+   "052cb": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
    "05g2o": {
     "chance": 0,
     "news": "Thigh injury - Unknown return date",
     "status": "i"
    },
    "05l2z": {
-    "chance": 75,
-    "news": "Unspecified injury - 75% chance of playing",
+    "chance": 50,
+    "news": "Calf injury - 50% chance of playing",
     "status": "d"
    },
    "05ogb": {
     "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "05tr1": {
+    "chance": null,
     "news": "",
     "status": "a"
    },
@@ -56,12 +66,12 @@
     "news": "",
     "status": "a"
    },
-   "06yb7": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
    "0703c": {
+    "chance": 75,
+    "news": "Knock - 75% chance of playing",
+    "status": "d"
+   },
+   "078ud": {
     "chance": 100,
     "news": "",
     "status": "a"
@@ -74,12 +84,18 @@
   },
   "fx": {
    "0414o": {
-    "news": [],
+    "news": [
+     "Oct 29, 1:50 PM: Maddison (groin) isn't dealing with a..."
+    ],
     "status": [
      "Groin - Late fitness test (Game-time decision) - Expected return Oct 31"
     ]
    },
    "04qr9": {
+    "news": [],
+    "status": []
+   },
+   "052cb": {
     "news": [],
     "status": []
    },
@@ -93,7 +109,7 @@
    },
    "05l2z": {
     "news": [
-     "Oct 24, 11:30 AM: Thomas was forced off with an apparent..."
+     "Oct 29, 11:09 AM: Thomas (calf) remains doubtful for..."
     ],
     "status": [
      "Undisclosed - Late fitness test (Game-time decision) - Expected return Oct 31"
@@ -103,6 +119,10 @@
     "news": [
      "Oct 25, 9:18 AM: Elanga (hamstring) has been named among..."
     ],
+    "status": []
+   },
+   "05tr1": {
+    "news": [],
     "status": []
    },
    "05trb": {
@@ -131,17 +151,17 @@
     "news": [],
     "status": []
    },
-   "06yb7": {
-    "news": [],
-    "status": []
-   },
    "0703c": {
     "news": [
-     "Oct 25, 1:46 PM: Mukiele was forced off in the 52nd..."
+     "Oct 29, 12:15 PM: Mukiele (throat) remains uncertain for..."
     ],
     "status": [
-     "Face - Late fitness test (Game-time decision) - Expected return Oct 31"
+     "Neck - Late fitness test (Game-time decision) - Expected return Oct 31"
     ]
+   },
+   "078ud": {
+    "news": [],
+    "status": []
    },
    "078wl": {
     "news": [
@@ -157,10 +177,12 @@
    "04hk9": 17,
    "04qr9": 480,
    "051k7": 142,
+   "052cb": 36,
    "05g2o": 165,
    "05l2z": 173,
    "05o4c": 258,
    "05ogb": 454,
+   "05tr1": 91,
    "05trb": 427,
    "05u1m": 84,
    "0635j": 202,
@@ -185,8 +207,9 @@
   },
   "lag": {
    "0414o": {
-    "fx": "2026-10-27 19:33",
-    "what": "Oct 27, 1:06 PM: Maddison (groin) will be assessed to..."
+    "fx": "2026-10-29 19:07",
+    "rw": "2026-10-29 19:07",
+    "what": "Injury not serious, doubt for Saturday"
    },
    "04hk9": {
     "fx": "2026-10-24 18:23",
@@ -206,9 +229,8 @@
     "what": "Will miss several weeks"
    },
    "05l2z": {
-    "fx": "2026-10-24 15:46",
-    "rw": "2026-10-24 15:46",
-    "what": "Exits early against Fulham"
+    "fx": "2026-10-29 19:07",
+    "what": "Oct 29, 11:09 AM: Thomas (calf) remains doubtful for..."
    },
    "05ogb": {
     "fx": "2026-10-25 15:01",
@@ -250,9 +272,8 @@
     "what": "Oct 26, 4:26 PM: Gudmundsson generated one shot (zero on..."
    },
    "0703c": {
-    "fx": "2026-10-25 18:23",
-    "rw": "2026-10-25 18:23",
-    "what": "Subbed off after friendly fire"
+    "fx": "2026-10-29 19:07",
+    "what": "Oct 29, 12:15 PM: Mukiele (throat) remains uncertain for..."
    },
    "078ud": {
     "fx": "2026-10-12 22:55",
@@ -282,31 +303,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "542716",
-    "542717",
-    "542718",
-    "542719",
-    "542720",
-    "542721",
-    "542722",
-    "542723",
-    "542724",
-    "542725",
-    "542726",
-    "542756",
-    "542757",
-    "542758",
-    "542759",
-    "542760",
-    "542761",
-    "542762",
-    "542763",
-    "542764",
-    "542765",
-    "542766",
-    "542767",
-    "542768",
-    "542769",
     "542770",
     "542771",
     "542772",
@@ -481,11 +477,36 @@
     "543090",
     "543091",
     "543092",
-    "543093"
+    "543093",
+    "543175",
+    "543176",
+    "543177",
+    "543178",
+    "543179",
+    "543180",
+    "543181",
+    "543182",
+    "543183",
+    "543184",
+    "543185",
+    "543186",
+    "543187",
+    "543188",
+    "543189",
+    "543190",
+    "543191",
+    "543192",
+    "543193",
+    "543194",
+    "543195",
+    "543196",
+    "543197",
+    "543198",
+    "543199"
    ]
   },
   "rwSent": {
-   "0414o": 1792875909.611296,
+   "0414o": 1793300853.641029,
    "04qr9": 1792787095.996687,
    "051k7": 1791638728.685333,
    "05g2o": 1793111063.146641,
@@ -503,6 +524,11 @@
  },
  "rylahk": {
   "fpl": {
+   "03am7": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
    "04fk1": {
     "chance": null,
     "news": "",
@@ -513,12 +539,22 @@
     "news": "",
     "status": "a"
    },
+   "04mi4": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
    "05a6e": {
-    "chance": 75,
-    "news": "Arm injury - 75% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "05oz3": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "05tr1": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -533,15 +569,20 @@
     "news": "Ankle injury - 75% chance of playing",
     "status": "d"
    },
-   "068yc": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
    "06cmm": {
     "chance": 0,
     "news": "Hamstring injury - Unknown return date",
     "status": "i"
+   },
+   "06uzo": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06v0g": {
+    "chance": null,
+    "news": "",
+    "status": "a"
    },
    "06v0y": {
     "chance": null,
@@ -554,14 +595,9 @@
     "status": "a"
    },
    "06zbx": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
-   "072j3": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
+    "chance": 50,
+    "news": "Foot injury - 50% chance of playing",
+    "status": "d"
    },
    "0784b": {
     "chance": 100,
@@ -575,6 +611,10 @@
    }
   },
   "fx": {
+   "03am7": {
+    "news": [],
+    "status": []
+   },
    "04fk1": {
     "news": [],
     "status": []
@@ -583,13 +623,23 @@
     "news": [],
     "status": []
    },
-   "05a6e": {
+   "04mi4": {
     "news": [],
+    "status": []
+   },
+   "05a6e": {
+    "news": [
+     "Oct 29, 10:40 AM: Williams (elbow) is fit and available..."
+    ],
     "status": [
      "Elbow - Late fitness test (Game-time decision) - Expected return Oct 31"
     ]
    },
    "05oz3": {
+    "news": [],
+    "status": []
+   },
+   "05tr1": {
     "news": [],
     "status": []
    },
@@ -605,10 +655,6 @@
      "Ankle - Late fitness test (Game-time decision) - Expected return Nov 1"
     ]
    },
-   "068yc": {
-    "news": [],
-    "status": []
-   },
    "06cmm": {
     "news": [
      "Oct 27, 8:36 AM: Szoboszlai is unlikely to return for..."
@@ -616,6 +662,14 @@
     "status": [
      "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 1"
     ]
+   },
+   "06uzo": {
+    "news": [],
+    "status": []
+   },
+   "06v0g": {
+    "news": [],
+    "status": []
    },
    "06v0y": {
     "news": [],
@@ -626,12 +680,12 @@
     "status": []
    },
    "06zbx": {
-    "news": [],
-    "status": []
-   },
-   "072j3": {
-    "news": [],
-    "status": []
+    "news": [
+     "Oct 29, 9:43 AM: Stach (foot) continues to experience..."
+    ],
+    "status": [
+     "Foot - Late fitness test (Game-time decision) - Expected return Oct 31"
+    ]
    },
    "0784b": {
     "news": [],
@@ -648,10 +702,12 @@
    "04fk1": 124,
    "04gpx": 304,
    "04hk9": 17,
+   "04mi4": 482,
    "04rzl": 492,
    "05a6e": 469,
    "05n3u": 340,
    "05oz3": 385,
+   "05tr1": 91,
    "05y9n": 449,
    "061vp": 337,
    "061ya": 209,
@@ -663,6 +719,7 @@
    "06do4": 381,
    "06mow": 222,
    "06rm8": 514,
+   "06uzo": 640,
    "06v0g": 534,
    "06v0y": 504,
    "06y9o": 491,
@@ -693,8 +750,8 @@
     "what": "Oct 24, 1:49 PM: Merino had five shots (zero on goal)..."
    },
    "05a6e": {
-    "fx": "2026-10-24 11:56",
-    "what": "Oct 24, 3:26 AM: Williams scored one goal to go with two..."
+    "fx": "2026-10-29 19:07",
+    "what": "Oct 29, 10:40 AM: Williams (elbow) is fit and available..."
    },
    "05oz3": {
     "fx": "2026-10-26 23:19",
@@ -731,8 +788,8 @@
     "what": "Oct 11, 4:38 AM: Diouf registered two shots (zero on..."
    },
    "06zbx": {
-    "fx": "2026-10-26 23:19",
-    "what": "Oct 26, 4:30 PM: Stach had four crosses (zero accurate)..."
+    "fx": "2026-10-29 19:07",
+    "what": "Oct 29, 9:43 AM: Stach (foot) continues to experience..."
    },
    "0784b": {
     "fx": "2026-10-11 12:42",
@@ -776,31 +833,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "542716",
-    "542717",
-    "542718",
-    "542719",
-    "542720",
-    "542721",
-    "542722",
-    "542723",
-    "542724",
-    "542725",
-    "542726",
-    "542756",
-    "542757",
-    "542758",
-    "542759",
-    "542760",
-    "542761",
-    "542762",
-    "542763",
-    "542764",
-    "542765",
-    "542766",
-    "542767",
-    "542768",
-    "542769",
     "542770",
     "542771",
     "542772",
@@ -975,7 +1007,32 @@
     "543090",
     "543091",
     "543092",
-    "543093"
+    "543093",
+    "543175",
+    "543176",
+    "543177",
+    "543178",
+    "543179",
+    "543180",
+    "543181",
+    "543182",
+    "543183",
+    "543184",
+    "543185",
+    "543186",
+    "543187",
+    "543188",
+    "543189",
+    "543190",
+    "543191",
+    "543192",
+    "543193",
+    "543194",
+    "543195",
+    "543196",
+    "543197",
+    "543198",
+    "543199"
    ]
   },
   "rwSent": {
@@ -1021,6 +1078,11 @@
     "news": "",
     "status": "a"
    },
+   "04tig": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
    "05o4c": {
     "chance": null,
     "news": "",
@@ -1028,11 +1090,6 @@
    },
    "05ye7": {
     "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "068yc": {
-    "chance": 100,
     "news": "",
     "status": "a"
    },
@@ -1083,7 +1140,9 @@
     "status": []
    },
    "0477b": {
-    "news": [],
+    "news": [
+     "Oct 29, 2:22 PM: McBurnie took a hit to the ribs and was..."
+    ],
     "status": []
    },
    "04e1e": {
@@ -1098,15 +1157,15 @@
     "news": [],
     "status": []
    },
+   "04tig": {
+    "news": [],
+    "status": []
+   },
    "05o4c": {
     "news": [],
     "status": []
    },
    "05ye7": {
-    "news": [],
-    "status": []
-   },
-   "068yc": {
     "news": [],
     "status": []
    },
@@ -1152,6 +1211,7 @@
    "04e1e": 10,
    "04gpx": 304,
    "04qr9": 480,
+   "04tig": 446,
    "05o4c": 258,
    "05opl": 145,
    "05u1m": 84,
@@ -1176,8 +1236,9 @@
     "what": "Concedes twice in defeat"
    },
    "0477b": {
-    "fx": "2026-10-25 21:06",
-    "what": "Oct 25, 3:03 PM: McBurnie scored one goal to go with one..."
+    "fx": "2026-10-29 19:07",
+    "rw": "2026-10-29 19:07",
+    "what": "Available for Saturday"
    },
    "04e1e": {
     "fx": "2026-10-24 18:23",
@@ -1274,31 +1335,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "542716",
-    "542717",
-    "542718",
-    "542719",
-    "542720",
-    "542721",
-    "542722",
-    "542723",
-    "542724",
-    "542725",
-    "542726",
-    "542756",
-    "542757",
-    "542758",
-    "542759",
-    "542760",
-    "542761",
-    "542762",
-    "542763",
-    "542764",
-    "542765",
-    "542766",
-    "542767",
-    "542768",
-    "542769",
     "542770",
     "542771",
     "542772",
@@ -1473,12 +1509,37 @@
     "543090",
     "543091",
     "543092",
-    "543093"
+    "543093",
+    "543175",
+    "543176",
+    "543177",
+    "543178",
+    "543179",
+    "543180",
+    "543181",
+    "543182",
+    "543183",
+    "543184",
+    "543185",
+    "543186",
+    "543187",
+    "543188",
+    "543189",
+    "543190",
+    "543191",
+    "543192",
+    "543193",
+    "543194",
+    "543195",
+    "543196",
+    "543197",
+    "543198",
+    "543199"
    ]
   },
   "rwSent": {
    "032f9": 1792866210.826966,
-   "0477b": 1792277968.589335,
+   "0477b": 1793300855.620717,
    "04e1e": 1791640727.217396,
    "04gpx": 1791667173.812962,
    "04qr9": 1792787096.828805,
