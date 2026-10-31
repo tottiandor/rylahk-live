@@ -2,30 +2,12 @@
  "5cfv4rkwmrcniqha": {
   "announced": true,
   "digest": {
-   "6jj1vsj8mruuonm3": {
-    "052cb": {
-     "KP": [
-      1.0,
-      2.0
-     ]
-    }
-   },
-   "7hf485xomrw0wd6w": {
-    "051kl": {
-     "ACNC": [
-      1.0,
-      1.0
-     ],
-     "KP": [
-      1.0,
-      2.0
-     ]
-    }
-   }
+   "6jj1vsj8mruuonm3": {},
+   "7hf485xomrw0wd6w": {}
   },
   "finalSent": false,
   "games": {
-   "06m7o": "FUL 1 @ AVL 1 93'|06m7o|2",
+   "06m7o": "FUL 1 @ AVL 1 F|06m7o|3",
    "06m7p": "LEE 0 @ BOU 2 F|06m7p|3",
    "06m7q": "NOT 0 @ BRF 2 F|06m7q|3",
    "06m7r": "MUN 0 @ CHE 2 F|06m7r|3",
@@ -83,7 +65,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1793483413.9292011,
+  "lastDigest": 1793483870.5023174,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "03ybi": {
@@ -1101,8 +1083,8 @@
     },
     "051kl": {
      "5010#6002#-1": [
-      1.0,
-      2.0
+      2.0,
+      4.0
      ],
      "5010#6007#-1": [
       0,
@@ -1121,12 +1103,12 @@
       0
      ],
      "5010#6029#-1": [
-      1.0,
-      1.0
+      2.0,
+      2.0
      ],
      "5010#6039#-1": [
-      1.0,
-      -0.5
+      2.0,
+      -1.0
      ],
      "5010#6070#-1": [
       0,
@@ -1909,10 +1891,13 @@
  },
  "rylahk": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "okswznl7mrsux39t": {},
+   "wfwa6qr6mrsux39t": {}
+  },
   "finalSent": false,
   "games": {
-   "06m7o": "FUL 1 @ AVL 1 93'|06m7o|2",
+   "06m7o": "FUL 1 @ AVL 1 F|06m7o|3",
    "06m7p": "LEE 0 @ BOU 2 F|06m7p|3",
    "06m7q": "NOT 0 @ BRF 2 F|06m7q|3",
    "06m7r": "MUN 0 @ CHE 2 F|06m7r|3",
@@ -1971,7 +1956,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1793483671.3299267,
+  "lastDigest": 1793484062.1264105,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "03am7": {
@@ -2563,8 +2548,8 @@
       0
      ],
      "5010#6039#-1": [
-      1.0,
-      -0.5
+      0,
+      0
      ],
      "5010#6070#-1": [
       1.0,
@@ -3933,7 +3918,7 @@
   },
   "finalSent": false,
   "games": {
-   "06m7o": "FUL 1 @ AVL 1 93'|06m7o|2",
+   "06m7o": "FUL 1 @ AVL 1 F|06m7o|3",
    "06m7p": "LEE 0 @ BOU 2 F|06m7p|3",
    "06m7q": "NOT 0 @ BRF 2 F|06m7q|3",
    "06m7s": "SUN 1 @ COV 3 F|06m7s|3",
