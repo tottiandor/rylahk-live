@@ -84,9 +84,7 @@
   },
   "fx": {
    "0414o": {
-    "news": [
-     "Oct 30, 9:56 AM: Maddison (groin) has been cleared to..."
-    ],
+    "news": [],
     "status": [
      "Groin - Late fitness test (Game-time decision) - Expected return Oct 31"
     ]
@@ -109,10 +107,10 @@
    },
    "05l2z": {
     "news": [
-     "Oct 29, 11:09 AM: Thomas (calf) remains doubtful for..."
+     "Oct 31, 10:00 AM: Thomas (calf) is not in the squad for..."
     ],
     "status": [
-     "Undisclosed - Late fitness test (Game-time decision) - Expected return Oct 31"
+     "Undisclosed - Out for next game - Expected return Nov 6"
     ]
    },
    "05ogb": {
@@ -126,7 +124,9 @@
     "status": []
    },
    "05trb": {
-    "news": [],
+    "news": [
+     "Oct 31, 11:02 AM: Mbeumo recorded one shot (one on goal)..."
+    ],
     "status": []
    },
    "0639x": {
@@ -151,10 +151,10 @@
    },
    "0703c": {
     "news": [
-     "Oct 29, 12:15 PM: Mukiele (throat) remains uncertain for..."
+     "Oct 31, 10:00 AM: Mukiele (throat) is not in the squad..."
     ],
     "status": [
-     "Neck - Late fitness test (Game-time decision) - Expected return Oct 31"
+     "Neck - Out for next game - Expected return Nov 5"
     ]
    },
    "078ud": {
@@ -224,16 +224,17 @@
     "what": "Will miss several weeks"
    },
    "05l2z": {
-    "fx": "2026-10-29 19:07",
-    "what": "Oct 29, 11:09 AM: Thomas (calf) remains doubtful for..."
+    "fx": "2026-10-31 16:10",
+    "what": "Oct 31, 10:00 AM: Thomas (calf) is not in the squad for..."
    },
    "05ogb": {
     "fx": "2026-10-25 15:01",
     "what": "Oct 25, 9:18 AM: Elanga (hamstring) has been named among..."
    },
    "05trb": {
-    "fx": "2026-10-18 16:59",
-    "what": "Oct 18, 11:18 AM: Mbeumo scored one goal to go with three..."
+    "fx": "2026-10-31 16:10",
+    "rw": "2026-10-31 16:10",
+    "what": "Creates two chances in defeat"
    },
    "05u1m": {
     "fx": "2026-10-22 16:02",
@@ -267,8 +268,8 @@
     "what": "Oct 26, 4:26 PM: Gudmundsson generated one shot (zero on..."
    },
    "0703c": {
-    "fx": "2026-10-29 19:07",
-    "what": "Oct 29, 12:15 PM: Mukiele (throat) remains uncertain for..."
+    "fx": "2026-10-31 16:10",
+    "what": "Oct 31, 10:00 AM: Mukiele (throat) is not in the squad..."
    },
    "078ud": {
     "fx": "2026-10-12 22:55",
@@ -298,31 +299,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "543178",
-    "543179",
-    "543180",
-    "543181",
-    "543182",
-    "543183",
-    "543184",
-    "543185",
-    "543186",
-    "543187",
-    "543188",
-    "543189",
-    "543190",
-    "543191",
-    "543192",
-    "543193",
-    "543194",
-    "543195",
-    "543196",
-    "543197",
-    "543198",
-    "543199",
-    "543231",
-    "543232",
-    "543233",
     "543234",
     "543235",
     "543236",
@@ -497,7 +473,32 @@
     "543529",
     "543530",
     "543531",
-    "543532"
+    "543532",
+    "543585",
+    "543586",
+    "543587",
+    "543588",
+    "543589",
+    "543590",
+    "543591",
+    "543592",
+    "543593",
+    "543594",
+    "543595",
+    "543596",
+    "543597",
+    "543598",
+    "543599",
+    "543600",
+    "543601",
+    "543602",
+    "543603",
+    "543604",
+    "543605",
+    "543606",
+    "543607",
+    "543608",
+    "543609"
    ]
   },
   "rwSent": {
@@ -506,7 +507,7 @@
    "051k7": 1791638728.685333,
    "05g2o": 1793111063.146641,
    "05l2z": 1792856813.856365,
-   "05trb": 1791941083.626996,
+   "05trb": 1793463019.886653,
    "05u1m": 1792241759.671321,
    "0639x": 1793043063.193028,
    "06clt": 1793043063.193041,
@@ -534,7 +535,7 @@
     "news": "",
     "status": "a"
    },
-   "04mi4": {
+   "04rzl": {
     "chance": 100,
     "news": "",
     "status": "a"
@@ -569,12 +570,7 @@
     "news": "Hamstring injury - 50% chance of playing",
     "status": "d"
    },
-   "06uzo": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "06v0g": {
+   "06do9": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -590,11 +586,16 @@
     "status": "a"
    },
    "06zbx": {
-    "chance": 50,
-    "news": "Foot injury - 50% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "0784b": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "0784w": {
     "chance": 100,
     "news": "",
     "status": "a"
@@ -618,17 +619,15 @@
     "news": [],
     "status": []
    },
-   "04mi4": {
+   "04rzl": {
     "news": [],
     "status": []
    },
    "05a6e": {
     "news": [
-     "Oct 29, 10:40 AM: Williams (elbow) is fit and available..."
+     "Oct 31, 10:07 AM: Williams (elbow) is in the starting XI..."
     ],
-    "status": [
-     "Elbow - Late fitness test (Game-time decision) - Expected return Oct 31"
-    ]
+    "status": []
    },
    "05oz3": {
     "news": [],
@@ -651,18 +650,12 @@
     ]
    },
    "06cmm": {
-    "news": [
-     "Oct 30, 9:54 AM: Szoboszlai remains in contention for..."
-    ],
+    "news": [],
     "status": [
      "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 1"
     ]
    },
-   "06uzo": {
-    "news": [],
-    "status": []
-   },
-   "06v0g": {
+   "06do9": {
     "news": [],
     "status": []
    },
@@ -675,12 +668,18 @@
     "status": []
    },
    "06zbx": {
-    "news": [],
-    "status": [
-     "Foot - Late fitness test (Game-time decision) - Expected return Oct 31"
-    ]
+    "news": [
+     "Oct 31, 10:05 AM: Stach (foot) is on the bench for..."
+    ],
+    "status": []
    },
    "0784b": {
+    "news": [
+     "Oct 31, 7:34 AM: Palestra is in the starting XI for..."
+    ],
+    "status": []
+   },
+   "0784w": {
     "news": [],
     "status": []
    },
@@ -710,6 +709,7 @@
    "068yc": 129,
    "06cmm": 368,
    "06do4": 381,
+   "06do9": 358,
    "06mow": 222,
    "06rm8": 514,
    "06uzo": 640,
@@ -743,8 +743,8 @@
     "what": "Oct 24, 1:49 PM: Merino had five shots (zero on goal)..."
    },
    "05a6e": {
-    "fx": "2026-10-29 19:07",
-    "what": "Oct 29, 10:40 AM: Williams (elbow) is fit and available..."
+    "fx": "2026-10-31 16:10",
+    "what": "Oct 31, 10:07 AM: Williams (elbow) is in the starting XI..."
    },
    "05oz3": {
     "fx": "2026-10-26 23:19",
@@ -781,12 +781,12 @@
     "what": "Oct 11, 4:38 AM: Diouf registered two shots (zero on..."
    },
    "06zbx": {
-    "fx": "2026-10-29 19:07",
-    "what": "Oct 29, 9:43 AM: Stach (foot) continues to experience..."
+    "fx": "2026-10-31 16:10",
+    "what": "Oct 31, 10:05 AM: Stach (foot) is on the bench for..."
    },
    "0784b": {
-    "fx": "2026-10-11 12:42",
-    "what": "Oct 11, 4:56 AM: Palestra recorded no stats in..."
+    "fx": "2026-10-31 16:10",
+    "what": "Oct 31, 7:34 AM: Palestra is in the starting XI for..."
    },
    "0785d": {
     "fx": "2026-10-12 22:55",
@@ -826,31 +826,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "543178",
-    "543179",
-    "543180",
-    "543181",
-    "543182",
-    "543183",
-    "543184",
-    "543185",
-    "543186",
-    "543187",
-    "543188",
-    "543189",
-    "543190",
-    "543191",
-    "543192",
-    "543193",
-    "543194",
-    "543195",
-    "543196",
-    "543197",
-    "543198",
-    "543199",
-    "543231",
-    "543232",
-    "543233",
     "543234",
     "543235",
     "543236",
@@ -1025,7 +1000,32 @@
     "543529",
     "543530",
     "543531",
-    "543532"
+    "543532",
+    "543585",
+    "543586",
+    "543587",
+    "543588",
+    "543589",
+    "543590",
+    "543591",
+    "543592",
+    "543593",
+    "543594",
+    "543595",
+    "543596",
+    "543597",
+    "543598",
+    "543599",
+    "543600",
+    "543601",
+    "543602",
+    "543603",
+    "543604",
+    "543605",
+    "543606",
+    "543607",
+    "543608",
+    "543609"
    ]
   },
   "rwSent": {
@@ -1076,11 +1076,6 @@
     "news": "",
     "status": "a"
    },
-   "05o4c": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "05ye7": {
     "chance": null,
     "news": "",
@@ -1092,6 +1087,11 @@
     "status": "a"
    },
    "06mn0": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06nbu": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -1152,10 +1152,6 @@
     "news": [],
     "status": []
    },
-   "05o4c": {
-    "news": [],
-    "status": []
-   },
    "05ye7": {
     "news": [],
     "status": []
@@ -1165,6 +1161,10 @@
     "status": []
    },
    "06mn0": {
+    "news": [],
+    "status": []
+   },
+   "06nbu": {
     "news": [],
     "status": []
    },
@@ -1208,6 +1208,7 @@
    "068yc": 129,
    "06jgi": 201,
    "06mn0": 106,
+   "06nbu": 656,
    "06r5b": 127,
    "06v07": 399,
    "06v0g": 534,
@@ -1324,31 +1325,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "543178",
-    "543179",
-    "543180",
-    "543181",
-    "543182",
-    "543183",
-    "543184",
-    "543185",
-    "543186",
-    "543187",
-    "543188",
-    "543189",
-    "543190",
-    "543191",
-    "543192",
-    "543193",
-    "543194",
-    "543195",
-    "543196",
-    "543197",
-    "543198",
-    "543199",
-    "543231",
-    "543232",
-    "543233",
     "543234",
     "543235",
     "543236",
@@ -1523,7 +1499,32 @@
     "543529",
     "543530",
     "543531",
-    "543532"
+    "543532",
+    "543585",
+    "543586",
+    "543587",
+    "543588",
+    "543589",
+    "543590",
+    "543591",
+    "543592",
+    "543593",
+    "543594",
+    "543595",
+    "543596",
+    "543597",
+    "543598",
+    "543599",
+    "543600",
+    "543601",
+    "543602",
+    "543603",
+    "543604",
+    "543605",
+    "543606",
+    "543607",
+    "543608",
+    "543609"
    ]
   },
   "rwSent": {
