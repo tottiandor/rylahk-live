@@ -64,7 +64,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1793473187.3630335,
+  "lastDigest": 1793475860.0535965,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "03ybi": {
@@ -1720,6 +1720,11 @@
     "pos": "D",
     "short": "M. Guehi"
    },
+   "052cb": {
+    "club": "AVL",
+    "pos": "D",
+    "short": "I. Maatsen"
+   },
    "05748": {
     "club": "CRY",
     "pos": "M",
@@ -1775,6 +1780,11 @@
     "pos": "M",
     "short": "D. Szoboszlai"
    },
+   "06do9": {
+    "club": "LIV",
+    "pos": "D",
+    "short": "M. Kerkez"
+   },
    "06f8y": {
     "club": "BOU",
     "pos": "M",
@@ -1794,11 +1804,6 @@
     "club": "TOT",
     "pos": "M",
     "short": "Savio"
-   },
-   "06v0g": {
-    "club": "SUN",
-    "pos": "D",
-    "short": "T. Hume"
    },
    "06v0p": {
     "club": "SUN",
@@ -1839,11 +1844,6 @@
     "club": "BRF",
     "pos": "M",
     "short": "M. Sangaré"
-   },
-   "078mm": {
-    "club": "HUL",
-    "pos": "D",
-    "short": "N. Mendy"
    }
   },
   "opp": "okswznl7mrsux39t",
@@ -3495,7 +3495,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1793473188.7491364,
+  "lastDigest": 1793475861.4776056,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
