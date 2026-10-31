@@ -1,7 +1,10 @@
 {
  "5cfv4rkwmrcniqha": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "6jj1vsj8mruuonm3": {},
+   "7hf485xomrw0wd6w": {}
+  },
   "finalSent": false,
   "games": {
    "06m7p": "LEE 0 @ BOU 2 F|06m7p|3",
