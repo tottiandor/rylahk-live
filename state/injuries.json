@@ -84,9 +84,7 @@
   },
   "fx": {
    "0414o": {
-    "news": [
-     "Oct 31, 12:20 PM: Maddison (groin) is on the bench for..."
-    ],
+    "news": [],
     "status": []
    },
    "04qr9": {
@@ -96,7 +94,9 @@
     "status": []
    },
    "052cb": {
-    "news": [],
+    "news": [
+     "Nov 1, 8:50 AM: Maatsen recorded two shots (zero on..."
+    ],
     "status": []
    },
    "05g2o": {
@@ -108,9 +108,7 @@
     ]
    },
    "05l2z": {
-    "news": [
-     "Oct 31, 10:00 AM: Thomas (calf) is not in the squad for..."
-    ],
+    "news": [],
     "status": [
      "Undisclosed - Late fitness test (Game-time decision) - Expected return Nov 6"
     ]
@@ -122,13 +120,13 @@
     "status": []
    },
    "05tr1": {
-    "news": [],
+    "news": [
+     "Nov 1, 10:21 AM: Pinnock recorded one cross (one..."
+    ],
     "status": []
    },
    "05trb": {
-    "news": [
-     "Oct 31, 11:02 AM: Mbeumo recorded one shot (one on goal)..."
-    ],
+    "news": [],
     "status": []
    },
    "0639x": {
@@ -147,7 +145,9 @@
    },
    "06v21": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06y26": {
     "news": [],
@@ -155,10 +155,10 @@
    },
    "0703c": {
     "news": [
-     "Oct 31, 10:00 AM: Mukiele (throat) is not in the squad..."
+     "Nov 1, 5:42 AM: Mukiele (concussion) has been ruled out..."
     ],
     "status": [
-     "Neck - Late fitness test (Game-time decision) - Expected return Nov 5"
+     "Concussion - Late fitness test (Game-time decision) - Expected return Nov 8"
     ]
    },
    "078ud": {
@@ -166,7 +166,9 @@
     "status": []
    },
    "078wl": {
-    "news": [],
+    "news": [
+     "Nov 1, 8:49 AM: Suzuki registered four saves and..."
+    ],
     "status": []
    }
   },
@@ -223,6 +225,10 @@
     "fx": "2026-10-13 18:05",
     "what": "Oct 13, 9:34 AM: James was absent for the first 15..."
    },
+   "052cb": {
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 8:50 AM: Maatsen recorded two shots (zero on..."
+   },
    "05g2o": {
     "fx": "2026-10-27 14:24",
     "rw": "2026-10-27 14:24",
@@ -235,6 +241,11 @@
    "05ogb": {
     "fx": "2026-10-25 15:01",
     "what": "Oct 25, 9:18 AM: Elanga (hamstring) has been named among..."
+   },
+   "05tr1": {
+    "fx": "2026-11-01 16:23",
+    "rw": "2026-11-01 16:23",
+    "what": "Concedes penalty in 3-1 win"
    },
    "05trb": {
     "fx": "2026-10-31 16:10",
@@ -273,16 +284,16 @@
     "what": "Oct 26, 4:26 PM: Gudmundsson generated one shot (zero on..."
    },
    "0703c": {
-    "fx": "2026-10-31 16:10",
-    "what": "Oct 31, 10:00 AM: Mukiele (throat) is not in the squad..."
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 5:42 AM: Mukiele (concussion) has been ruled out..."
    },
    "078ud": {
     "fx": "2026-10-12 22:55",
     "what": "Oct 12, 2:19 PM: Dedic (hamstring) is on the bench for..."
    },
    "078wl": {
-    "fx": "2026-10-29 13:20",
-    "what": "Oct 29, 4:08 AM: Suzuki is expected to join Japan for..."
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 8:49 AM: Suzuki registered four saves and..."
    }
   },
   "ready": true,
@@ -291,6 +302,7 @@
     "bobby-thomas-32466": "05l2z",
     "bryan-mbeumo-25472": "05trb",
     "diego-gomez-39929": "06r5b",
+    "ethan-pinnock-31322": "05tr1",
     "florian-wirtz-32412": "06v21",
     "james-maddison-20951": "0414o",
     "joao-pedro-27563": "05g2o",
@@ -304,31 +316,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "543438",
-    "543439",
-    "543440",
-    "543441",
-    "543442",
-    "543443",
-    "543444",
-    "543445",
-    "543446",
-    "543447",
-    "543448",
-    "543449",
-    "543450",
-    "543451",
-    "543452",
-    "543453",
-    "543454",
-    "543455",
-    "543456",
-    "543457",
-    "543458",
-    "543459",
-    "543460",
-    "543461",
-    "543462",
     "543463",
     "543464",
     "543465",
@@ -503,7 +490,32 @@
     "543801",
     "543802",
     "543803",
-    "543804"
+    "543804",
+    "543894",
+    "543895",
+    "543896",
+    "543897",
+    "543898",
+    "543899",
+    "543900",
+    "543901",
+    "543902",
+    "543903",
+    "543904",
+    "543905",
+    "543906",
+    "543907",
+    "543908",
+    "543909",
+    "543910",
+    "543911",
+    "543912",
+    "543913",
+    "543914",
+    "543915",
+    "543916",
+    "543917",
+    "543918"
    ]
   },
   "rwSent": {
@@ -512,6 +524,7 @@
    "051k7": 1791638728.685333,
    "05g2o": 1793111063.146641,
    "05l2z": 1792856813.856365,
+   "05tr1": 1793550207.229651,
    "05trb": 1793463019.886653,
    "05u1m": 1792241759.671321,
    "0639x": 1793043063.193028,
@@ -566,14 +579,14 @@
     "status": "a"
    },
    "068n8": {
-    "chance": 50,
-    "news": "Ankle injury - 50% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "06cmm": {
-    "chance": 50,
-    "news": "Hamstring injury - 50% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "06do9": {
     "chance": null,
@@ -623,7 +636,9 @@
     "status": []
    },
    "04gpx": {
-    "news": [],
+    "news": [
+     "Nov 1, 5:19 AM: O'Shea had one tackle (zero won) and..."
+    ],
     "status": []
    },
    "04rzl": {
@@ -633,9 +648,7 @@
     "status": []
    },
    "05a6e": {
-    "news": [
-     "Oct 31, 10:07 AM: Williams (elbow) is in the starting XI..."
-    ],
+    "news": [],
     "status": []
    },
    "05oz3": {
@@ -643,7 +656,9 @@
     "status": []
    },
    "05tr1": {
-    "news": [],
+    "news": [
+     "Nov 1, 10:21 AM: Pinnock recorded one cross (one..."
+    ],
     "status": []
    },
    "05y9n": {
@@ -652,21 +667,25 @@
    },
    "068n8": {
     "news": [
-     "Oct 30, 10:44 AM: Madueke (ankle) remains questionable..."
+     "Nov 1, 10:27 AM: Madueke (ankle) has been named in..."
     ],
     "status": [
-     "Ankle - Late fitness test (Game-time decision) - Expected return Nov 1"
+     "Starting in upcoming/current game"
     ]
    },
    "06cmm": {
-    "news": [],
+    "news": [
+     "Nov 1, 10:31 AM: Szoboszlai (hamstring) is available as..."
+    ],
     "status": [
-     "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 1"
+     "On the bench, potential substitute"
     ]
    },
    "06do9": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06v0y": {
     "news": [],
@@ -677,19 +696,17 @@
     "status": []
    },
    "06zbx": {
-    "news": [
-     "Oct 31, 10:05 AM: Stach (foot) is on the bench for..."
-    ],
+    "news": [],
     "status": []
    },
    "0784b": {
-    "news": [
-     "Oct 31, 7:34 AM: Palestra is in the starting XI for..."
-    ],
+    "news": [],
     "status": []
    },
    "0784w": {
-    "news": [],
+    "news": [
+     "Nov 1, 5:18 AM: Emersonn recorded two shots (zero on..."
+    ],
     "status": []
    },
    "07877": {
@@ -745,9 +762,8 @@
     "what": "Oct 31, 5:35 PM: Gross generated three crosses (one..."
    },
    "04gpx": {
-    "fx": "2026-10-10 21:19",
-    "rw": "2026-10-10 21:19",
-    "what": "Scores winner vs. Fulham"
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 5:19 AM: O'Shea had one tackle (zero won) and..."
    },
    "04hk9": {
     "fx": "2026-10-24 18:23",
@@ -765,22 +781,28 @@
     "fx": "2026-10-26 23:19",
     "what": "Oct 26, 4:15 PM: Trafford registered four saves and..."
    },
+   "05tr1": {
+    "fx": "2026-11-01 16:23",
+    "rw": "2026-11-01 16:23",
+    "what": "Concedes penalty in 3-1 win"
+   },
    "05y9n": {
     "fx": "2026-10-26 19:31",
     "what": "Oct 26, 11:44 AM: Hall generated two crosses (one..."
    },
    "068n8": {
-    "fx": "2026-10-30 15:52",
-    "rw": "2026-10-30 15:52",
-    "what": "Late call for Liverpool clash"
+    "fx": "2026-11-01 16:23",
+    "rw": "2026-11-01 16:23",
+    "what": "Starts despite ankle concern"
    },
    "068yc": {
     "fx": "2026-10-26 19:31",
     "what": "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
    },
    "06cmm": {
-    "fx": "2026-10-30 15:52",
-    "what": "Oct 30, 9:54 AM: Szoboszlai remains in contention for..."
+    "fx": "2026-11-01 16:23",
+    "rw": "2026-11-01 16:23",
+    "what": "Available off bench"
    },
    "06do4": {
     "fx": "2026-10-14 23:46",
@@ -802,6 +824,10 @@
    "0784b": {
     "fx": "2026-10-31 16:10",
     "what": "Oct 31, 7:34 AM: Palestra is in the starting XI for..."
+   },
+   "0784w": {
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 5:18 AM: Emersonn recorded two shots (zero on..."
    },
    "0785d": {
     "fx": "2026-10-12 22:55",
@@ -831,6 +857,7 @@
     "bazoumana-toure-45068": "0785d",
     "dara-oshea-31343": "04gpx",
     "dominik-szoboszlai-29729": "06cmm",
+    "ethan-pinnock-31322": "05tr1",
     "jean-matteo-bahoya-37006": "0794i",
     "lewis-hall-36145": "05y9n",
     "lewis-koumas-39938": "06do4",
@@ -843,31 +870,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "543438",
-    "543439",
-    "543440",
-    "543441",
-    "543442",
-    "543443",
-    "543444",
-    "543445",
-    "543446",
-    "543447",
-    "543448",
-    "543449",
-    "543450",
-    "543451",
-    "543452",
-    "543453",
-    "543454",
-    "543455",
-    "543456",
-    "543457",
-    "543458",
-    "543459",
-    "543460",
-    "543461",
-    "543462",
     "543463",
     "543464",
     "543465",
@@ -1042,17 +1044,43 @@
     "543801",
     "543802",
     "543803",
-    "543804"
+    "543804",
+    "543894",
+    "543895",
+    "543896",
+    "543897",
+    "543898",
+    "543899",
+    "543900",
+    "543901",
+    "543902",
+    "543903",
+    "543904",
+    "543905",
+    "543906",
+    "543907",
+    "543908",
+    "543909",
+    "543910",
+    "543911",
+    "543912",
+    "543913",
+    "543914",
+    "543915",
+    "543916",
+    "543917",
+    "543918"
    ]
   },
   "rwSent": {
    "04fk1": 1792351343.957594,
    "04gpx": 1791667171.982495,
    "05a6e": 1791722561.372898,
+   "05tr1": 1793550203.944561,
    "05y9n": 1792421719.634893,
-   "068n8": 1793375550.097186,
+   "068n8": 1793550203.944821,
    "068yc": 1792351343.957616,
-   "06cmm": 1792421719.634975,
+   "06cmm": 1793550203.944945,
    "06do4": 1792021583.080403,
    "06zbx": 1792394874.707697,
    "0784b": 1791637355.409559,
@@ -1151,15 +1179,21 @@
     "status": []
    },
    "0477b": {
-    "news": [],
+    "news": [
+     "Nov 1, 5:19 AM: McBurnie scored one goal and assisted..."
+    ],
     "status": []
    },
    "04e1e": {
     "news": [],
-    "status": []
+    "status": [
+     "On the bench, potential substitute"
+    ]
    },
    "04gpx": {
-    "news": [],
+    "news": [
+     "Nov 1, 5:19 AM: O'Shea had one tackle (zero won) and..."
+    ],
     "status": []
    },
    "04qr9": {
@@ -1173,7 +1207,9 @@
     "status": []
    },
    "05ye7": {
-    "news": [],
+    "news": [
+     "Nov 1, 9:00 AM: Bobb had two shots (one on goal), two..."
+    ],
     "status": []
    },
    "06jgi": {
@@ -1222,7 +1258,9 @@
    },
    "0793q": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    }
   },
   "idmap": {
@@ -1258,18 +1296,16 @@
     "what": "Concedes twice in defeat"
    },
    "0477b": {
-    "fx": "2026-10-29 19:07",
-    "rw": "2026-10-29 19:07",
-    "what": "Available for Saturday"
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 5:19 AM: McBurnie scored one goal and assisted..."
    },
    "04e1e": {
     "fx": "2026-10-24 18:23",
     "what": "Oct 24, 1:48 PM: White assisted once to go with two..."
    },
    "04gpx": {
-    "fx": "2026-10-10 21:19",
-    "rw": "2026-10-10 21:19",
-    "what": "Scores winner vs. Fulham"
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 5:19 AM: O'Shea had one tackle (zero won) and..."
    },
    "04qr9": {
     "fx": "2026-10-31 20:05",
@@ -1286,9 +1322,8 @@
     "what": "Not available Saturday"
    },
    "05ye7": {
-    "fx": "2026-10-24 21:05",
-    "rw": "2026-10-24 21:05",
-    "what": "Scores game-winner vs. Coventry"
+    "fx": "2026-11-01 16:23",
+    "what": "Nov 1, 9:00 AM: Bobb had two shots (one on goal), two..."
    },
    "068yc": {
     "fx": "2026-10-26 19:31",
@@ -1363,31 +1398,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "543438",
-    "543439",
-    "543440",
-    "543441",
-    "543442",
-    "543443",
-    "543444",
-    "543445",
-    "543446",
-    "543447",
-    "543448",
-    "543449",
-    "543450",
-    "543451",
-    "543452",
-    "543453",
-    "543454",
-    "543455",
-    "543456",
-    "543457",
-    "543458",
-    "543459",
-    "543460",
-    "543461",
-    "543462",
     "543463",
     "543464",
     "543465",
@@ -1562,7 +1572,32 @@
     "543801",
     "543802",
     "543803",
-    "543804"
+    "543804",
+    "543894",
+    "543895",
+    "543896",
+    "543897",
+    "543898",
+    "543899",
+    "543900",
+    "543901",
+    "543902",
+    "543903",
+    "543904",
+    "543905",
+    "543906",
+    "543907",
+    "543908",
+    "543909",
+    "543910",
+    "543911",
+    "543912",
+    "543913",
+    "543914",
+    "543915",
+    "543916",
+    "543917",
+    "543918"
    ]
   },
   "rwSent": {
