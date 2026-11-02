@@ -5,7 +5,7 @@
    "6jj1vsj8mruuonm3": {},
    "7hf485xomrw0wd6w": {}
   },
-  "finalSent": false,
+  "finalSent": true,
   "games": {
    "06m7o": "FUL 1 @ AVL 1 F|06m7o|3",
    "06m7p": "LEE 0 @ BOU 2 F|06m7p|3",
@@ -14,7 +14,7 @@
    "06m7s": "SUN 1 @ COV 3 F|06m7s|3",
    "06m7u": "ARS 1 @ LIV 0 F|06m7u|3",
    "06m7v": "BHA 1 @ MCI 0 F|06m7v|3",
-   "06m7w": "EVE 1 @ NEW 0 99'|06m7w|2",
+   "06m7w": "EVE 1 @ NEW 0 F|06m7w|3",
    "06m7x": "CRY 0 @ TOT 2 F|06m7x|3"
   },
   "labels": {
@@ -2461,7 +2461,7 @@
    "okswznl7mrsux39t": {},
    "wfwa6qr6mrsux39t": {}
   },
-  "finalSent": false,
+  "finalSent": true,
   "games": {
    "06m7o": "FUL 1 @ AVL 1 F|06m7o|3",
    "06m7p": "LEE 0 @ BOU 2 F|06m7p|3",
@@ -2471,7 +2471,7 @@
    "06m7t": "IPS 2 @ HUL 2 F|06m7t|3",
    "06m7u": "ARS 1 @ LIV 0 F|06m7u|3",
    "06m7v": "BHA 1 @ MCI 0 F|06m7v|3",
-   "06m7w": "EVE 1 @ NEW 0 99'|06m7w|2"
+   "06m7w": "EVE 1 @ NEW 0 F|06m7w|3"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -3078,8 +3078,8 @@
       0
      ],
      "5010#6280#-1": [
-      0,
-      0
+      1.0,
+      -2.0
      ],
      "5010#6332#-1": [
       0,
@@ -3532,7 +3532,7 @@
       1.0
      ],
      "5010#6120#-1": [
-      90.0,
+      88.0,
       0
      ],
      "5010#6175#-1": [
@@ -4876,7 +4876,7 @@
    "5xsj4mxjms0a28ls": {},
    "jpzdgfbcms2dwgay": {}
   },
-  "finalSent": false,
+  "finalSent": true,
   "games": {
    "06m7o": "FUL 1 @ AVL 1 F|06m7o|3",
    "06m7p": "LEE 0 @ BOU 2 F|06m7p|3",
@@ -4885,7 +4885,7 @@
    "06m7t": "IPS 2 @ HUL 2 F|06m7t|3",
    "06m7u": "ARS 1 @ LIV 0 F|06m7u|3",
    "06m7v": "BHA 1 @ MCI 0 F|06m7v|3",
-   "06m7w": "EVE 1 @ NEW 0 99'|06m7w|2",
+   "06m7w": "EVE 1 @ NEW 0 F|06m7w|3",
    "06m7x": "CRY 0 @ TOT 2 F|06m7x|3"
   },
   "labels": {
@@ -5564,8 +5564,8 @@
       0
      ],
      "5010#6280#-1": [
-      0,
-      0
+      1.0,
+      -2.0
      ],
      "5010#6332#-1": [
       0,
