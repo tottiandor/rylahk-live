@@ -1,8 +1,8 @@
 name: live
 # During games it stays on, polling Fantrax every minute, for up to 5.5 hours. GitHub's
-# timer is throttled to a few runs a day, so it is only a backup: a run that ends while
-# another kickoff is less than 4 hours away starts the next run itself, and injuries/bot
-# start it too when a game is near. A run that starts early waits for the window.
+# timer is throttled to a few runs a day, so it is only a backup: while a kickoff is
+# under 18 hours away each run starts the next one itself (a relay), and injuries/bot
+# start it too when a game is near. A run that starts early waits (up to 5h) for kickoff.
 # Only one runs at a time.
 on:
   schedule:
@@ -56,4 +56,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PYTHONUTF8: '1'
         run: |
-          if python live.py --due 240; then gh workflow run live.yml && echo "next live run started"; else echo "no game within 4 hours"; fi
+          if python live.py --due 1080; then gh workflow run live.yml && echo "next live run started"; else echo "no game within 18 hours"; fi

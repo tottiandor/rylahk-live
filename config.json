@@ -56,5 +56,8 @@
     "SUN": "Sunderland",
     "TOT": "Tottenham Hotspur"
   },
-  "_fotmobClubs": "Fantrax club code -> FotMob club name. Update when clubs are promoted or relegated."
+  "_fotmobClubs": "Fantrax club code -> FotMob club name. Update when clubs are promoted or relegated.",
+  "waitMinutes": 300,
+  "relayHours": 18,
+  "_relay": "GitHub throttles timers: a live run that starts early waits up to waitMinutes for kickoff, and while a game is within relayHours each run starts the next one."
 }

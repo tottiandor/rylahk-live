@@ -254,13 +254,20 @@ def watch():
     fx = fixtures()
     t = now()
     if not window_open(fx, t):
-        # started early (by a chained run or a lucky timer): wait for the window
+        # started early (by the relay or a lucky timer): wait for the window, at most
+        # waitMinutes - then this run ends and the workflow starts the next one, so a
+        # matchday is covered overnight without GitHub's timer
         w = next_window(fx, t)
-        if w is None or w - t > timedelta(minutes=CFG.get('waitMinutes', 240)):
+        if w is None or w - t > timedelta(hours=CFG.get('relayHours', 18)):
             log('no game on or about to start; nothing to do')
             return
-        log('waiting %d min for the next window' % ((w - t).total_seconds() // 60))
-        time.sleep(max(0, (w - t).total_seconds()))
+        wait = min(w - t, timedelta(minutes=CFG.get('waitMinutes', 300)))
+        log('waiting %d min (next window in %d min)' % (wait.total_seconds() // 60, (w - t).total_seconds() // 60))
+        time.sleep(max(0, wait.total_seconds()))
+        fx = fixtures() or fx
+        if not window_open(fx, now()):
+            log('still no game; the next run carries on')
+            return
     state = load_state('live.json', {})
     ms = []
     for lg in leagues():

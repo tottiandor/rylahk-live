@@ -35,13 +35,13 @@ jobs:
           python injuries.py
       - name: make sure the live feed is on
         # GitHub's timer may not start the live feed in time: start it from here when a
-        # game is less than 4 hours away and no live run is going
+        # game is less than 18 hours away and no live run is going
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
           PYTHONUTF8: '1'
         run: |
-          if python live.py --due 240; then
+          if python live.py --due 1080; then
             n=$(gh run list --workflow live.yml --limit 20 --json status --jq '[.[] | select(.status != "completed")] | length')
             if [ "$n" = "0" ]; then gh workflow run live.yml && echo "started the live feed"; else echo "live feed already on"; fi
           fi
