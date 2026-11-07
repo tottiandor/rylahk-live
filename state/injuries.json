@@ -26,11 +26,6 @@
     "news": "Calf injury - 50% chance of playing",
     "status": "d"
    },
-   "05ogb": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
    "05tr1": {
     "chance": null,
     "news": "",
@@ -80,6 +75,11 @@
     "chance": null,
     "news": "",
     "status": "a"
+   },
+   "0794d": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
    }
   },
   "fx": {
@@ -111,10 +111,6 @@
      "Calf - Late fitness test (Game-time decision) - Expected return Nov 21"
     ]
    },
-   "05ogb": {
-    "news": [],
-    "status": []
-   },
    "05tr1": {
     "news": [],
     "status": []
@@ -145,14 +141,14 @@
    },
    "06yb7": {
     "news": [
-     "Nov 5, 10:00 AM: Gudmundsson (knock) will be available..."
+     "Nov 7, 9:02 AM: Gudmundsson (knock) was forced off at..."
     ],
-    "status": []
+    "status": [
+     "Undisclosed - Out for next game"
+    ]
    },
    "0703c": {
-    "news": [
-     "Nov 6, 8:38 AM: Mukiele (concussion) is expected to be..."
-    ],
+    "news": [],
     "status": [
      "Concussion - Late fitness test (Game-time decision) - Expected return Nov 8"
     ]
@@ -160,6 +156,14 @@
    "078wl": {
     "news": [],
     "status": []
+   },
+   "0794d": {
+    "news": [
+     "Nov 7, 3:48 AM: Chema (hip) is doubtful for Sunday's..."
+    ],
+    "status": [
+     "Hip - Late fitness test (Game-time decision) - Expected return Nov 8"
+    ]
    }
   },
   "idmap": {
@@ -195,6 +199,7 @@
    "078ud": 593,
    "078wl": 597,
    "078wo": 598,
+   "0794d": 639,
    "0794j": 646
   },
   "lag": {
@@ -271,8 +276,9 @@
     "what": "Oct 26, 12:38 PM: Boscagli had one shot (zero on goal)..."
    },
    "06yb7": {
-    "fx": "2026-10-26 23:19",
-    "what": "Oct 26, 4:26 PM: Gudmundsson generated one shot (zero on..."
+    "fx": "2026-11-07 14:11",
+    "rw": "2026-11-07 14:11",
+    "what": "Forced off at halftime"
    },
    "0703c": {
     "fx": "2026-11-06 16:14",
@@ -298,6 +304,7 @@
     "diego-gomez-39929": "06r5b",
     "ethan-pinnock-31322": "05tr1",
     "florian-wirtz-32412": "06v21",
+    "gabriel-gudmundsson-35627": "06yb7",
     "james-maddison-20951": "0414o",
     "joao-pedro-27563": "05g2o",
     "justin-kluivert-26103": "06clt",
@@ -310,31 +317,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "544850",
-    "544851",
-    "544852",
-    "544853",
-    "544854",
-    "544866",
-    "544867",
-    "544868",
-    "544869",
-    "544870",
-    "544871",
-    "544872",
-    "544873",
-    "544874",
-    "544875",
-    "544876",
-    "544877",
-    "544878",
-    "544879",
-    "544880",
-    "544881",
-    "544882",
-    "544883",
-    "544884",
-    "544885",
     "544886",
     "544887",
     "544888",
@@ -509,7 +491,32 @@
     "545237",
     "545238",
     "545239",
-    "545240"
+    "545240",
+    "545306",
+    "545307",
+    "545308",
+    "545309",
+    "545310",
+    "545311",
+    "545312",
+    "545313",
+    "545314",
+    "545315",
+    "545316",
+    "545317",
+    "545318",
+    "545319",
+    "545320",
+    "545321",
+    "545322",
+    "545323",
+    "545324",
+    "545325",
+    "545326",
+    "545327",
+    "545328",
+    "545329",
+    "545330"
    ]
   },
   "rwSent": {
@@ -527,6 +534,7 @@
    "06r5b": 1792351345.466236,
    "06v21": 1793627586.328299,
    "06y26": 1792351345.466085,
+   "06yb7": 1794060668.925411,
    "0703c": 1792952585.666055,
    "078ud": 1793705063.615763,
    "078wl": 1792719626.795658
@@ -534,11 +542,6 @@
  },
  "rylahk": {
   "fpl": {
-   "03rxs": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
    "04fk1": {
     "chance": null,
     "news": "",
@@ -551,6 +554,11 @@
    },
    "04rzl": {
     "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "04ug0": {
+    "chance": null,
     "news": "",
     "status": "a"
    },
@@ -621,10 +629,6 @@
    }
   },
   "fx": {
-   "03rxs": {
-    "news": [],
-    "status": []
-   },
    "04fk1": {
     "news": [],
     "status": []
@@ -634,6 +638,10 @@
     "status": []
    },
    "04rzl": {
+    "news": [],
+    "status": []
+   },
+   "04ug0": {
     "news": [],
     "status": []
    },
@@ -651,7 +659,9 @@
    },
    "05y9n": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06195": {
     "news": [],
@@ -659,7 +669,9 @@
    },
    "068n8": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06cmm": {
     "news": [
@@ -681,10 +693,10 @@
    },
    "06zbx": {
     "news": [
-     "Nov 5, 9:13 AM: Stach (foot) remains doubtful for..."
+     "Nov 7, 6:28 AM: Stach (foot) is not in the squad for..."
     ],
     "status": [
-     "Foot - Late fitness test (Game-time decision) - Expected return Nov 7"
+     "Foot - Out for next game - Expected return Nov 21"
     ]
    },
    "0784b": {
@@ -705,6 +717,7 @@
    "04hk9": 17,
    "04mi4": 482,
    "04rzl": 492,
+   "04ug0": 339,
    "05a6e": 469,
    "05n3u": 340,
    "05oz3": 385,
@@ -809,9 +822,8 @@
     "what": "Oct 11, 4:38 AM: Diouf registered two shots (zero on..."
    },
    "06zbx": {
-    "fx": "2026-11-05 14:52",
-    "rw": "2026-11-05 14:52",
-    "what": "Doubtful for Saturday"
+    "fx": "2026-11-07 14:11",
+    "what": "Nov 7, 6:28 AM: Stach (foot) is not in the squad for..."
    },
    "0784b": {
     "fx": "2026-10-31 16:10",
@@ -863,31 +875,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "544850",
-    "544851",
-    "544852",
-    "544853",
-    "544854",
-    "544866",
-    "544867",
-    "544868",
-    "544869",
-    "544870",
-    "544871",
-    "544872",
-    "544873",
-    "544874",
-    "544875",
-    "544876",
-    "544877",
-    "544878",
-    "544879",
-    "544880",
-    "544881",
-    "544882",
-    "544883",
-    "544884",
-    "544885",
     "544886",
     "544887",
     "544888",
@@ -1062,7 +1049,32 @@
     "545237",
     "545238",
     "545239",
-    "545240"
+    "545240",
+    "545306",
+    "545307",
+    "545308",
+    "545309",
+    "545310",
+    "545311",
+    "545312",
+    "545313",
+    "545314",
+    "545315",
+    "545316",
+    "545317",
+    "545318",
+    "545319",
+    "545320",
+    "545321",
+    "545322",
+    "545323",
+    "545324",
+    "545325",
+    "545326",
+    "545327",
+    "545328",
+    "545329",
+    "545330"
    ]
   },
   "rwSent": {
@@ -1111,11 +1123,6 @@
     "news": "",
     "status": "a"
    },
-   "04tig": {
-    "chance": 100,
-    "news": "",
-    "status": "a"
-   },
    "05ye7": {
     "chance": null,
     "news": "",
@@ -1157,6 +1164,11 @@
     "status": "a"
    },
    "06ybp": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "0700p": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -1174,11 +1186,15 @@
    },
    "0477b": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "04e1e": {
     "news": [],
-    "status": []
+    "status": [
+     "On the bench, potential substitute"
+    ]
    },
    "04gpx": {
     "news": [],
@@ -1188,13 +1204,11 @@
     "news": [],
     "status": []
    },
-   "04tig": {
-    "news": [],
-    "status": []
-   },
    "05ye7": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06195": {
     "news": [],
@@ -1222,15 +1236,23 @@
    },
    "06yb7": {
     "news": [
-     "Nov 5, 10:00 AM: Gudmundsson (knock) will be available..."
+     "Nov 7, 9:02 AM: Gudmundsson (knock) was forced off at..."
     ],
-    "status": []
+    "status": [
+     "Undisclosed - Out for next game"
+    ]
    },
    "06ybp": {
     "news": [
      "Nov 6, 5:08 PM: Barry scored two goals and assisted..."
     ],
     "status": []
+   },
+   "0700p": {
+    "news": [],
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "0793q": {
     "news": [],
@@ -1340,6 +1362,11 @@
     "fx": "2026-10-31 23:20",
     "what": "Oct 31, 5:45 PM: Kostoulas registered one tackle (zero..."
    },
+   "06yb7": {
+    "fx": "2026-11-07 14:11",
+    "rw": "2026-11-07 14:11",
+    "what": "Forced off at halftime"
+   },
    "06ybp": {
     "fx": "2026-11-07 01:12",
     "rw": "2026-11-07 01:12",
@@ -1370,6 +1397,7 @@
     "dara-oshea-31343": "04gpx",
     "diego-gomez-39929": "06r5b",
     "fabian-schar-17707": "04tig",
+    "gabriel-gudmundsson-35627": "06yb7",
     "igor-thiago-37737": "06mn0",
     "jordan-pickford-19035": "032f9",
     "malick-thiaw-31009": "0700p",
@@ -1384,31 +1412,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "544850",
-    "544851",
-    "544852",
-    "544853",
-    "544854",
-    "544866",
-    "544867",
-    "544868",
-    "544869",
-    "544870",
-    "544871",
-    "544872",
-    "544873",
-    "544874",
-    "544875",
-    "544876",
-    "544877",
-    "544878",
-    "544879",
-    "544880",
-    "544881",
-    "544882",
-    "544883",
-    "544884",
-    "544885",
     "544886",
     "544887",
     "544888",
@@ -1583,7 +1586,32 @@
     "545237",
     "545238",
     "545239",
-    "545240"
+    "545240",
+    "545306",
+    "545307",
+    "545308",
+    "545309",
+    "545310",
+    "545311",
+    "545312",
+    "545313",
+    "545314",
+    "545315",
+    "545316",
+    "545317",
+    "545318",
+    "545319",
+    "545320",
+    "545321",
+    "545322",
+    "545323",
+    "545324",
+    "545325",
+    "545326",
+    "545327",
+    "545328",
+    "545329",
+    "545330"
    ]
   },
   "rwSent": {
@@ -1603,6 +1631,7 @@
    "06v07": 1793488823.275681,
    "06v0g": 1793525848.615731,
    "06xzd": 1792351346.661948,
+   "06yb7": 1794060669.804018,
    "06ybp": 1794013922.593699,
    "0700p": 1792421722.484564,
    "0793q": 1793627587.198829
