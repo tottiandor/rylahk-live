@@ -84,7 +84,9 @@
   },
   "fx": {
    "0414o": {
-    "news": [],
+    "news": [
+     "Nov 7, 1:14 PM: Maddison (groin) was an unused..."
+    ],
     "status": []
    },
    "04qr9": {
@@ -96,9 +98,7 @@
     "status": []
    },
    "05g2o": {
-    "news": [
-     "Nov 6, 9:58 AM: Pedro (thigh) will have his recovery..."
-    ],
+    "news": [],
     "status": [
      "Thigh - Out for next game - Expected return Nov 21"
     ]
@@ -112,7 +112,9 @@
     ]
    },
    "05tr1": {
-    "news": [],
+    "news": [
+     "Nov 7, 11:41 AM: Pinnock recorded six clearances and two..."
+    ],
     "status": []
    },
    "05trb": {
@@ -141,10 +143,10 @@
    },
    "06yb7": {
     "news": [
-     "Nov 7, 9:02 AM: Gudmundsson (knock) was forced off at..."
+     "Nov 7, 10:36 AM: Gudmundsson was replaced at halftime of..."
     ],
     "status": [
-     "Undisclosed - Out for next game"
+     "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 21"
     ]
    },
    "0703c": {
@@ -204,8 +206,9 @@
   },
   "lag": {
    "0414o": {
-    "fx": "2026-10-31 20:05",
-    "what": "Oct 31, 12:20 PM: Maddison (groin) is on the bench for..."
+    "fx": "2026-11-07 18:51",
+    "rw": "2026-11-07 18:51",
+    "what": "Limited training keeps him benched"
    },
    "04hk9": {
     "fx": "2026-10-24 18:23",
@@ -240,9 +243,8 @@
     "what": "Makes first start since injury"
    },
    "05tr1": {
-    "fx": "2026-11-01 16:23",
-    "rw": "2026-11-01 16:23",
-    "what": "Concedes penalty in 3-1 win"
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 11:41 AM: Pinnock recorded six clearances and two..."
    },
    "05trb": {
     "fx": "2026-10-31 16:10",
@@ -276,9 +278,8 @@
     "what": "Oct 26, 12:38 PM: Boscagli had one shot (zero on goal)..."
    },
    "06yb7": {
-    "fx": "2026-11-07 14:11",
-    "rw": "2026-11-07 14:11",
-    "what": "Forced off at halftime"
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 10:36 AM: Gudmundsson was replaced at halftime of..."
    },
    "0703c": {
     "fx": "2026-11-06 16:14",
@@ -317,31 +318,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "544886",
-    "544887",
-    "544888",
-    "544889",
-    "544890",
-    "544948",
-    "544949",
-    "544950",
-    "544951",
-    "544952",
-    "544953",
-    "544954",
-    "544955",
-    "544956",
-    "544957",
-    "544958",
-    "544959",
-    "544960",
-    "544961",
-    "544962",
-    "544963",
-    "544964",
-    "544965",
-    "544966",
-    "544967",
     "544968",
     "544969",
     "544970",
@@ -516,11 +492,36 @@
     "545327",
     "545328",
     "545329",
-    "545330"
+    "545330",
+    "545394",
+    "545395",
+    "545396",
+    "545397",
+    "545398",
+    "545399",
+    "545400",
+    "545401",
+    "545402",
+    "545403",
+    "545404",
+    "545405",
+    "545406",
+    "545407",
+    "545408",
+    "545409",
+    "545410",
+    "545411",
+    "545412",
+    "545413",
+    "545414",
+    "545415",
+    "545416",
+    "545417",
+    "545418"
    ]
   },
   "rwSent": {
-   "0414o": 1793300853.641029,
+   "0414o": 1794077476.541018,
    "04qr9": 1793477116.378674,
    "051k7": 1791638728.685333,
    "05g2o": 1793981688.724344,
@@ -642,7 +643,9 @@
     "status": []
    },
    "04ug0": {
-    "news": [],
+    "news": [
+     "Nov 7, 10:16 AM: Longstaff generated one shot (one on..."
+    ],
     "status": []
    },
    "05a6e": {
@@ -650,28 +653,30 @@
     "status": []
    },
    "05oz3": {
-    "news": [],
+    "news": [
+     "Nov 7, 11:03 AM: Trafford recorded four saves and..."
+    ],
     "status": []
    },
    "05tr1": {
-    "news": [],
+    "news": [
+     "Nov 7, 11:41 AM: Pinnock recorded six clearances and two..."
+    ],
     "status": []
    },
    "05y9n": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06195": {
-    "news": [],
+    "news": [
+     "Nov 7, 11:48 AM: Dibling registered one shot (zero on..."
+    ],
     "status": []
    },
    "068n8": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06cmm": {
     "news": [
@@ -696,7 +701,7 @@
      "Nov 7, 6:28 AM: Stach (foot) is not in the squad for..."
     ],
     "status": [
-     "Foot - Out for next game - Expected return Nov 21"
+     "Foot - Late fitness test (Game-time decision) - Expected return Nov 21"
     ]
    },
    "0784b": {
@@ -768,23 +773,30 @@
     "fx": "2026-10-31 23:20",
     "what": "Oct 31, 4:52 PM: Awoniyi scored one goal to go with one..."
    },
+   "04ug0": {
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 10:16 AM: Longstaff generated one shot (one on..."
+   },
    "05a6e": {
     "fx": "2026-10-31 16:10",
     "what": "Oct 31, 10:07 AM: Williams (elbow) is in the starting XI..."
    },
    "05oz3": {
-    "fx": "2026-11-01 20:42",
-    "what": "Nov 1, 12:08 PM: Trafford had three saves and allowed..."
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 11:03 AM: Trafford recorded four saves and..."
    },
    "05tr1": {
-    "fx": "2026-11-01 16:23",
-    "rw": "2026-11-01 16:23",
-    "what": "Concedes penalty in 3-1 win"
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 11:41 AM: Pinnock recorded six clearances and two..."
    },
    "05y9n": {
     "fx": "2026-11-03 11:24",
     "rw": "2026-11-03 11:24",
     "what": "Remains active on left flank"
+   },
+   "06195": {
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 11:48 AM: Dibling registered one shot (zero on..."
    },
    "061ya": {
     "fx": "2026-11-03 11:24",
@@ -875,31 +887,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "544886",
-    "544887",
-    "544888",
-    "544889",
-    "544890",
-    "544948",
-    "544949",
-    "544950",
-    "544951",
-    "544952",
-    "544953",
-    "544954",
-    "544955",
-    "544956",
-    "544957",
-    "544958",
-    "544959",
-    "544960",
-    "544961",
-    "544962",
-    "544963",
-    "544964",
-    "544965",
-    "544966",
-    "544967",
     "544968",
     "544969",
     "544970",
@@ -1074,7 +1061,32 @@
     "545327",
     "545328",
     "545329",
-    "545330"
+    "545330",
+    "545394",
+    "545395",
+    "545396",
+    "545397",
+    "545398",
+    "545399",
+    "545400",
+    "545401",
+    "545402",
+    "545403",
+    "545404",
+    "545405",
+    "545406",
+    "545407",
+    "545408",
+    "545409",
+    "545410",
+    "545411",
+    "545412",
+    "545413",
+    "545414",
+    "545415",
+    "545416",
+    "545417",
+    "545418"
    ]
   },
   "rwSent": {
@@ -1181,20 +1193,18 @@
   },
   "fx": {
    "032f9": {
-    "news": [],
+    "news": [
+     "Nov 7, 11:54 AM: Pickford had three saves and allowed..."
+    ],
     "status": []
    },
    "0477b": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "04e1e": {
     "news": [],
-    "status": [
-     "On the bench, potential substitute"
-    ]
+    "status": []
    },
    "04gpx": {
     "news": [],
@@ -1206,12 +1216,12 @@
    },
    "05ye7": {
     "news": [],
-    "status": [
-     "Starting in upcoming/current game"
-    ]
+    "status": []
    },
    "06195": {
-    "news": [],
+    "news": [
+     "Nov 7, 11:48 AM: Dibling registered one shot (zero on..."
+    ],
     "status": []
    },
    "06jgi": {
@@ -1236,22 +1246,24 @@
    },
    "06yb7": {
     "news": [
-     "Nov 7, 9:02 AM: Gudmundsson (knock) was forced off at..."
+     "Nov 7, 10:36 AM: Gudmundsson was replaced at halftime of..."
     ],
     "status": [
-     "Undisclosed - Out for next game"
+     "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 21"
     ]
    },
    "06ybp": {
     "news": [
-     "Nov 6, 5:08 PM: Barry scored two goals and assisted..."
+     "Nov 7, 11:43 AM: Barry scored two goals and assisted..."
     ],
     "status": []
    },
    "0700p": {
-    "news": [],
+    "news": [
+     "Nov 7, 12:54 PM: Thiaw was substituted in the 85th..."
+    ],
     "status": [
-     "Starting in upcoming/current game"
+     "Undisclosed - Late fitness test (Game-time decision) - Expected return Nov 21"
     ]
    },
    "0793q": {
@@ -1289,8 +1301,8 @@
   },
   "lag": {
    "032f9": {
-    "fx": "2026-11-03 11:24",
-    "what": "Nov 3, 4:43 AM: Pickford registered two saves and..."
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 11:54 AM: Pickford had three saves and allowed..."
    },
    "0477b": {
     "fx": "2026-11-01 16:23",
@@ -1326,6 +1338,10 @@
    "05ye7": {
     "fx": "2026-11-01 16:23",
     "what": "Nov 1, 9:00 AM: Bobb had two shots (one on goal), two..."
+   },
+   "06195": {
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 11:48 AM: Dibling registered one shot (zero on..."
    },
    "068yc": {
     "fx": "2026-10-26 19:31",
@@ -1363,19 +1379,17 @@
     "what": "Oct 31, 5:45 PM: Kostoulas registered one tackle (zero..."
    },
    "06yb7": {
-    "fx": "2026-11-07 14:11",
-    "rw": "2026-11-07 14:11",
-    "what": "Forced off at halftime"
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 10:36 AM: Gudmundsson was replaced at halftime of..."
    },
    "06ybp": {
-    "fx": "2026-11-07 01:12",
-    "rw": "2026-11-07 01:12",
-    "what": "Bags brace and assist Friday"
+    "fx": "2026-11-07 18:51",
+    "what": "Nov 7, 11:43 AM: Barry scored two goals and assisted..."
    },
    "0700p": {
-    "fx": "2026-10-19 14:55",
-    "rw": "2026-10-19 14:55",
-    "what": "Busy defensively in 1-0 loss"
+    "fx": "2026-11-07 18:51",
+    "rw": "2026-11-07 18:51",
+    "what": "Exits late with possible injury"
    },
    "078ud": {
     "fx": "2026-10-12 22:55",
@@ -1412,31 +1426,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "544886",
-    "544887",
-    "544888",
-    "544889",
-    "544890",
-    "544948",
-    "544949",
-    "544950",
-    "544951",
-    "544952",
-    "544953",
-    "544954",
-    "544955",
-    "544956",
-    "544957",
-    "544958",
-    "544959",
-    "544960",
-    "544961",
-    "544962",
-    "544963",
-    "544964",
-    "544965",
-    "544966",
-    "544967",
     "544968",
     "544969",
     "544970",
@@ -1611,7 +1600,32 @@
     "545327",
     "545328",
     "545329",
-    "545330"
+    "545330",
+    "545394",
+    "545395",
+    "545396",
+    "545397",
+    "545398",
+    "545399",
+    "545400",
+    "545401",
+    "545402",
+    "545403",
+    "545404",
+    "545405",
+    "545406",
+    "545407",
+    "545408",
+    "545409",
+    "545410",
+    "545411",
+    "545412",
+    "545413",
+    "545414",
+    "545415",
+    "545416",
+    "545417",
+    "545418"
    ]
   },
   "rwSent": {
@@ -1633,7 +1647,7 @@
    "06xzd": 1792351346.661948,
    "06yb7": 1794060669.804018,
    "06ybp": 1794013922.593699,
-   "0700p": 1792421722.484564,
+   "0700p": 1794077478.100498,
    "0793q": 1793627587.198829
   }
  }
