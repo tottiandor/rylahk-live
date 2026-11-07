@@ -1,7 +1,9 @@
 name: live
-# Every 15 minutes GitHub wakes this up. With no game on or about to start it exits in
-# seconds; during games it stays on, polling Fantrax every minute, for up to 5.5 hours,
-# and the next wake-up takes over from there. Only one runs at a time.
+# During games it stays on, polling Fantrax every minute, for up to 5.5 hours. GitHub's
+# timer is throttled to a few runs a day, so it is only a backup: a run that ends while
+# another kickoff is less than 4 hours away starts the next run itself, and injuries/bot
+# start it too when a game is near. A run that starts early waits for the window.
+# Only one runs at a time.
 on:
   schedule:
     - cron: '*/15 * * * *'
@@ -21,6 +23,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write          # to start the next run itself
 
 jobs:
   live:
@@ -46,3 +49,11 @@ jobs:
           else
             python live.py
           fi
+      - name: start the next run
+        # only after a clean run (a crash must not loop), never after a replay
+        if: success() && !inputs.replay
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONUTF8: '1'
+        run: |
+          if python live.py --due 240; then gh workflow run live.yml && echo "next live run started"; else echo "no game within 4 hours"; fi

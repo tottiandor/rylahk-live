@@ -27,6 +27,7 @@ NAMES = {'G': 'GOAL', 'AT': 'ASSIST', 'PKD': 'PENALTY WON', 'PKS': 'PENALTY SAVE
 EMOJI = {'G': '⚽', 'AT': '🅰️', 'PKD': '🎯', 'PKS': '🧤', 'PKM': '❌', 'YC': '🟨', 'RC': '🟥',
          'OG': '🙈', 'CS': '🧱', 'GAO': '🥅', 'GA': '🥅'}
 INSTANT = set(CFG['instant'])
+START = time.time()
 
 
 def fmt(x):
@@ -229,11 +230,37 @@ def window_open(fx, t):
     return False
 
 
+def next_window(fx, t):
+    """When the next watching window opens (now, if one is open); None if no fixture ahead."""
+    if fx is None:
+        return t
+    if window_open(fx, t):
+        return t
+    b = timedelta(minutes=CFG['windowBeforeKickoffMinutes'])
+    starts = [datetime.fromisoformat(f['kickoff_time'].replace('Z', '+00:00')) - b for f in fx]
+    ahead = [s for s in starts if s > t]
+    return min(ahead) if ahead else None
+
+
+def due(minutes):
+    """True if a window is open or opens within `minutes`: the workflows use it to start
+    the next live run themselves, because GitHub's timer cannot be relied on."""
+    t = now()
+    w = next_window(fixtures(), t)
+    return w is not None and w - t <= timedelta(minutes=minutes)
+
+
 def watch():
     fx = fixtures()
-    if not window_open(fx, now()):
-        log('no game on or about to start; nothing to do')
-        return
+    t = now()
+    if not window_open(fx, t):
+        # started early (by a chained run or a lucky timer): wait for the window
+        w = next_window(fx, t)
+        if w is None or w - t > timedelta(minutes=CFG.get('waitMinutes', 240)):
+            log('no game on or about to start; nothing to do')
+            return
+        log('waiting %d min for the next window' % ((w - t).total_seconds() // 60))
+        time.sleep(max(0, (w - t).total_seconds()))
     state = load_state('live.json', {})
     ms = []
     for lg in leagues():
@@ -241,7 +268,8 @@ def watch():
         m.prepare()
         ms.append(m)
         log(lg['name'], 'round', m.st['period'], m.who(m.st['me']), 'vs', m.who(m.st['opp']))
-    t0 = last_commit = time.time()
+    t0 = START          # from the start of the run, waiting included: the job has a hard limit
+    last_commit = time.time()
     last_fotmob = 0
     last_fx = time.time()
     while True:
@@ -323,7 +351,11 @@ if __name__ == '__main__':
     ap.add_argument('--replay', type=int)
     ap.add_argument('--steps', type=int, default=40)
     ap.add_argument('--send', action='store_true')
+    ap.add_argument('--due', type=int, metavar='MINUTES',
+                    help='exit 0 if a game window is open or opens within MINUTES, else 1')
     a = ap.parse_args()
+    if a.due is not None:
+        sys.exit(0 if due(a.due) else 1)
     if a.replay:
         replay(a.replay, a.steps, a.send)
     else:

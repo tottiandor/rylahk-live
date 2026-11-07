@@ -11,6 +11,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write          # to start the live feed when GitHub's timer has not
 
 jobs:
   injuries:
@@ -32,3 +33,15 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           if [ -z "$TELEGRAM_BOT_TOKEN" ]; then echo "Telegram not connected yet (run setup_telegram.py)"; exit 0; fi
           python injuries.py
+      - name: make sure the live feed is on
+        # GitHub's timer may not start the live feed in time: start it from here when a
+        # game is less than 4 hours away and no live run is going
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONUTF8: '1'
+        run: |
+          if python live.py --due 240; then
+            n=$(gh run list --workflow live.yml --limit 20 --json status --jq '[.[] | select(.status != "completed")] | length')
+            if [ "$n" = "0" ]; then gh workflow run live.yml && echo "started the live feed"; else echo "live feed already on"; fi
+          fi
