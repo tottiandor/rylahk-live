@@ -2,14 +2,7 @@
  "5cfv4rkwmrcniqha": {
   "announced": true,
   "digest": {
-   "6jj1vsj8mruuonm3": {
-    "0703c": {
-     "CLR": [
-      1.0,
-      0.25
-     ]
-    }
-   },
+   "6jj1vsj8mruuonm3": {},
    "x6akjt3nmrw50wtj": {}
   },
   "finalSent": false,
@@ -21,7 +14,7 @@
    "06m83": "BOU 1 @ IPS 0 Halftime|06m83|2",
    "06m84": "TOT 0 @ LEE 1 F|06m84|3",
    "06m86": "MCI 1 @ NOT 3 F|06m86|3",
-   "06m87": "CHE 0 @ SUN 1 49'|06m87|2"
+   "06m87": "CHE 0 @ SUN 1 Halftime|06m87|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -73,7 +66,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1794149288.07401,
+  "lastDigest": 1794149617.3072402,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "02lk5": {
@@ -2182,50 +2175,8 @@
  "rylahk": {
   "announced": true,
   "digest": {
-   "v5yp8udgmrsuz9eh": {
-    "05uel": {
-     "CLR": [
-      1.0,
-      0.25
-     ]
-    },
-    "06y9m": {
-     "DIS": [
-      1.0,
-      -0.5
-     ]
-    },
-    "0784z": {
-     "AER": [
-      1.0,
-      1.0
-     ],
-     "KP": [
-      1.0,
-      2.0
-     ]
-    }
-   },
-   "wfwa6qr6mrsux39t": {
-    "04fk1": {
-     "TkW": [
-      1.0,
-      1.0
-     ]
-    },
-    "06cmm": {
-     "KP": [
-      1.0,
-      2.0
-     ]
-    },
-    "06do9": {
-     "Int": [
-      1.0,
-      1.0
-     ]
-    }
-   }
+   "v5yp8udgmrsuz9eh": {},
+   "wfwa6qr6mrsux39t": {}
   },
   "finalSent": false,
   "games": {
@@ -2237,7 +2188,7 @@
    "06m83": "BOU 1 @ IPS 0 Halftime|06m83|2",
    "06m84": "TOT 0 @ LEE 1 F|06m84|3",
    "06m86": "MCI 1 @ NOT 3 F|06m86|3",
-   "06m87": "CHE 0 @ SUN 1 49'|06m87|2"
+   "06m87": "CHE 0 @ SUN 1 Halftime|06m87|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
@@ -2290,7 +2241,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1794149218.1270902,
+  "lastDigest": 1794149551.149857,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "02oq6": {
@@ -4361,7 +4312,7 @@
    "06m83": "BOU 1 @ IPS 0 Halftime|06m83|2",
    "06m84": "TOT 0 @ LEE 1 F|06m84|3",
    "06m86": "MCI 1 @ NOT 3 F|06m86|3",
-   "06m87": "CHE 0 @ SUN 1 49'|06m87|2"
+   "06m87": "CHE 0 @ SUN 1 Halftime|06m87|2"
   },
   "labels": {
    "5010#6002#-1": "KP",
