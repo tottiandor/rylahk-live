@@ -1,7 +1,10 @@
 {
  "5cfv4rkwmrcniqha": {
   "announced": true,
-  "digest": {},
+  "digest": {
+   "6jj1vsj8mruuonm3": {},
+   "x6akjt3nmrw50wtj": {}
+  },
   "finalSent": false,
   "games": {
    "06m7y": "HUL 0 @ ARS 1 F|06m7y|3",
