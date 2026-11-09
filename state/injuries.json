@@ -66,11 +66,6 @@
     "news": "",
     "status": "a"
    },
-   "06yb7": {
-    "chance": 75,
-    "news": "Hamstring injury - 75% chance of playing",
-    "status": "d"
-   },
    "0703c": {
     "chance": 100,
     "news": "",
@@ -132,22 +127,22 @@
     "status": []
    },
    "06r5b": {
-    "news": [],
+    "news": [
+     "Nov 9, 5:49 AM: Gomez scored one goal to go with three..."
+    ],
     "status": []
    },
    "06v21": {
-    "news": [],
+    "news": [
+     "Nov 9, 12:19 PM: Wirtz scored one goal and assisted once..."
+    ],
     "status": []
    },
    "06y26": {
-    "news": [],
+    "news": [
+     "Nov 9, 5:51 AM: Boscagli generated 12 crosses (four..."
+    ],
     "status": []
-   },
-   "06yb7": {
-    "news": [],
-    "status": [
-     "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
    },
    "0703c": {
     "news": [
@@ -256,17 +251,16 @@
     "what": "Nov 9, 1:25 AM: Kluivert had two shots (one on goal),..."
    },
    "06r5b": {
-    "fx": "2026-10-31 23:20",
-    "what": "Oct 31, 5:25 PM: Gomez registered two shots (one on..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 5:49 AM: Gomez scored one goal to go with three..."
    },
    "06v21": {
-    "fx": "2026-11-02 22:38",
-    "rw": "2026-11-02 13:53",
-    "what": "Three shots in loss"
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 12:19 PM: Wirtz scored one goal and assisted once..."
    },
    "06y26": {
-    "fx": "2026-10-26 19:31",
-    "what": "Oct 26, 12:38 PM: Boscagli had one shot (zero on goal)..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 5:51 AM: Boscagli generated 12 crosses (four..."
    },
    "06yb7": {
     "fx": "2026-11-07 18:51",
@@ -282,8 +276,8 @@
     "what": "Creates two chances in defeat"
    },
    "078wl": {
-    "fx": "2026-11-04 23:57",
-    "what": "Nov 4, 3:05 PM: Suzuki made five saves and allowed..."
+    "rw": "2026-11-09 20:58",
+    "what": "Concedes four Sunday"
    }
   },
   "ready": true,
@@ -309,31 +303,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "545417",
-    "545418",
-    "545431",
-    "545432",
-    "545433",
-    "545434",
-    "545435",
-    "545436",
-    "545437",
-    "545438",
-    "545439",
-    "545440",
-    "545441",
-    "545442",
-    "545443",
-    "545444",
-    "545445",
-    "545446",
-    "545447",
-    "545448",
-    "545449",
-    "545450",
-    "545451",
-    "545452",
-    "545453",
     "545454",
     "545455",
     "545456",
@@ -508,7 +477,32 @@
     "545828",
     "545829",
     "545830",
-    "545831"
+    "545831",
+    "545983",
+    "545984",
+    "545985",
+    "545986",
+    "545987",
+    "545988",
+    "545989",
+    "545990",
+    "545991",
+    "545992",
+    "545993",
+    "545994",
+    "545995",
+    "545996",
+    "545997",
+    "545998",
+    "545999",
+    "546000",
+    "546001",
+    "546002",
+    "546003",
+    "546004",
+    "546005",
+    "546006",
+    "546007"
    ]
   },
   "rwSent": {
@@ -529,7 +523,7 @@
    "06yb7": 1794060668.925411,
    "0703c": 1792952585.666055,
    "078ud": 1793705063.615763,
-   "078wl": 1792719626.795658
+   "078wl": 1794257922.953668
   }
  },
  "rylahk": {
@@ -549,11 +543,6 @@
     "news": "",
     "status": "a"
    },
-   "04ug0": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "05a6e": {
     "chance": 100,
     "news": "",
@@ -570,11 +559,6 @@
     "status": "a"
    },
    "05y9n": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "06195": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -622,18 +606,18 @@
   },
   "fx": {
    "04fk1": {
-    "news": [],
+    "news": [
+     "Nov 9, 5:49 AM: Gross scored one goal to go with two..."
+    ],
     "status": []
    },
    "04gpx": {
-    "news": [],
+    "news": [
+     "Nov 9, 10:15 AM: O'Shea recorded two tackles (one won)..."
+    ],
     "status": []
    },
    "04rzl": {
-    "news": [],
-    "status": []
-   },
-   "04ug0": {
     "news": [],
     "status": []
    },
@@ -650,35 +634,37 @@
     "status": []
    },
    "05y9n": {
-    "news": [
-     "Nov 8, 1:11 PM: Hall registered one shot (one on goal),..."
-    ],
-    "status": []
-   },
-   "06195": {
     "news": [],
     "status": []
    },
    "068n8": {
-    "news": [],
+    "news": [
+     "Nov 9, 2:59 PM: Madueke generated four shots (two on..."
+    ],
     "status": []
    },
    "06cmm": {
     "news": [
-     "Nov 8, 6:36 PM: Szoboszlai delivered one assist in..."
+     "Nov 9, 4:32 AM: Szoboszlai (knee) will undergo medical..."
     ],
-    "status": []
+    "status": [
+     "Knee - Late fitness test (Game-time decision) - Expected return Nov 22"
+    ]
    },
    "06do9": {
     "news": [],
     "status": []
    },
    "06v0y": {
-    "news": [],
+    "news": [
+     "Nov 9, 5:51 AM: Vuskovic recorded one shot (zero on..."
+    ],
     "status": []
    },
    "06ymu": {
-    "news": [],
+    "news": [
+     "Nov 9, 5:49 AM: Diouf registered one tackle (one won),..."
+    ],
     "status": []
    },
    "06zbx": {
@@ -694,7 +680,9 @@
     "status": []
    },
    "0784w": {
-    "news": [],
+    "news": [
+     "Nov 9, 4:09 AM: Emersonn registered two shots (zero on..."
+    ],
     "status": []
    }
   },
@@ -743,12 +731,12 @@
   },
   "lag": {
    "04fk1": {
-    "fx": "2026-10-31 23:20",
-    "what": "Oct 31, 5:35 PM: Gross generated three crosses (one..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 5:49 AM: Gross scored one goal to go with two..."
    },
    "04gpx": {
-    "fx": "2026-11-01 16:23",
-    "what": "Nov 1, 5:19 AM: O'Shea had one tackle (zero won) and..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 10:15 AM: O'Shea recorded two tackles (one won)..."
    },
    "04hk9": {
     "fx": "2026-10-24 18:23",
@@ -788,14 +776,15 @@
     "what": "Nov 3, 4:46 AM: Johnson recorded no stats in Monday's..."
    },
    "068n8": {
-    "fx": "2026-11-05 14:52",
-    "what": "Nov 5, 4:59 AM: Madueke scored one goal to go with two..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 2:59 PM: Madueke generated four shots (two on..."
    },
    "068yc": {
     "fx": "2026-10-26 19:31",
     "what": "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
    },
    "06cmm": {
+    "fx": "2026-11-09 20:58",
     "rw": "2026-11-09 10:25",
     "what": "Set for medical tests on knee"
    },
@@ -810,12 +799,12 @@
     "what": "Creative in defeat"
    },
    "06v0y": {
-    "fx": "2026-10-26 19:31",
-    "what": "Oct 26, 12:36 PM: Vuskovic had two shots (zero on goal)..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 5:51 AM: Vuskovic recorded one shot (zero on..."
    },
    "06ymu": {
-    "fx": "2026-10-11 12:42",
-    "what": "Oct 11, 4:38 AM: Diouf registered two shots (zero on..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 5:49 AM: Diouf registered one tackle (one won),..."
    },
    "06zbx": {
     "fx": "2026-11-07 14:11",
@@ -826,6 +815,7 @@
     "what": "Nov 9, 1:38 AM: Palestra registered three crosses (one..."
    },
    "0784w": {
+    "fx": "2026-11-09 20:58",
     "rw": "2026-11-09 10:25",
     "what": "Two shots but subbed off early"
    },
@@ -872,31 +862,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "545417",
-    "545418",
-    "545431",
-    "545432",
-    "545433",
-    "545434",
-    "545435",
-    "545436",
-    "545437",
-    "545438",
-    "545439",
-    "545440",
-    "545441",
-    "545442",
-    "545443",
-    "545444",
-    "545445",
-    "545446",
-    "545447",
-    "545448",
-    "545449",
-    "545450",
-    "545451",
-    "545452",
-    "545453",
     "545454",
     "545455",
     "545456",
@@ -1071,7 +1036,32 @@
     "545828",
     "545829",
     "545830",
-    "545831"
+    "545831",
+    "545983",
+    "545984",
+    "545985",
+    "545986",
+    "545987",
+    "545988",
+    "545989",
+    "545990",
+    "545991",
+    "545992",
+    "545993",
+    "545994",
+    "545995",
+    "545996",
+    "545997",
+    "545998",
+    "545999",
+    "546000",
+    "546001",
+    "546002",
+    "546003",
+    "546004",
+    "546005",
+    "546006",
+    "546007"
    ]
   },
   "rwSent": {
@@ -1126,11 +1116,6 @@
     "news": "",
     "status": "a"
    },
-   "06195": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "06jgi": {
     "chance": null,
     "news": "",
@@ -1156,17 +1141,7 @@
     "news": "",
     "status": "a"
    },
-   "06yb7": {
-    "chance": 75,
-    "news": "Hamstring injury - 75% chance of playing",
-    "status": "d"
-   },
    "06ybp": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
-   "0700p": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -1191,7 +1166,9 @@
     "status": []
    },
    "04gpx": {
-    "news": [],
+    "news": [
+     "Nov 9, 10:15 AM: O'Shea recorded two tackles (one won)..."
+    ],
     "status": []
    },
    "04qr9": {
@@ -1204,52 +1181,42 @@
     ],
     "status": []
    },
-   "06195": {
-    "news": [],
-    "status": []
-   },
    "06jgi": {
     "news": [],
     "status": []
    },
    "06mn0": {
-    "news": [
-     "Nov 8, 9:29 AM: Thiago has been handed a three-match..."
-    ],
+    "news": [],
     "status": [
      "Suspended"
     ]
    },
    "06r5b": {
-    "news": [],
+    "news": [
+     "Nov 9, 5:49 AM: Gomez scored one goal to go with three..."
+    ],
     "status": []
    },
    "06v07": {
-    "news": [],
+    "news": [
+     "Nov 9, 3:00 PM: Cherki scored one goal to go with one..."
+    ],
     "status": []
    },
    "06xzd": {
-    "news": [],
+    "news": [
+     "Nov 9, 5:50 AM: Kostoulas generated three shots (two on..."
+    ],
     "status": []
-   },
-   "06yb7": {
-    "news": [],
-    "status": [
-     "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
    },
    "06ybp": {
     "news": [],
     "status": []
    },
-   "0700p": {
-    "news": [],
-    "status": [
-     "Undisclosed - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
-   },
    "0793q": {
-    "news": [],
+    "news": [
+     "Nov 9, 12:22 PM: Barcola assisted once to go with three..."
+    ],
     "status": []
    }
   },
@@ -1295,8 +1262,8 @@
     "what": "Oct 24, 1:48 PM: White assisted once to go with two..."
    },
    "04gpx": {
-    "fx": "2026-11-01 16:23",
-    "what": "Nov 1, 5:19 AM: O'Shea had one tackle (zero won) and..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 10:15 AM: O'Shea recorded two tackles (one won)..."
    },
    "04qr9": {
     "fx": "2026-10-31 20:05",
@@ -1342,13 +1309,13 @@
     "what": "Nov 1, 11:53 AM: Mfuni had one shot (zero on goal) in..."
    },
    "06r5b": {
-    "fx": "2026-10-31 23:20",
-    "what": "Oct 31, 5:25 PM: Gomez registered two shots (one on..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 5:49 AM: Gomez scored one goal to go with three..."
    },
    "06v07": {
-    "fx": "2026-11-07 22:31",
-    "rw": "2026-11-07 22:31",
-    "what": "Scores in loss to Forest"
+    "fx": "2026-11-09 20:58",
+    "rw": "2026-11-09 20:58",
+    "what": "Nets City's lone goal"
    },
    "06v0g": {
     "fx": "2026-11-01 09:37",
@@ -1356,8 +1323,8 @@
     "what": "Five clearance in 3-1 loss"
    },
    "06xzd": {
-    "fx": "2026-10-31 23:20",
-    "what": "Oct 31, 5:45 PM: Kostoulas registered one tackle (zero..."
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 5:50 AM: Kostoulas generated three shots (two on..."
    },
    "06yb7": {
     "fx": "2026-11-07 18:51",
@@ -1377,9 +1344,8 @@
     "what": "Oct 12, 2:19 PM: Dedic (hamstring) is on the bench for..."
    },
    "0793q": {
-    "fx": "2026-11-02 22:38",
-    "rw": "2026-11-02 13:53",
-    "what": "Only one shot"
+    "fx": "2026-11-09 20:58",
+    "what": "Nov 9, 12:22 PM: Barcola assisted once to go with three..."
    }
   },
   "ready": true,
@@ -1407,31 +1373,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "545417",
-    "545418",
-    "545431",
-    "545432",
-    "545433",
-    "545434",
-    "545435",
-    "545436",
-    "545437",
-    "545438",
-    "545439",
-    "545440",
-    "545441",
-    "545442",
-    "545443",
-    "545444",
-    "545445",
-    "545446",
-    "545447",
-    "545448",
-    "545449",
-    "545450",
-    "545451",
-    "545452",
-    "545453",
     "545454",
     "545455",
     "545456",
@@ -1606,7 +1547,32 @@
     "545828",
     "545829",
     "545830",
-    "545831"
+    "545831",
+    "545983",
+    "545984",
+    "545985",
+    "545986",
+    "545987",
+    "545988",
+    "545989",
+    "545990",
+    "545991",
+    "545992",
+    "545993",
+    "545994",
+    "545995",
+    "545996",
+    "545997",
+    "545998",
+    "545999",
+    "546000",
+    "546001",
+    "546002",
+    "546003",
+    "546004",
+    "546005",
+    "546006",
+    "546007"
    ]
   },
   "rwSent": {
@@ -1623,7 +1589,7 @@
    "06jgi": 1792084949.488748,
    "06mn0": 1794150440.927707,
    "06r5b": 1792351346.661943,
-   "06v07": 1794090676.247461,
+   "06v07": 1794257925.425666,
    "06v0g": 1793525848.615731,
    "06xzd": 1792351346.661948,
    "06yb7": 1794060669.804018,
