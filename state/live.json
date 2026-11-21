@@ -2,22 +2,8 @@
  "5cfv4rkwmrcniqha": {
   "announced": true,
   "digest": {
-   "6jj1vsj8mruuonm3": {
-    "04qr9": {
-     "AER": [
-      1.0,
-      0.5
-     ]
-    }
-   },
-   "9nfzf3yems11aljg": {
-    "070f9": {
-     "TkW": [
-      1.0,
-      1.0
-     ]
-    }
-   }
+   "6jj1vsj8mruuonm3": {},
+   "9nfzf3yems11aljg": {}
   },
   "finalSent": false,
   "games": {
@@ -78,7 +64,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1795280301.473403,
+  "lastDigest": 1795280947.9391642,
   "me": "6jj1vsj8mruuonm3",
   "names": {
    "02lp5": {
@@ -911,8 +897,8 @@
       1.0
      ],
      "5010#6009#-1": [
-      4.0,
-      4.0
+      3.0,
+      3.0
      ],
      "5010#6016#-1": [
       0,
@@ -1543,8 +1529,8 @@
       0
      ],
      "5010#6256#-1": [
-      2.0,
-      2.0
+      1.0,
+      1.0
      ],
      "5010#6280#-1": [
       0,
@@ -1712,14 +1698,7 @@
  "rylahk": {
   "announced": true,
   "digest": {
-   "tciqq7cymrsux39s": {
-    "070f9": {
-     "TkW": [
-      1.0,
-      1.0
-     ]
-    }
-   },
+   "tciqq7cymrsux39s": {},
    "wfwa6qr6mrsux39t": {}
   },
   "finalSent": false,
@@ -1782,7 +1761,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1795280232.23241,
+  "lastDigest": 1795280560.1504724,
   "me": "wfwa6qr6mrsux39t",
   "names": {
    "02lm7": {
@@ -3253,14 +3232,7 @@
  "yb5sb5camrzcbh8e": {
   "announced": true,
   "digest": {
-   "5xsj4mxjms0a28ls": {
-    "04qr9": {
-     "AER": [
-      1.0,
-      0.5
-     ]
-    }
-   },
+   "5xsj4mxjms0a28ls": {},
    "coqo1zurms0cuuqo": {}
   },
   "finalSent": false,
@@ -3320,7 +3292,7 @@
    "5020#6280#-1": "YC",
    "5020#6362#-1": "AT"
   },
-  "lastDigest": 1795280302.6218445,
+  "lastDigest": 1795280625.7968569,
   "me": "5xsj4mxjms0a28ls",
   "names": {
    "032f9": {
