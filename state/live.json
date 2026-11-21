@@ -160,11 +160,6 @@
     "pos": "D",
     "short": "O. Boscagli"
    },
-   "06yb7": {
-    "club": "LEE",
-    "pos": "D",
-    "short": "G. Gudmundsson"
-   },
    "06ymu": {
     "club": "BRF",
     "pos": "D",
@@ -185,11 +180,6 @@
     "pos": "F",
     "short": "B. Thomas-Asante"
    },
-   "076qg": {
-    "club": "LIV",
-    "pos": "F",
-    "short": "V. Muñoz"
-   },
    "07848": {
     "club": "AVL",
     "pos": "M",
@@ -205,6 +195,11 @@
     "pos": "D",
     "short": "P. Chavarría"
    },
+   "078qg": {
+    "club": "CRY",
+    "pos": "D",
+    "short": "A. Khalaili"
+   },
    "078wl": {
     "club": "AVL",
     "pos": "G",
@@ -214,6 +209,11 @@
     "club": "FUL",
     "pos": "D",
     "short": "D. Affengruber"
+   },
+   "07959": {
+    "club": "COV",
+    "pos": "F",
+    "short": "Y. Gboho"
    }
   },
   "opp": "9nfzf3yems11aljg",
@@ -432,10 +432,25 @@
   "lastDigest": 1794156714.1543207,
   "me": "wfwa6qr6mrsux39t",
   "names": {
+   "02lm7": {
+    "club": "EVE",
+    "pos": "M",
+    "short": "J. Grealish"
+   },
    "038ze": {
     "club": "FUL",
     "pos": "M",
     "short": "A. Iwobi"
+   },
+   "03fgl": {
+    "club": "COV",
+    "pos": "D",
+    "short": "J. da Silva"
+   },
+   "03fgo": {
+    "club": "TOT",
+    "pos": "F",
+    "short": "D. Solanke"
    },
    "0477b": {
     "club": "HUL",
@@ -471,11 +486,6 @@
     "club": "COV",
     "pos": "F",
     "short": "T. Awoniyi"
-   },
-   "04ug0": {
-    "club": "LEE",
-    "pos": "M",
-    "short": "S. Longstaff"
    },
    "04y92": {
     "club": "ARS",
@@ -522,10 +532,10 @@
     "pos": "D",
     "short": "L. Hall"
    },
-   "06195": {
-    "club": "EVE",
-    "pos": "M",
-    "short": "T. Dibling"
+   "062p5": {
+    "club": "CHE",
+    "pos": "D",
+    "short": "L. Colwill"
    },
    "067yz": {
     "club": "MUN",
@@ -547,6 +557,11 @@
     "pos": "D",
     "short": "M. Kerkez"
    },
+   "06mgd": {
+    "club": "IPS",
+    "pos": "F",
+    "short": "Abdul Fatawu"
+   },
    "06pe1": {
     "club": "TOT",
     "pos": "M",
@@ -561,11 +576,6 @@
     "club": "BHA",
     "pos": "D",
     "short": "L. Vuskovic"
-   },
-   "06ymu": {
-    "club": "BRF",
-    "pos": "D",
-    "short": "El Hadji Malick Diouf"
    },
    "06zbx": {
     "club": "LEE",
@@ -582,10 +592,10 @@
     "pos": "D",
     "short": "M. Palestra"
    },
-   "0784w": {
-    "club": "IPS",
+   "07898": {
+    "club": "FUL",
     "pos": "F",
-    "short": "Emersonn"
+    "short": "G. García"
    },
    "078az": {
     "club": "HUL",
@@ -686,6 +696,11 @@
     "pos": "F",
     "short": "O. McBurnie"
    },
+   "04adp": {
+    "club": "AVL",
+    "pos": "D",
+    "short": "A. Wan-Bissaka"
+   },
    "04e1e": {
     "club": "ARS",
     "pos": "D",
@@ -705,6 +720,11 @@
     "club": "LIV",
     "pos": "M",
     "short": "A. Mac Allister"
+   },
+   "052cb": {
+    "club": "AVL",
+    "pos": "D",
+    "short": "I. Maatsen"
    },
    "05akv": {
     "club": "CRY",
@@ -735,11 +755,6 @@
     "club": "ARS",
     "pos": "M",
     "short": "Bruno Guimaraes"
-   },
-   "06195": {
-    "club": "EVE",
-    "pos": "M",
-    "short": "T. Dibling"
    },
    "062p3": {
     "club": "BRF",
@@ -781,6 +796,11 @@
     "pos": "F",
     "short": "Igor Thiago"
    },
+   "06mve": {
+    "club": "MUN",
+    "pos": "F",
+    "short": "J. Zirkzee"
+   },
    "06p6j": {
     "club": "BOU",
     "pos": "F",
@@ -801,11 +821,6 @@
     "pos": "M",
     "short": "R. Cherki"
    },
-   "06v0c": {
-    "club": "MUN",
-    "pos": "F",
-    "short": "S. Lacey"
-   },
    "06xzd": {
     "club": "BHA",
     "pos": "F",
@@ -816,20 +831,10 @@
     "pos": "F",
     "short": "Igor Jesus"
    },
-   "06yb7": {
-    "club": "LEE",
-    "pos": "D",
-    "short": "G. Gudmundsson"
-   },
    "06ybp": {
     "club": "EVE",
     "pos": "F",
     "short": "T. Barry"
-   },
-   "0700p": {
-    "club": "NEW",
-    "pos": "D",
-    "short": "M. Thiaw"
    },
    "0793q": {
     "club": "LIV",
