@@ -16,20 +16,15 @@
     "news": "",
     "status": "a"
    },
-   "05akv": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "05g2o": {
     "chance": 0,
     "news": "Thigh injury - Unknown return date",
     "status": "i"
    },
    "05l2z": {
-    "chance": 75,
-    "news": "Calf injury - 75% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "05tr1": {
     "chance": null,
@@ -67,6 +62,11 @@
     "status": "a"
    },
    "0703c": {
+    "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "076qg": {
     "chance": 100,
     "news": "",
     "status": "a"
@@ -97,10 +97,6 @@
     "news": [],
     "status": []
    },
-   "05akv": {
-    "news": [],
-    "status": []
-   },
    "05g2o": {
     "news": [
      "Nov 20, 8:59 AM: Pedro (thigh) remains sidelined and..."
@@ -111,11 +107,9 @@
    },
    "05l2z": {
     "news": [
-     "Nov 19, 9:35 AM: Thomas (calf) has returned to team..."
+     "Nov 21, 9:07 AM: Thomas (calf) is in the starting XI for..."
     ],
-    "status": [
-     "Calf - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
+    "status": []
    },
    "05tr1": {
     "news": [],
@@ -149,13 +143,15 @@
     "news": [],
     "status": []
    },
+   "076qg": {
+    "news": [],
+    "status": []
+   },
    "078qg": {
     "news": [
-     "Nov 16, 8:22 AM: Khalaili (inflammation) has withdrawn..."
+     "Nov 21, 9:07 AM: Khalaili (inflammation) is in the..."
     ],
-    "status": [
-     "Undisclosed - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
+    "status": []
    },
    "078wl": {
     "news": [],
@@ -193,6 +189,7 @@
    "06zna": 483,
    "0703c": 533,
    "070cj": 336,
+   "076qg": 377,
    "078qg": 588,
    "078ud": 593,
    "078wl": 597,
@@ -227,8 +224,8 @@
     "what": "Nov 20, 8:59 AM: Pedro (thigh) remains sidelined and..."
    },
    "05l2z": {
-    "fx": "2026-11-19 21:44",
-    "what": "Nov 19, 9:35 AM: Thomas (calf) has returned to team..."
+    "fx": "2026-11-21 15:36",
+    "what": "Nov 21, 9:07 AM: Thomas (calf) is in the starting XI for..."
    },
    "05ogb": {
     "fx": "2026-11-03 11:24",
@@ -278,8 +275,8 @@
     "what": "Nov 9, 1:43 AM: Mukiele registered one cross (zero..."
    },
    "078qg": {
-    "fx": "2026-11-16 16:30",
-    "what": "Nov 16, 8:22 AM: Khalaili (inflammation) has withdrawn..."
+    "fx": "2026-11-21 15:36",
+    "what": "Nov 21, 9:07 AM: Khalaili (inflammation) is in the..."
    },
    "078ud": {
     "fx": "2026-11-03 11:24",
@@ -316,31 +313,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "547196",
-    "547197",
-    "547198",
-    "547199",
-    "547200",
-    "547201",
-    "547202",
-    "547203",
-    "547204",
-    "547205",
-    "547206",
-    "547207",
-    "547208",
-    "547209",
-    "547210",
-    "547212",
-    "547213",
-    "547214",
-    "547215",
-    "547216",
-    "547217",
-    "547218",
-    "547219",
-    "547220",
-    "547221",
     "547222",
     "547223",
     "547224",
@@ -515,7 +487,32 @@
     "547645",
     "547646",
     "547647",
-    "547648"
+    "547648",
+    "547725",
+    "547726",
+    "547727",
+    "547728",
+    "547729",
+    "547730",
+    "547731",
+    "547732",
+    "547733",
+    "547734",
+    "547735",
+    "547736",
+    "547737",
+    "547738",
+    "547739",
+    "547740",
+    "547741",
+    "547742",
+    "547743",
+    "547744",
+    "547745",
+    "547746",
+    "547747",
+    "547748",
+    "547749"
    ]
   },
   "rwSent": {
@@ -568,9 +565,9 @@
     "status": "a"
    },
    "05a6e": {
-    "chance": 75,
-    "news": "Ankle injury - 75% chance of playing",
-    "status": "d"
+    "chance": 100,
+    "news": "",
+    "status": "a"
    },
    "05oz3": {
     "chance": null,
@@ -602,12 +599,17 @@
     "news": "",
     "status": "a"
    },
-   "06mgd": {
-    "chance": 100,
+   "06msb": {
+    "chance": null,
     "news": "",
     "status": "a"
    },
    "06v0y": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "06ymu": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -617,13 +619,8 @@
     "news": "",
     "status": "a"
    },
-   "0784b": {
+   "076kg": {
     "chance": 100,
-    "news": "",
-    "status": "a"
-   },
-   "07898": {
-    "chance": null,
     "news": "",
     "status": "a"
    }
@@ -657,11 +654,9 @@
    },
    "05a6e": {
     "news": [
-     "Nov 19, 10:00 AM: Williams (ankle) is doubtful for..."
+     "Nov 21, 9:05 AM: Williams (ankle) is in the starting XI..."
     ],
-    "status": [
-     "Ankle - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
+    "status": []
    },
    "05oz3": {
     "news": [],
@@ -689,7 +684,7 @@
     "news": [],
     "status": []
    },
-   "06mgd": {
+   "06msb": {
     "news": [],
     "status": []
    },
@@ -697,20 +692,20 @@
     "news": [],
     "status": []
    },
-   "06zbx": {
-    "news": [
-     "Nov 19, 8:47 AM: Stach (foot) has resumed training with..."
-    ],
-    "status": [
-     "Foot - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
-   },
-   "0784b": {
+   "06ymu": {
     "news": [],
     "status": []
    },
-   "07898": {
-    "news": [],
+   "06zbx": {
+    "news": [
+     "Nov 21, 9:04 AM: Stach (foot) is on the bench for..."
+    ],
+    "status": []
+   },
+   "076kg": {
+    "news": [
+     "Nov 21, 9:27 AM: Emegha has been named in Chelsea's..."
+    ],
     "status": []
    }
   },
@@ -743,6 +738,7 @@
    "06do9": 358,
    "06mgd": 315,
    "06mow": 222,
+   "06msb": 605,
    "06rm8": 514,
    "06uzo": 640,
    "06v0g": 534,
@@ -752,6 +748,7 @@
    "06zbx": 335,
    "0700t": 535,
    "072j3": 52,
+   "076kg": 170,
    "0784b": 152,
    "0784w": 316,
    "0785d": 461,
@@ -788,8 +785,8 @@
     "what": "Nov 7, 10:16 AM: Longstaff generated one shot (one on..."
    },
    "05a6e": {
-    "fx": "2026-11-19 21:44",
-    "what": "Nov 19, 10:00 AM: Williams (ankle) is doubtful for..."
+    "fx": "2026-11-21 15:36",
+    "what": "Nov 21, 9:05 AM: Williams (ankle) is in the starting XI..."
    },
    "05oz3": {
     "fx": "2026-11-07 18:51",
@@ -842,8 +839,12 @@
     "what": "Nov 9, 5:49 AM: Diouf registered one tackle (one won),..."
    },
    "06zbx": {
-    "fx": "2026-11-19 21:44",
-    "what": "Nov 19, 8:47 AM: Stach (foot) has resumed training with..."
+    "fx": "2026-11-21 15:36",
+    "what": "Nov 21, 9:04 AM: Stach (foot) is on the bench for..."
+   },
+   "076kg": {
+    "rw": "2026-11-21 15:36",
+    "what": "Makes first Premier League start"
    },
    "0784b": {
     "fx": "2026-11-09 10:25",
@@ -883,6 +884,7 @@
     "dara-oshea-31343": "04gpx",
     "dominik-szoboszlai-29729": "06cmm",
     "emersonn-46898": "0784w",
+    "emmanuel-emegha-37904": "076kg",
     "ethan-pinnock-31322": "05tr1",
     "jack-grealish-17516": "02lm7",
     "jean-matteo-bahoya-37006": "0794i",
@@ -898,31 +900,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "547196",
-    "547197",
-    "547198",
-    "547199",
-    "547200",
-    "547201",
-    "547202",
-    "547203",
-    "547204",
-    "547205",
-    "547206",
-    "547207",
-    "547208",
-    "547209",
-    "547210",
-    "547212",
-    "547213",
-    "547214",
-    "547215",
-    "547216",
-    "547217",
-    "547218",
-    "547219",
-    "547220",
-    "547221",
     "547222",
     "547223",
     "547224",
@@ -1097,7 +1074,32 @@
     "547645",
     "547646",
     "547647",
-    "547648"
+    "547648",
+    "547725",
+    "547726",
+    "547727",
+    "547728",
+    "547729",
+    "547730",
+    "547731",
+    "547732",
+    "547733",
+    "547734",
+    "547735",
+    "547736",
+    "547737",
+    "547738",
+    "547739",
+    "547740",
+    "547741",
+    "547742",
+    "547743",
+    "547744",
+    "547745",
+    "547746",
+    "547747",
+    "547748",
+    "547749"
    ]
   },
   "rwSent": {
@@ -1113,6 +1115,7 @@
    "06do4": 1792021583.080403,
    "06do9": 1793627585.083321,
    "06zbx": 1793890355.662796,
+   "076kg": 1795275372.685876,
    "0784b": 1791637355.409559,
    "0784w": 1794219934.936524,
    "0785d": 1791845715.862278,
@@ -1150,6 +1153,11 @@
    },
    "04qr9": {
     "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "04ug0": {
+    "chance": null,
     "news": "",
     "status": "a"
    },
@@ -1210,11 +1218,9 @@
    },
    "04adp": {
     "news": [
-     "Nov 20, 9:34 AM: Wan-Bissaka (hamstring) is available..."
+     "Nov 21, 9:05 AM: Wan-Bissaka (hamstring) is in the..."
     ],
-    "status": [
-     "Hamstring - Late fitness test (Game-time decision) - Expected return Nov 21"
-    ]
+    "status": []
    },
    "04e1e": {
     "news": [],
@@ -1228,12 +1234,18 @@
     "news": [],
     "status": []
    },
+   "04ug0": {
+    "news": [],
+    "status": []
+   },
    "052cb": {
     "news": [],
     "status": []
    },
    "05ye7": {
-    "news": [],
+    "news": [
+     "Nov 21, 10:26 AM: Bobb assisted once to go with one shot..."
+    ],
     "status": []
    },
    "06jgi": {
@@ -1278,6 +1290,7 @@
    "04gpx": 304,
    "04qr9": 480,
    "04tig": 446,
+   "04ug0": 339,
    "052cb": 36,
    "05o4c": 258,
    "05opl": 145,
@@ -1308,6 +1321,10 @@
     "fx": "2026-11-01 16:23",
     "what": "Nov 1, 5:19 AM: McBurnie scored one goal and assisted..."
    },
+   "04adp": {
+    "fx": "2026-11-21 15:36",
+    "what": "Nov 21, 9:05 AM: Wan-Bissaka (hamstring) is in the..."
+   },
    "04e1e": {
     "fx": "2026-11-12 08:15",
     "rw": "2026-11-12 01:03",
@@ -1336,8 +1353,9 @@
     "what": "Not available Saturday"
    },
    "05ye7": {
-    "fx": "2026-11-09 02:43",
-    "what": "Nov 8, 7:34 PM: Bobb registered two shots (one on goal)..."
+    "fx": "2026-11-21 15:36",
+    "rw": "2026-11-21 15:36",
+    "what": "Bobb provides assist against City"
    },
    "06195": {
     "fx": "2026-11-07 18:51",
@@ -1425,31 +1443,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "547196",
-    "547197",
-    "547198",
-    "547199",
-    "547200",
-    "547201",
-    "547202",
-    "547203",
-    "547204",
-    "547205",
-    "547206",
-    "547207",
-    "547208",
-    "547209",
-    "547210",
-    "547212",
-    "547213",
-    "547214",
-    "547215",
-    "547216",
-    "547217",
-    "547218",
-    "547219",
-    "547220",
-    "547221",
     "547222",
     "547223",
     "547224",
@@ -1624,7 +1617,32 @@
     "547645",
     "547646",
     "547647",
-    "547648"
+    "547648",
+    "547725",
+    "547726",
+    "547727",
+    "547728",
+    "547729",
+    "547730",
+    "547731",
+    "547732",
+    "547733",
+    "547734",
+    "547735",
+    "547736",
+    "547737",
+    "547738",
+    "547739",
+    "547740",
+    "547741",
+    "547742",
+    "547743",
+    "547744",
+    "547745",
+    "547746",
+    "547747",
+    "547748",
+    "547749"
    ]
   },
   "rwSent": {
@@ -1636,7 +1654,7 @@
    "04tig": 1793705065.691015,
    "05o4c": 1792277968.589061,
    "05u1m": 1791637373.528254,
-   "05ye7": 1792875911.091258,
+   "05ye7": 1795275376.566248,
    "068yc": 1792351346.661933,
    "06jgi": 1792084949.488748,
    "06mn0": 1794150440.927707,
