@@ -109,20 +109,26 @@
    },
    "05l2z": {
     "news": [
-     "Nov 21, 9:07 AM: Thomas (calf) is in the starting XI for..."
+     "Nov 22, 3:35 AM: Thomas had 10 clearancesand two..."
     ],
     "status": []
    },
    "05tr1": {
-    "news": [],
+    "news": [
+     "Nov 22, 3:34 AM: Pinnock recorded one shot (zero on..."
+    ],
     "status": []
    },
    "05trb": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "0639x": {
-    "news": [],
+    "news": [
+     "Nov 22, 10:38 AM: Tavernier assisted once to go with two..."
+    ],
     "status": []
    },
    "06clt": {
@@ -137,7 +143,9 @@
    },
    "06v21": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06y26": {
     "news": [],
@@ -149,11 +157,13 @@
    },
    "076qg": {
     "news": [],
-    "status": []
+    "status": [
+     "On the bench, potential substitute"
+    ]
    },
    "078qg": {
     "news": [
-     "Nov 21, 9:07 AM: Khalaili (inflammation) is in the..."
+     "Nov 22, 3:32 AM: Khalaili recorded one shot (zero on..."
     ],
     "status": []
    },
@@ -229,8 +239,8 @@
     "what": "Nov 20, 8:59 AM: Pedro (thigh) remains sidelined and..."
    },
    "05l2z": {
-    "fx": "2026-11-21 15:36",
-    "what": "Nov 21, 9:07 AM: Thomas (calf) is in the starting XI for..."
+    "fx": "2026-11-22 16:25",
+    "what": "Nov 22, 3:35 AM: Thomas had 10 clearancesand two..."
    },
    "05ogb": {
     "fx": "2026-11-03 11:24",
@@ -238,8 +248,8 @@
     "what": "Makes first start since injury"
    },
    "05tr1": {
-    "fx": "2026-11-07 18:51",
-    "what": "Nov 7, 11:41 AM: Pinnock recorded six clearances and two..."
+    "fx": "2026-11-22 16:25",
+    "what": "Nov 22, 3:34 AM: Pinnock recorded one shot (zero on..."
    },
    "05trb": {
     "fx": "2026-11-10 23:47",
@@ -250,8 +260,9 @@
     "what": "Oct 22, 10:12 AM: Collins (calf) has made further..."
    },
    "0639x": {
-    "fx": "2026-11-09 10:25",
-    "what": "Nov 9, 1:47 AM: Tavernier recorded one shot (one on..."
+    "fx": "2026-11-22 16:25",
+    "rw": "2026-11-22 16:25",
+    "what": "Assists second in 2-0 win"
    },
    "06clt": {
     "fx": "2026-11-21 21:08",
@@ -281,8 +292,8 @@
     "what": "Nov 9, 1:43 AM: Mukiele registered one cross (zero..."
    },
    "078qg": {
-    "fx": "2026-11-21 15:36",
-    "what": "Nov 21, 9:07 AM: Khalaili (inflammation) is in the..."
+    "fx": "2026-11-22 16:25",
+    "what": "Nov 22, 3:32 AM: Khalaili recorded one shot (zero on..."
    },
    "078ud": {
     "fx": "2026-11-03 11:24",
@@ -319,31 +330,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "547401",
-    "547402",
-    "547403",
-    "547404",
-    "547405",
-    "547423",
-    "547424",
-    "547425",
-    "547426",
-    "547427",
-    "547428",
-    "547429",
-    "547430",
-    "547431",
-    "547432",
-    "547433",
-    "547434",
-    "547435",
-    "547436",
-    "547437",
-    "547438",
-    "547439",
-    "547440",
-    "547441",
-    "547442",
     "547443",
     "547444",
     "547445",
@@ -518,7 +504,32 @@
     "547931",
     "547932",
     "547933",
-    "547934"
+    "547934",
+    "548031",
+    "548032",
+    "548033",
+    "548034",
+    "548035",
+    "548036",
+    "548037",
+    "548038",
+    "548039",
+    "548040",
+    "548041",
+    "548042",
+    "548043",
+    "548044",
+    "548045",
+    "548046",
+    "548047",
+    "548048",
+    "548049",
+    "548050",
+    "548051",
+    "548052",
+    "548053",
+    "548054",
+    "548055"
    ]
   },
   "rwSent": {
@@ -532,7 +543,7 @@
    "05tr1": 1793550207.229651,
    "05trb": 1793463019.886653,
    "05u1m": 1792241759.671321,
-   "0639x": 1793043063.193028,
+   "0639x": 1795364701.511048,
    "06clt": 1795295294.107566,
    "06r5b": 1794960093.927297,
    "06v21": 1794875181.138413,
@@ -605,11 +616,6 @@
     "news": "",
     "status": "a"
    },
-   "06msb": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "06v0y": {
     "chance": null,
     "news": "",
@@ -627,6 +633,11 @@
    },
    "076kg": {
     "chance": 100,
+    "news": "",
+    "status": "a"
+   },
+   "07877": {
+    "chance": null,
     "news": "",
     "status": "a"
    }
@@ -673,7 +684,9 @@
     "status": []
    },
    "05tr1": {
-    "news": [],
+    "news": [
+     "Nov 22, 3:34 AM: Pinnock recorded one shot (zero on..."
+    ],
     "status": []
    },
    "05y9n": {
@@ -692,15 +705,15 @@
    },
    "06cmm": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06do9": {
     "news": [],
-    "status": []
-   },
-   "06msb": {
-    "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    },
    "06v0y": {
     "news": [],
@@ -711,15 +724,17 @@
     "status": []
    },
    "06zbx": {
-    "news": [
-     "Nov 21, 9:04 AM: Stach (foot) is on the bench for..."
-    ],
+    "news": [],
     "status": []
    },
    "076kg": {
     "news": [
      "Nov 21, 4:13 PM: Emegha scored one goal to go with one..."
     ],
+    "status": []
+   },
+   "07877": {
+    "news": [],
     "status": []
    }
   },
@@ -810,8 +825,8 @@
     "what": "Concedes once to Chelsea"
    },
    "05tr1": {
-    "fx": "2026-11-07 18:51",
-    "what": "Nov 7, 11:41 AM: Pinnock recorded six clearances and two..."
+    "fx": "2026-11-22 16:24",
+    "what": "Nov 22, 3:34 AM: Pinnock recorded one shot (zero on..."
    },
    "05y9n": {
     "fx": "2026-11-22 01:17",
@@ -920,31 +935,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "547401",
-    "547402",
-    "547403",
-    "547404",
-    "547405",
-    "547423",
-    "547424",
-    "547425",
-    "547426",
-    "547427",
-    "547428",
-    "547429",
-    "547430",
-    "547431",
-    "547432",
-    "547433",
-    "547434",
-    "547435",
-    "547436",
-    "547437",
-    "547438",
-    "547439",
-    "547440",
-    "547441",
-    "547442",
     "547443",
     "547444",
     "547445",
@@ -1119,7 +1109,32 @@
     "547931",
     "547932",
     "547933",
-    "547934"
+    "547934",
+    "548031",
+    "548032",
+    "548033",
+    "548034",
+    "548035",
+    "548036",
+    "548037",
+    "548038",
+    "548039",
+    "548040",
+    "548041",
+    "548042",
+    "548043",
+    "548044",
+    "548045",
+    "548046",
+    "548047",
+    "548048",
+    "548049",
+    "548050",
+    "548051",
+    "548052",
+    "548053",
+    "548054",
+    "548055"
    ]
   },
   "rwSent": {
@@ -1269,14 +1284,12 @@
     "status": []
    },
    "05ye7": {
-    "news": [
-     "Nov 21, 10:26 AM: Bobb assisted once to go with one shot..."
-    ],
+    "news": [],
     "status": []
    },
    "06jgi": {
     "news": [
-     "Nov 19, 10:03 AM: Munoz is expected to be available for..."
+     "Nov 22, 5:03 AM: Munoz generated three crosses (two..."
     ],
     "status": []
    },
@@ -1304,7 +1317,9 @@
    },
    "0793q": {
     "news": [],
-    "status": []
+    "status": [
+     "Starting in upcoming/current game"
+    ]
    }
   },
   "idmap": {
@@ -1398,8 +1413,8 @@
     "what": "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
    },
    "06jgi": {
-    "fx": "2026-11-19 21:44",
-    "what": "Nov 19, 10:03 AM: Munoz is expected to be available for..."
+    "fx": "2026-11-22 16:25",
+    "what": "Nov 22, 5:03 AM: Munoz generated three crosses (two..."
    },
    "06mn0": {
     "fx": "2026-11-09 10:25",
@@ -1476,31 +1491,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "547401",
-    "547402",
-    "547403",
-    "547404",
-    "547405",
-    "547423",
-    "547424",
-    "547425",
-    "547426",
-    "547427",
-    "547428",
-    "547429",
-    "547430",
-    "547431",
-    "547432",
-    "547433",
-    "547434",
-    "547435",
-    "547436",
-    "547437",
-    "547438",
-    "547439",
-    "547440",
-    "547441",
-    "547442",
     "547443",
     "547444",
     "547445",
@@ -1675,7 +1665,32 @@
     "547931",
     "547932",
     "547933",
-    "547934"
+    "547934",
+    "548031",
+    "548032",
+    "548033",
+    "548034",
+    "548035",
+    "548036",
+    "548037",
+    "548038",
+    "548039",
+    "548040",
+    "548041",
+    "548042",
+    "548043",
+    "548044",
+    "548045",
+    "548046",
+    "548047",
+    "548048",
+    "548049",
+    "548050",
+    "548051",
+    "548052",
+    "548053",
+    "548054",
+    "548055"
    ]
   },
   "rwSent": {
