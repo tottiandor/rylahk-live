@@ -85,7 +85,7 @@
   "fx": {
    "0414o": {
     "news": [
-     "Nov 20, 9:16 AM: Maddison (groin) is available for..."
+     "Nov 23, 2:22 PM: Maddison generated four shots (one on..."
     ],
     "status": []
    },
@@ -101,10 +101,10 @@
    },
    "05g2o": {
     "news": [
-     "Nov 20, 8:59 AM: Pedro (thigh) remains sidelined and..."
+     "Nov 23, 4:45 PM: Pedro (thigh) could remain sidelined..."
     ],
     "status": [
-     "Thigh - Late fitness test (Game-time decision) - Expected return Nov 27"
+     "Thigh - Out for next game - Expected return Dec 5"
     ]
    },
    "05l2z": {
@@ -116,13 +116,13 @@
     "status": []
    },
    "05trb": {
-    "news": [],
+    "news": [
+     "Nov 23, 6:38 AM: Mbeumo recorded no stats in Sunday's..."
+    ],
     "status": []
    },
    "0639x": {
-    "news": [
-     "Nov 22, 10:38 AM: Tavernier assisted once to go with two..."
-    ],
+    "news": [],
     "status": []
    },
    "06clt": {
@@ -130,11 +130,15 @@
     "status": []
    },
    "06r5b": {
-    "news": [],
+    "news": [
+     "Nov 23, 3:55 PM: Gomez generated four shots (two on..."
+    ],
     "status": []
    },
    "06v21": {
-    "news": [],
+    "news": [
+     "Nov 23, 6:33 AM: Wirtz scored one goal and assisted once..."
+    ],
     "status": []
    },
    "06y26": {
@@ -148,7 +152,9 @@
     "status": []
    },
    "076qg": {
-    "news": [],
+    "news": [
+     "Nov 23, 6:35 AM: Munoz scored one goal to go with one..."
+    ],
     "status": []
    },
    "078qg": {
@@ -203,8 +209,8 @@
   },
   "lag": {
    "0414o": {
-    "fx": "2026-11-20 18:49",
-    "what": "Nov 20, 9:16 AM: Maddison (groin) is available for..."
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 2:22 PM: Maddison generated four shots (one on..."
    },
    "04hk9": {
     "fx": "2026-10-24 18:23",
@@ -224,8 +230,9 @@
     "what": "Nov 22, 5:55 PM: Maatsen recorded two shots (one on..."
    },
    "05g2o": {
-    "fx": "2026-11-20 18:49",
-    "what": "Nov 20, 8:59 AM: Pedro (thigh) remains sidelined and..."
+    "fx": "2026-11-23 22:37",
+    "rw": "2026-11-23 22:37",
+    "what": "Could be out until 2027"
    },
    "05l2z": {
     "fx": "2026-11-22 16:25",
@@ -241,8 +248,8 @@
     "what": "Nov 22, 3:34 AM: Pinnock recorded one shot (zero on..."
    },
    "05trb": {
-    "fx": "2026-11-10 23:47",
-    "what": "Nov 10, 2:59 PM: Mbeumo has gone five matches without a..."
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 6:38 AM: Mbeumo recorded no stats in Sunday's..."
    },
    "05u1m": {
     "fx": "2026-10-22 16:02",
@@ -259,14 +266,12 @@
     "what": "Doubles Cherries' lead in win"
    },
    "06r5b": {
-    "fx": "2026-11-18 00:01",
-    "rw": "2026-11-18 00:01",
-    "what": "Records two assists for Paraguay"
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 3:55 PM: Gomez generated four shots (two on..."
    },
    "06v21": {
-    "fx": "2026-11-17 00:26",
-    "rw": "2026-11-17 00:26",
-    "what": "Scores brace for Germany"
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 6:33 AM: Wirtz scored one goal and assisted once..."
    },
    "06y26": {
     "fx": "2026-11-09 20:58",
@@ -279,6 +284,10 @@
    "0703c": {
     "fx": "2026-11-23 02:26",
     "what": "Nov 22, 5:43 PM: Mukiele had three tackles (one won),..."
+   },
+   "076qg": {
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 6:35 AM: Munoz scored one goal to go with one..."
    },
    "078qg": {
     "fx": "2026-11-22 16:25",
@@ -318,31 +327,6 @@
     "zion-suzuki-35017": "078wl"
    },
    "seen": [
-    "547725",
-    "547726",
-    "547727",
-    "547728",
-    "547729",
-    "547730",
-    "547731",
-    "547732",
-    "547733",
-    "547734",
-    "547735",
-    "547736",
-    "547737",
-    "547738",
-    "547739",
-    "547740",
-    "547741",
-    "547742",
-    "547743",
-    "547744",
-    "547745",
-    "547746",
-    "547747",
-    "547748",
-    "547749",
     "547810",
     "547811",
     "547812",
@@ -517,7 +501,32 @@
     "548267",
     "548268",
     "548269",
-    "548270"
+    "548270",
+    "548424",
+    "548426",
+    "548427",
+    "548428",
+    "548429",
+    "548430",
+    "548431",
+    "548432",
+    "548433",
+    "548435",
+    "548436",
+    "548437",
+    "548438",
+    "548439",
+    "548440",
+    "548441",
+    "548443",
+    "548444",
+    "548445",
+    "548447",
+    "548450",
+    "548451",
+    "548452",
+    "548453",
+    "548454"
    ]
   },
   "rwSent": {
@@ -525,7 +534,7 @@
    "04qr9": 1795335148.341971,
    "051k7": 1791638728.685333,
    "052cb": 1794422671.106566,
-   "05g2o": 1793981688.724344,
+   "05g2o": 1795473433.966815,
    "05l2z": 1794000982.828298,
    "05ogb": 1793705063.616174,
    "05tr1": 1793550207.229651,
@@ -550,6 +559,11 @@
     "status": "a"
    },
    "03fgo": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
+   "03r8x": {
     "chance": null,
     "news": "",
     "status": "a"
@@ -589,6 +603,11 @@
     "news": "Unspecified injury - 75% chance of playing",
     "status": "d"
    },
+   "062oh": {
+    "chance": null,
+    "news": "",
+    "status": "a"
+   },
    "068n8": {
     "chance": 100,
     "news": "",
@@ -609,11 +628,6 @@
     "news": "",
     "status": "a"
    },
-   "06ymu": {
-    "chance": null,
-    "news": "",
-    "status": "a"
-   },
    "06zbx": {
     "chance": 100,
     "news": "",
@@ -623,23 +637,22 @@
     "chance": 100,
     "news": "",
     "status": "a"
-   },
-   "07877": {
-    "chance": null,
-    "news": "",
-    "status": "a"
    }
   },
   "fx": {
    "02lm7": {
     "news": [
-     "Nov 20, 8:52 AM: Grealish (fitness) has resumed team..."
+     "Nov 23, 1:53 PM: Grealish (fitness) is on the bench for..."
     ],
-    "status": [
-     "Coach's decision - Late fitness test (Game-time decision) - Expected return Nov 23"
-    ]
+    "status": []
    },
    "03fgo": {
+    "news": [
+     "Nov 23, 2:19 PM: Solanke scored one goal to go with five..."
+    ],
+    "status": []
+   },
+   "03r8x": {
     "news": [],
     "status": []
    },
@@ -677,25 +690,27 @@
      "Undisclosed - Late fitness test (Game-time decision) - Expected return Nov 29"
     ]
    },
+   "062oh": {
+    "news": [],
+    "status": []
+   },
    "068n8": {
     "news": [],
     "status": []
    },
    "06cmm": {
     "news": [
-     "Nov 20, 9:09 AM: Szoboszlai (knee) is available for..."
+     "Nov 23, 6:33 AM: Szoboszlai scored one goal to go with..."
     ],
     "status": []
    },
    "06do9": {
-    "news": [],
+    "news": [
+     "Nov 23, 6:31 AM: Kerkez generated two crosses (zero..."
+    ],
     "status": []
    },
    "06v0y": {
-    "news": [],
-    "status": []
-   },
-   "06ymu": {
     "news": [],
     "status": []
    },
@@ -706,10 +721,6 @@
    "076kg": {
     "news": [],
     "status": []
-   },
-   "07877": {
-    "news": [],
-    "status": []
    }
   },
   "idmap": {
@@ -717,6 +728,7 @@
    "03am7": 457,
    "03fgo": 526,
    "03m3q": 649,
+   "03r8x": 108,
    "03rxs": 260,
    "04fk1": 124,
    "04gpx": 304,
@@ -732,6 +744,7 @@
    "06195": 245,
    "061vp": 337,
    "061ya": 209,
+   "062oh": 232,
    "0635j": 202,
    "066nn": 72,
    "068n8": 16,
@@ -763,8 +776,12 @@
   },
   "lag": {
    "02lm7": {
-    "fx": "2026-11-20 18:48",
-    "what": "Nov 20, 8:52 AM: Grealish (fitness) has resumed team..."
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 1:53 PM: Grealish (fitness) is on the bench for..."
+   },
+   "03fgo": {
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 2:19 PM: Solanke scored one goal to go with five..."
    },
    "04fk1": {
     "fx": "2026-11-20 18:48",
@@ -824,8 +841,8 @@
     "what": "Oct 26, 12:33 PM: Ayari registered three shots (zero on..."
    },
    "06cmm": {
-    "fx": "2026-11-22 21:56",
-    "what": "Nov 20, 9:09 AM: Szoboszlai (knee) is available for..."
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 6:33 AM: Szoboszlai scored one goal to go with..."
    },
    "06do4": {
     "fx": "2026-10-14 23:46",
@@ -833,8 +850,8 @@
     "what": "Goal and assist against LASK"
    },
    "06do9": {
-    "fx": "2026-11-10 23:47",
-    "what": "Nov 10, 2:57 PM: Kerkez has started each of the last six..."
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 6:31 AM: Kerkez generated two crosses (zero..."
    },
    "06v0y": {
     "fx": "2026-11-09 20:58",
@@ -909,31 +926,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "547725",
-    "547726",
-    "547727",
-    "547728",
-    "547729",
-    "547730",
-    "547731",
-    "547732",
-    "547733",
-    "547734",
-    "547735",
-    "547736",
-    "547737",
-    "547738",
-    "547739",
-    "547740",
-    "547741",
-    "547742",
-    "547743",
-    "547744",
-    "547745",
-    "547746",
-    "547747",
-    "547748",
-    "547749",
     "547810",
     "547811",
     "547812",
@@ -1108,7 +1100,32 @@
     "548267",
     "548268",
     "548269",
-    "548270"
+    "548270",
+    "548424",
+    "548426",
+    "548427",
+    "548428",
+    "548429",
+    "548430",
+    "548431",
+    "548432",
+    "548433",
+    "548435",
+    "548436",
+    "548437",
+    "548438",
+    "548439",
+    "548440",
+    "548441",
+    "548443",
+    "548444",
+    "548445",
+    "548447",
+    "548450",
+    "548451",
+    "548452",
+    "548453",
+    "548454"
    ]
   },
   "rwSent": {
@@ -1224,7 +1241,9 @@
     "status": []
    },
    "0477b": {
-    "news": [],
+    "news": [
+     "Nov 23, 4:11 PM: McBurnie scored two goals to go with..."
+    ],
     "status": []
    },
    "04adp": {
@@ -1270,7 +1289,9 @@
     ]
    },
    "06r5b": {
-    "news": [],
+    "news": [
+     "Nov 23, 3:55 PM: Gomez generated four shots (two on..."
+    ],
     "status": []
    },
    "06v07": {
@@ -1278,9 +1299,7 @@
     "status": []
    },
    "06xzd": {
-    "news": [
-     "Nov 22, 1:14 PM: Kostoulas didn't start in Sunday's 2-0..."
-    ],
+    "news": [],
     "status": []
    },
    "06ybp": {
@@ -1288,7 +1307,9 @@
     "status": []
    },
    "0793q": {
-    "news": [],
+    "news": [
+     "Nov 23, 6:34 AM: Barcola assisted once to go with three..."
+    ],
     "status": []
    }
   },
@@ -1329,8 +1350,9 @@
     "what": "Nov 7, 11:54 AM: Pickford had three saves and allowed..."
    },
    "0477b": {
-    "fx": "2026-11-01 16:23",
-    "what": "Nov 1, 5:19 AM: McBurnie scored one goal and assisted..."
+    "fx": "2026-11-23 22:37",
+    "rw": "2026-11-23 22:37",
+    "what": "Scores twice late in Sunday's win"
    },
    "04adp": {
     "fx": "2026-11-21 15:36",
@@ -1399,9 +1421,8 @@
     "what": "Nov 1, 11:53 AM: Mfuni had one shot (zero on goal) in..."
    },
    "06r5b": {
-    "fx": "2026-11-18 00:01",
-    "rw": "2026-11-18 00:01",
-    "what": "Records two assists for Paraguay"
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 3:55 PM: Gomez generated four shots (two on..."
    },
    "06v07": {
     "fx": "2026-11-09 20:58",
@@ -1435,8 +1456,8 @@
     "what": "Oct 12, 2:19 PM: Dedic (hamstring) is on the bench for..."
    },
    "0793q": {
-    "fx": "2026-11-09 20:58",
-    "what": "Nov 9, 12:22 PM: Barcola assisted once to go with three..."
+    "fx": "2026-11-23 22:37",
+    "what": "Nov 23, 6:34 AM: Barcola assisted once to go with three..."
    }
   },
   "ready": true,
@@ -1465,31 +1486,6 @@
     "yasin-ayari-38732": "068yc"
    },
    "seen": [
-    "547725",
-    "547726",
-    "547727",
-    "547728",
-    "547729",
-    "547730",
-    "547731",
-    "547732",
-    "547733",
-    "547734",
-    "547735",
-    "547736",
-    "547737",
-    "547738",
-    "547739",
-    "547740",
-    "547741",
-    "547742",
-    "547743",
-    "547744",
-    "547745",
-    "547746",
-    "547747",
-    "547748",
-    "547749",
     "547810",
     "547811",
     "547812",
@@ -1664,12 +1660,37 @@
     "548267",
     "548268",
     "548269",
-    "548270"
+    "548270",
+    "548424",
+    "548426",
+    "548427",
+    "548428",
+    "548429",
+    "548430",
+    "548431",
+    "548432",
+    "548433",
+    "548435",
+    "548436",
+    "548437",
+    "548438",
+    "548439",
+    "548440",
+    "548441",
+    "548443",
+    "548444",
+    "548445",
+    "548447",
+    "548450",
+    "548451",
+    "548452",
+    "548453",
+    "548454"
    ]
   },
   "rwSent": {
    "032f9": 1792866210.826966,
-   "0477b": 1793300855.620717,
+   "0477b": 1795473440.115741,
    "04e1e": 1794445416.516352,
    "04gpx": 1791667173.812962,
    "04qr9": 1795335149.283818,
