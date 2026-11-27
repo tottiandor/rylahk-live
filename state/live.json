@@ -95,10 +95,10 @@
     "pos": "M",
     "short": "M. Gibbs-White"
    },
-   "04rzl": {
-    "club": "COV",
-    "pos": "F",
-    "short": "T. Awoniyi"
+   "04ug0": {
+    "club": "LEE",
+    "pos": "M",
+    "short": "S. Longstaff"
    },
    "052cb": {
     "club": "AVL",
@@ -195,11 +195,6 @@
     "pos": "M",
     "short": "J. Rudoni"
    },
-   "076qg": {
-    "club": "LIV",
-    "pos": "F",
-    "short": "V. Muñoz"
-   },
    "07877": {
     "club": "BRF",
     "pos": "M",
@@ -219,6 +214,11 @@
     "club": "AVL",
     "pos": "G",
     "short": "Z. Suzuki"
+   },
+   "078wo": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "N. Elvedi"
    }
   },
   "opp": "786ixklomrevq4dj",
@@ -442,6 +442,11 @@
     "pos": "M",
     "short": "J. Grealish"
    },
+   "02lpf": {
+    "club": "AVL",
+    "pos": "M",
+    "short": "R. Barkley"
+   },
    "03fgo": {
     "club": "TOT",
     "pos": "F",
@@ -451,11 +456,6 @@
     "club": "HUL",
     "pos": "D",
     "short": "S. Ajayi"
-   },
-   "03r8x": {
-    "club": "BRF",
-    "pos": "F",
-    "short": "C. Wilson"
    },
    "0427d": {
     "club": "EVE",
@@ -472,10 +472,10 @@
     "pos": "D",
     "short": "D. O'Shea"
    },
-   "04rzl": {
-    "club": "COV",
-    "pos": "F",
-    "short": "T. Awoniyi"
+   "04p0d": {
+    "club": "CRY",
+    "pos": "M",
+    "short": "D. McNeil"
    },
    "04sjt": {
     "club": "LIV",
@@ -527,11 +527,6 @@
     "pos": "F",
     "short": "E. Haaland"
    },
-   "062oh": {
-    "club": "EVE",
-    "pos": "D",
-    "short": "J. O'Brien"
-   },
    "068lx": {
     "club": "BRF",
     "pos": "M",
@@ -562,10 +557,10 @@
     "pos": "D",
     "short": "M. Kerkez"
    },
-   "06ezb": {
-    "club": "TOT",
-    "pos": "D",
-    "short": "M. van de Ven"
+   "06mgd": {
+    "club": "IPS",
+    "pos": "F",
+    "short": "Abdul Fatawu"
    },
    "06v0y": {
     "club": "BHA",
@@ -591,6 +586,11 @@
     "club": "NEW",
     "pos": "D",
     "short": "A. Dedic"
+   },
+   "078wo": {
+    "club": "LEE",
+    "pos": "D",
+    "short": "N. Elvedi"
    },
    "07942": {
     "club": "NEW",
@@ -681,6 +681,11 @@
   "lastDigest": 1795472010.211959,
   "me": "5xsj4mxjms0a28ls",
   "names": {
+   "02lpf": {
+    "club": "AVL",
+    "pos": "M",
+    "short": "R. Barkley"
+   },
    "02lz0": {
     "club": "CHE",
     "pos": "G",
@@ -691,6 +696,11 @@
     "pos": "G",
     "short": "J. Pickford"
    },
+   "03ksl": {
+    "club": "HUL",
+    "pos": "D",
+    "short": "S. Ajayi"
+   },
    "0477b": {
     "club": "HUL",
     "pos": "F",
@@ -700,16 +710,6 @@
     "club": "NEW",
     "pos": "M",
     "short": "H. Barnes"
-   },
-   "04adp": {
-    "club": "AVL",
-    "pos": "D",
-    "short": "A. Wan-Bissaka"
-   },
-   "04agz": {
-    "club": "ARS",
-    "pos": "M",
-    "short": "D. Rice"
    },
    "04e1e": {
     "club": "ARS",
@@ -746,6 +746,11 @@
     "pos": "M",
     "short": "C. Palmer"
    },
+   "05oig": {
+    "club": "NOT",
+    "pos": "F",
+    "short": "L. Delap"
+   },
    "05omu": {
     "club": "MCI",
     "pos": "D",
@@ -755,11 +760,6 @@
     "club": "CHE",
     "pos": "D",
     "short": "Wesley Fofana"
-   },
-   "05t6x": {
-    "club": "NEW",
-    "pos": "F",
-    "short": "W. Osula"
    },
    "05uox": {
     "club": "ARS",
@@ -775,6 +775,21 @@
     "club": "TOT",
     "pos": "M",
     "short": "D. Kulusevski"
+   },
+   "063y7": {
+    "club": "TOT",
+    "pos": "D",
+    "short": "Destiny Udogie"
+   },
+   "067yz": {
+    "club": "MUN",
+    "pos": "F",
+    "short": "Matheus Cunha"
+   },
+   "06ex4": {
+    "club": "MCI",
+    "pos": "D",
+    "short": "J. Gvardiol"
    },
    "06jgi": {
     "club": "NOT",
@@ -821,25 +836,10 @@
     "pos": "F",
     "short": "Estevao"
    },
-   "076d0": {
-    "club": "COV",
-    "pos": "D",
-    "short": "M. van Ewijk"
-   },
-   "078le": {
-    "club": "CHE",
-    "pos": "D",
-    "short": "P. Chavarría"
-   },
    "0793q": {
     "club": "LIV",
     "pos": "F",
     "short": "B. Barcola"
-   },
-   "0794f": {
-    "club": "FUL",
-    "pos": "D",
-    "short": "D. Affengruber"
    }
   },
   "opp": "ks7shg1bms0cbl49",
